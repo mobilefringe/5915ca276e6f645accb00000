@@ -134,9 +134,9 @@
                     </a>
                     <ul class="sub_menu hidden_now">
 						<li><a href="/contact_us">Contact Us</a></li>
-						<li><a href="/leasing">Directions</a></li>
-						<li><a href="/security">Hours</a></li>
-						<li><a href="/security">Employment</a></li>
+						<li><a href="/directions">Directions</a></li>
+						<li><a href="/hours">Hours</a></li>
+						<li><a href="/employee">Employment</a></li>
 					</ul>
                 </li>
             </ul>
