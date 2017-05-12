@@ -1,5 +1,5 @@
 <div class="jobs_banner text-center">
-    <h3>SHOPPING HOURS</h3>
+    <h3>EMPLOYMENT</h3>
     <p>explore • enjoy • shop</p>
 </div>
 <div class="store_list_head main_container">
@@ -11,10 +11,10 @@
             <h5><a href="/directions">DIRECTIONS</a></h5>
         </div>
         <div class="col-md-3">
-            <h5 class="active_heading">HOURS</h5>
+            <h5><a href="/hours">HOURS</a></h5>
         </div>
         <div class="col-md-3">
-            <h5><a href="/jobs">EMPLOYMENT</a></h5>
+            <h5 class="active_heading">EMPLOYMENT</h5>
         </div>
     </div>
     <h5 class="text-center tap_here show_phone">
@@ -22,29 +22,31 @@
             <option value="" disabled selected>TAP FOR MORE OPTIONS</option>
             <option value="/contact_us">Contact Us</option>
             <option value="/directions">Directions</option>
-            <option value="/jobs">Employment</option>
+            <option value="/hours">Hours</option>
         </select>
     </h5>
 </div>
 <div class="margin_20"></div>
-<div class="content_container main_container">
-    <div class="row">
-        <div class="col-md-12">
-            <div id="jobs_container">
-                <script id="jobs_template" type="x-tmpl-mustache/text">
-                    <div class="row promo_item cats_row job_list_item" data-cat="{{cat_list}}">
-                        <div class="col-md-12">
-                            <h2 class="promo_list_name">{{name}}</h2>
-                            <p>
-                                <span class="promo_store">{{store_name}}</span>
-                                <span class="promo_store">{{job_type}}</span>
-                                <span class="promo_dates">{{published_on}}</span>
-                            </p>
-                            <div class="promo_list_desc hidden_phone">{{description_short}}</div>
-                            <a class="read_more" href="/jobs/{{slug}}">View job info</a>
+div class="content_container main_container mobile_padding">
+    <div class="margin_25_across">
+        <div class="row">
+            <div class="col-md-12">
+                <div id="jobs_container">
+                    <script id="jobs_template" type="x-tmpl-mustache/text">
+                        <div class="row promo_item cats_row job_list_item" data-cat="{{cat_list}}">
+                            <div class="col-md-12">
+                                <h2 class="promo_list_name">{{name}}</h2>
+                                <p>
+                                    <span class="promo_store">{{store_name}}</span>
+                                    <span class="promo_store">{{job_type}}</span>
+                                    <span class="promo_dates">{{published_on}}</span>
+                                </p>
+                                <div class="promo_list_desc hidden_phone">{{description_short}}</div>
+                                <a class="read_more" href="/jobs/{{slug}}">View job info</a>
+                            </div>
                         </div>
-                    </div>
-                </script>
+                    </script>
+                </div>
             </div>
         </div>
     </div>
