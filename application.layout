@@ -94,12 +94,7 @@
                 <li>
                     <a href="/promotions" class="submenu_expander">
                         DEALS
-      <!--                  <img class="menu_icon plus_icon" src="//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1466179667000/open_submenu.png" style="display: inline;">-->
-						<!--<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1466179703000/close_submenu.png" style="display: none;">-->
                     </a>
-     <!--               <ul class="sub_menu hidden_now">-->
-					<!--	<li><a href="/our_style">Blog</a></li>	-->
-					<!--</ul>-->
                 </li>
                 <li>
                     <a href="#"  class="submenu_expander">
@@ -109,8 +104,8 @@
                     </a>
                     <ul class="sub_menu hidden_now">
                         <li><a href="/events">OTC Events</a></li>
-						<li><a href="/community">AMC Movie Times</a></li>
-						<li><a href="/mall_services">Orchard Train</a></li>
+						<li><a href="/amc_movie_times">AMC Movie Times</a></li>
+						<li><a href="/orchard_train">Orchard Train</a></li>
 					</ul>
                 </li>
                 <li>
@@ -136,7 +131,7 @@
 						<li><a href="/contact_us">Contact Us</a></li>
 						<li><a href="/directions">Directions</a></li>
 						<li><a href="/hours">Hours</a></li>
-						<li><a href="/employee">Employment</a></li>
+						<li><a href="/job">Employment</a></li>
 					</ul>
                 </li>
             </ul>
