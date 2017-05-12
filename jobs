@@ -59,11 +59,8 @@
             var jobs = getJobsList().sortBy(function(o){ return o.name});
             var published_jobs = [];
             $.each( jobs , function( key, val ){
-                // today = new Date();
-                // webDate = new Date(val.show_on_web_date)
-                
-                today = moment();
-                webDate = moment(val.show_on_web_date);
+                var today = moment();
+                var webDate = moment(val.show_on_web_date);
                 if (today >= webDate) {
                     published_jobs.push(val)
                 } 
