@@ -87,8 +87,8 @@
 						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1466179703000/close_submenu.png" style="display: none;">
                     </a>
                     <ul class="sub_menu hidden_now">
-						<li><a href="/promotions">Restaurants</a></li>
-						<li><a href="/events">Specialty Foods</a></li>
+						<li><a href="/restaurants">Restaurants</a></li>
+						<li><a href="/specialty_foods">Specialty Foods</a></li>
 					</ul>
                 </li>
                 <li>
