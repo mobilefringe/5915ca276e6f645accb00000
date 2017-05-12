@@ -8,7 +8,7 @@
             <h5><a href="/restaurants">Restaurants</a></h5>
         </div>
         <div class="col-md-6">
-            <h5>Specialty Foods</h5>
+            <h5 class="active_heading">Specialty Foods</h5>
         </div>
     </div>
     <h5 class="text-center tap_here show_phone">
