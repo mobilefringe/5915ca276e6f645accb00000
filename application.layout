@@ -195,18 +195,18 @@
                             Follow us on social for <br />activities and news
                         </p>
                         <div class="social_icons">
-                            <a href="//www.facebook.com/halifaxshoppingcentre" target="_blank">
+                            <a href="https://www.facebook.com/OrchardTC" target="_blank">
                                 <span id="social_fb"></span>
                             </a>
-                            <a href="//www.twitter.com/shopHSC" target="_blank">
+                            <a href="https://twitter.com/OrchardTC" target="_blank">
                                 <span id="social_twitter"></span>
                             </a>
-                            <a href="//instagram.com/shophsc" target="_blank">
-                                <span id="social_insta"></span>
-                            </a>
-                            <a href="/newsletter">
-                                <span id="social_newsletter"></span>
-                            </a>
+                            <!--<a href="//instagram.com/shophsc" target="_blank">-->
+                            <!--    <span id="social_insta"></span>-->
+                            <!--</a>-->
+                            <!--<a href="/newsletter">-->
+                            <!--    <span id="social_newsletter"></span>-->
+                            <!--</a>-->
                             <div class="clearfix"></div>
                             <br class="hidden_phone" />
                         </div>
