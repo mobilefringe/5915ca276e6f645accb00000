@@ -4,13 +4,13 @@
 </div>
 <div class="store_list_head main_container">
     <div class="row hidden_phone">
-        <div class="col-md-4 spec_offer">
+        <div class="col-md-4">
             <h5 class="active_heading">EVENTS</h5>
         </div>
-        <div class="col-md-4 spec_offer">
+        <div class="col-md-4">
             <h5><a href="/amc_movie_times">AMC MOVIE TIMES</a></h5>
         </div>
-        <div class="col-md-4 spec_offer">
+        <div class="col-md-4">
             <h5><a href="/orchard_train">ORCHARD TRAIN</a></h5>
         </div>
     </div>
