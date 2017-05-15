@@ -4,14 +4,8 @@
 </div>
 <div class="store_list_head main_container">
     <div class="row hidden_phone">
-        <div class="col-md-4 spec_offer">
+        <div class="col-md-12">
             <h5 class="active_heading">PROMOTIONS</h5>
-        </div>
-        <div class="col-md-4 spec_offer">
-            
-        </div>
-        <div class="col-md-4 spec_offer">
-            
         </div>
     </div>
     <h5 class="text-center tap_here show_phone">
