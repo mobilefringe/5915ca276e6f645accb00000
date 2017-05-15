@@ -78,25 +78,27 @@
         </div>
     </div>
 </div>
-<div class="site_container mobile_padding">
-    <div class="row">
-        <div id="store_list_container">
-            <script id="store_list_template" type="x-tmpl-mustache/text">
-                <div class="col-xs-6 col-sm-3 col-md-2 cats_row" data-cat="{{cat_list}}">
-                    <div class="store_logo_container" id="{{initial}}">
-                        <a href="/stores/{{slug}}">
-                            <img style="{{initial_img}}" src="{{store_front_url_abs}}"/>
-                            <div class="store_coming_soon" style="{{coming_soon_store}}">
-                                <div class="new_store">Coming soon</div>
-                            </div>
-                            <div class="store_list_promos">
-                                <span class="promo_exist" style="{{job_exist}}"><img src="//codecloud.cdn.speedyrails.net/sites/58bdb9106e6f644783090000/image/png/1489000358000/jobs.png" alt="Job Icon"> {{job_list}}</span>
-                                <span class="promo_exist" style="{{promotion_exist}}"><img src="//codecloud.cdn.speedyrails.net/sites/58bdb9106e6f644783090000/image/png/1489000371000/promotions.png" alt="Promotion Icon">{{promotion_list}}</span>
-                            </div>
-                        </a>
+<div class="content_container main_container">
+    <div class="margin_25_across">
+        <div class="row">
+            <div id="store_list_container">
+                <script id="store_list_template" type="x-tmpl-mustache/text">
+                    <div class="col-xs-6 col-sm-3 col-md-2 cats_row" data-cat="{{cat_list}}">
+                        <div class="store_logo_container" id="{{initial}}">
+                            <a href="/stores/{{slug}}">
+                                <img style="{{initial_img}}" src="{{store_front_url_abs}}"/>
+                                <div class="store_coming_soon" style="{{coming_soon_store}}">
+                                    <div class="new_store">Coming soon</div>
+                                </div>
+                                <div class="store_list_promos">
+                                    <span class="promo_exist" style="{{job_exist}}"><img src="//codecloud.cdn.speedyrails.net/sites/58bdb9106e6f644783090000/image/png/1489000358000/jobs.png" alt="Job Icon"> {{job_list}}</span>
+                                    <span class="promo_exist" style="{{promotion_exist}}"><img src="//codecloud.cdn.speedyrails.net/sites/58bdb9106e6f644783090000/image/png/1489000371000/promotions.png" alt="Promotion Icon">{{promotion_list}}</span>
+                                </div>
+                            </a>
+                        </div>
                     </div>
-                </div>
-            </script>
+                </script>
+            </div>
         </div>
     </div>
 </div>
