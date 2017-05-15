@@ -14,13 +14,13 @@
             
         </div>
     </div>
-    <!--<h5 class="text-center tap_here show_phone">-->
-    <!--    <select id="option_selector" class="link_selector">-->
-    <!--        <option value="" disabled selected>TAP FOR MORE OPTIONS</option>-->
-    <!--        <option value="/events">Events</option>-->
-    <!--        <option class="contest_link" value="/contests">Contest</option>-->
-    <!--    </select>-->
-    <!--</h5>-->
+    <h5 class="text-center tap_here show_phone">
+        <!--<select id="option_selector" class="link_selector">-->
+        <!--    <option value="" disabled selected>TAP FOR MORE OPTIONS</option>-->
+        <!--    <option value="/events">Events</option>-->
+        <!--    <option class="contest_link" value="/contests">Contest</option>-->
+        <!--</select>-->
+    </h5>
 </div>
  <div class="content_container main_container">
     <div class="margin_25_across">
