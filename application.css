@@ -1537,6 +1537,11 @@ gallery:after{
     right: 20px;
     font-size: 28px;
 }
+
+.cbox_label {
+    font-weight: normal;
+}
+
 @media(max-width: 320px){
     .opened_mobile_menu ul a{
         padding: 5px 0;
