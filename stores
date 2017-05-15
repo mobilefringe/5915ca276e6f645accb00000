@@ -21,11 +21,6 @@
 </div>
 <div class="promotions_header">
     <div class="site_container mobile_padding">
-        <div class="row">
-            <div class="col-md-12">
-                <h3 class="store_list_header center">Directory</h3>
-            </div>   
-        </div>
         <div class="row mobile_padding">
             <div class="col-md-4">
                 <div class="promotions_header_container store_search" >
