@@ -22,7 +22,7 @@
 <div class="promotions_header">
     <div class="site_container mobile_padding">
         <div class="row mobile_padding">
-            <div class="col-md-4">
+            <div class="col-md-6">
                 <div class="promotions_header_container store_search" >
                     <label class="">
                         <input type="text" placeholder="Search" id="store_search" />
@@ -32,7 +32,7 @@
                     <div class="search_results" id="store_search_results"></div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-6">
                 <div class="promotions_header_container dropdown category_selector">
                     <a id="store_cat_list" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Sort by Category <span class="dropdown_arrow"><img src="//codecloud.cdn.speedyrails.net/sites/58bdb9106e6f644783090000/image/png/1489097373000/Expand Arrow.png" alt=""></span></a>
                     <ul class="dropdown-menu cat_list" aria-labelledby="dropdownMenu1" id="category_select">
@@ -41,11 +41,6 @@
 				        </script>
                     </ul>
                 </div>
-            </div>
-            <div class="col-md-4">
-                <a href="/map">
-                    <div class="promotions_header_container directory_btn">View Interactive Map</div>
-                </a>
             </div>
         </div>
         <div class="row">
