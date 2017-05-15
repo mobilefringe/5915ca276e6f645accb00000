@@ -25,7 +25,47 @@ body{
     font-family:italic;
 }
 
+/* *** SITE SEARCH *** */
+.top_form_control{
+    display:block;
+    position: relative;
+    text-align: right;
+    margin-bottom:8px;
+}
 
+
+.top_form_control input{
+    width: 235px;
+    height: 30px;
+    padding-left: 30px;
+    font-size: 15px;
+    color: #fff;
+    background: $slate;
+    border:0;
+    padding-right: 25px;
+    line-height: 31px;
+}
+// .top_form_control input::-moz-placeholder,
+// .top_form_control input:-ms-input-placeholder,
+.top_form_control input::-webkit-input-placeholder {
+    color: #fff;
+}
+.top_form_control input:focus{
+    outline: #979797 solid 1px;
+}
+
+.top_form_control .custom_i{
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 10px;
+    color: #fff;
+}
+/* *** */
 .bulletin{
     background: rgb(215,0,16);
     color: #fff;
