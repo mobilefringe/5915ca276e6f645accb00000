@@ -120,8 +120,8 @@
             
             show_content();
             
-            // store_search();
-            // show_cat_stores();
+            store_search();
+            show_cat_stores();
             $('#top_nav_stores').addClass('active_yellow')
         }
         loadMallDataCached(renderAll); 
