@@ -1541,6 +1541,10 @@ gallery:after{
 .cbox_label {
     font-weight: normal;
 }
+.help-block{
+    margin-bottom: -20px;
+    margin-top:0;
+}
 
 @media(max-width: 320px){
     .opened_mobile_menu ul a{
