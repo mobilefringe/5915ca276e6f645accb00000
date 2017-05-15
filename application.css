@@ -1210,7 +1210,7 @@ h4{
     cursor: arrow;
 }
 .category_selector .dropdown_arrow {
-    padding-left: 20px;
+    padding-left: 10px;
 }
 .cat_list{
     padding: 0;
@@ -1225,9 +1225,6 @@ h4{
     border-bottom: 2px solid #eee;
 }
 
-// .dropdown:hover .cat_list, .dropdown a:hover .cat_list {
-//     display: block;
-// }
 .cat_list li{
     padding: 5px 0;
     padding-left: 20px;
