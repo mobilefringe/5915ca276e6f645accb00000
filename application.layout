@@ -152,17 +152,17 @@
                             </script>
                         </span>
                     </p>
-                    <div class="social_icons">
-                            <a href="https://www.facebook.com/OrchardTC" target="_blank">
-                                <span id="social_fb"></span>
-                            </a>
-                            <a href="https://twitter.com/OrchardTC" target="_blank">
-                                <span id="social_twitter"></span>
-                            </a>
-                            <div class="clearfix"></div>
-                            <br class="hidden_phone" />
-                        </div>
                     <a href="/hours" class="holiday_hours_home soft_hidden_phone">Check for Holiday Hours</a>
+                    <div class="social_icons">
+                        <a href="https://www.facebook.com/OrchardTC" target="_blank">
+                            <span id="social_fb"></span>
+                        </a>
+                        <a href="https://twitter.com/OrchardTC" target="_blank">
+                            <span id="social_twitter"></span>
+                        </a>
+                        <div class="clearfix"></div>
+                        <br class="hidden_phone" />
+                    </div>
                 </div>
                 <div class="col-md-4 col-xs-4 text-center">
                     <a href="/">
