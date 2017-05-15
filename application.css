@@ -1250,18 +1250,7 @@ h4{
     color: #fff;
     text-align: center;
 }
-.directory_btn:after {
-    content: " ";
-    height: 5px;
-    width: 84px;
-    background: #fff;
-    position: absolute;
-    left: 50%;
-    bottom: -3px;
-    -webkit-transform: translate(-50%, 0%);
-    -ms-transform: translate(-50%, 0%);
-    transform: translate(-50%, 0%);
-}
+
 .store_logo_container {
     margin-bottom: 30px;
     // width: 166px;
