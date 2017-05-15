@@ -1172,6 +1172,38 @@ h4{
     height: 50px;
     border: 1px solid #979797;
 }
+.search_results {
+    width: 100%;
+    background-color: #fff;
+    padding: 0;
+    border: 1px solid #eee;
+    border-top: 0;
+    display: none;
+    list-style: none;
+    font-size: 14px;
+    z-index: 99;
+    border-bottom:0;
+    text-align: left;
+    h2 {
+        padding: 10px 12px;
+        border-bottom: 1px solid #eee;
+        cursor: pointer;
+        margin: 0;
+        font-size: 14px;
+        font-weight: 300;
+        position: relative;
+        background: #eee;
+    }
+    h4 {
+        font-size: 14px;
+        margin: 0;
+        border-bottom: 1px solid #ccc;
+    }
+    a {
+        display: block;
+        padding: 10px 12px;
+    }
+}
 .store_search {
     position: relative;
     background: #fff;
