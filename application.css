@@ -1346,6 +1346,21 @@ h4{
     height: 210px;
     border-top: 2px solid #000;
 }
+.details_header{
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-family: 'gibson_bold', sans-serif;
+    font-size: 28px;
+    line-height: 40px;
+    color: #536c92;
+}
+.details_store_name {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #4A4A4A;
+    text-transform: uppercase;
+}
 /* *** */
 .locate_store{
     display: inline-block;
