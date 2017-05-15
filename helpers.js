@@ -356,7 +356,6 @@ function load_more(num){
 }
 
 function submit_contest(slug) {
-    
     var contest_entry = {};
     var contest_data = {};
     contest_data.first_name = $('#first_name').val();
@@ -367,7 +366,6 @@ function submit_contest(slug) {
     contest_data.age = $('#age').val();
     contest_data.gender = $('#gender').val();
     contest_data.newsletter = $('#newsletter_signup').prop("checked");
-    
     contest_entry.contest = contest_data;
     
     var propertyDetails = getPropertyDetails();
@@ -386,5 +384,4 @@ function submit_contest(slug) {
             alert('An error occured while processing your request. Please try again later!')
         }
     });
-    
 }
