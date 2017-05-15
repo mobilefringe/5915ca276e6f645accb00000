@@ -41,6 +41,8 @@ function init(e){
     $('#option_selector').change(function(){
         window.location = $(this).val();
     });
+    
+     blog_searcher();
 }
 
 function show_content(){
