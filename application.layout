@@ -44,6 +44,7 @@
     <script src="//mallmaverick.codecloudapp.com/mustache_mallmaverick.js?v=0.3"></script>
     
     <script>
+        setEndPoint('//twinpines.mallmaverick.com/api/v3/twinpines/all.json');
         setEndPoint('//orchardtown.mallmaverick.com/api/v3/orchardtown/all.json');
         setSocialEndPoint('//halifaxcentre.mallmaverick.com/api/v2/halifaxcentre/social.json')
     </script>
