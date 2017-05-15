@@ -25,39 +25,26 @@
  <div class="content_container main_container">
     <div class="margin_25_across">
         <div class="row">
-            <div class="col-md-12">
-                <p class="hidden_now" id="no_promo_in_category">There are no promotions in this category.</p>
-                <div id="promos_container">
-                    <script id="promos_template" type="x-tmpl-mustache/text">
-                        <div class="row promo_item cats_row" data-cat="{{cat_list}}">
-                            <div class="col-md-3">
-                                <div class="cropped_image">
-                                    <img src="{{image_url}}" alt="{{name}}" />
-                                </div>
+            <div id="promos_container" class="promos_page">
+                <script id="promos_template" type="x-tmpl-mustache/text">
+                    <div class="col-sm-6 col-md-4 margin_50 cats_row" data-cat="{{cat_list}}">
+                        <div class="promo_container" value="{{categories}}">
+                            <div class="promo_img_container">
+                                <img src="{{image_url}}" alt="Promotion" class="promo_img" />
                             </div>
-                            <div class="col-md-9">
-                                <h2 class="promo_list_name"><a href="/promotions/{{slug}}">{{name}}</a></h2>
-                                <p>
-                                    <a href="{{store_slug}}" style="{{store_show}}"><span class="underline promo_store">{{store_name}}</span></a>
-                                    <span class="promo_dates">{{dates}}</span>
-                                </p>
-                                <div class="promo_list_desc">{{description_short}}</div>
-                                <a class="read_more" href="/promotions/{{slug}}">Read More</a>
+                            <div class="details">
+                                <h3 class="details_header">{{name_short}}</h3>
+                                <h3 class="details_store_name">{{store_name}}</h3>
+                                <h3 class="jobs_publish_date"><i class="fa fa-calendar"></i> &nbsp;{{dates}}</h3>    
                             </div>
+                            <a href="/promotions/{{slug}}" class="read_more_btn">Read More</a>
                         </div>
-                    </script>
-                </div>
+                    </div>
+                </script>
             </div>
-            
-            <!--<div class="col-md-4">-->
-            <!--    <p class="category_header">Sort by Categories</p>-->
-            <!--    <h5 class="category_name active_cat hidden_phone"><a href="#" class="show_all_stores">All</a></h5>-->
-            <!--    <div id="category_container" class="hidden_phone">-->
-            <!--        <script id="category_template" type="x-tmpl-mustache/text">-->
-            <!--            <h5 class="category_name"><a href="#" class="show_cat_stores" data-id="{{id}}">{{name}}</a></h5>    -->
-            <!--        </script>-->
-            <!--    </div>-->
-            <!--</div>-->
+            <div class="col-md-12">
+                <h3 id="no_promos" class="hidden_now">There are currently no promotions available, please check back again later.</h3>
+            </div>
         </div>
     </div>
 </div>
