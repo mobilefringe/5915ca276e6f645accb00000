@@ -410,7 +410,7 @@ function show_cat_stores(){
             $('#cat_name').hide();    
         }
         $('.dropdown-menu .cat_list').css('display', 'none');
-        $('#store_cat_list').html(cat_name + '<span class="dropdown_arrow"><img src="//codecloud.cdn.speedyrails.net/sites/58bdb9106e6f644783090000/image/png/1489097373000/Expand Arrow.png" alt=""></span>');
+        $('#store_cat_list').html(cat_name + '<span class="dropdown_arrow"><i class="fa fa-angle-down" aria-hidden="true"></i></span>');
         $('html, body').animate({scrollTop : 0},800);
         e.preventDefault();
     });
