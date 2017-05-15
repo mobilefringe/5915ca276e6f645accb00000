@@ -1165,7 +1165,36 @@ h4{
         display:block;
     }
 }
+/* *** STORE PAGE *** */
+.store_logo_container {
+    margin-bottom: 30px;
+    width: 166px;
+    height: 166px;
+    position: relative;
+    border: 3px solid #F8F8F8;
+    transition: border 0.3s ease;
+    img {
+        max-width: 100%;
+        
+        filter: gray; /* IE6-9 */
+        -webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
+        -webkit-transition: all .6s ease; /* Fade to color for Chrome and Safari */
+        -webkit-backface-visibility: hidden; /* Fix for transition flickering */
+    }
+    &:hover {
+        border: 3px solid #000;
+        img {
+            filter: none;
+            -webkit-filter: grayscale(0%);
+        }
+    }
+}
+.store_logo{
+    width:100%;
+    margin-bottom:14px;
+}
 
+/* *** */
 .locate_store{
     display: inline-block;
     padding: 10px 20px;
