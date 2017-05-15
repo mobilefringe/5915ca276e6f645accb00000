@@ -1166,6 +1166,102 @@ h4{
     }
 }
 /* *** STORE PAGE *** */
+.promotions_header_container {
+    margin-bottom: 30px;
+    width: 100%;
+    height: 50px;
+    border: 1px solid #fff;
+}
+.store_search {
+    position: relative;
+    background: #fff;
+    color: #9B9B9B;
+    font-size: 20px;
+    label {
+        margin-bottom: 0;
+        padding: 10px 0;
+        width: 100%;
+        position: relative;
+    }
+    img {
+        position: absolute;
+        top: 10px;
+        right: 20px;
+    }
+    #close_search_results {
+        position: absolute;
+        top: 15px;
+        right: 20px;
+    }
+}
+#store_search {
+    width: 98%;
+    border: none;
+    text-align: center;
+}
+.category_selector {
+    padding: 11px 0 13px 0;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+}
+.category_selector a:hover, .category_selector a:focus {
+    color: #fff;
+    cursor: arrow;
+}
+.category_selector .dropdown_arrow {
+    padding-left: 20px;
+}
+.cat_list{
+    padding: 0;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    border-radius: 0;
+    box-shadow: none;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 2px solid #eee;
+}
+
+// .dropdown:hover .cat_list, .dropdown a:hover .cat_list {
+//     display: block;
+// }
+.cat_list li{
+    padding: 5px 0;
+    padding-left: 20px;
+    background: #fff;
+    border-top: none;
+    border-left: 2px solid #eee;
+    border-right: 2px solid #eee;
+    border-bottom: 2px solid #eee;
+    font-size: 19px;
+    color: #4A4A4A;
+}
+.cat_list li:hover {
+    background: #536c92;
+    color: #fff;
+}
+.directory_btn {
+    padding: 13px 0;
+    position: relative;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+}
+.directory_btn:after {
+    content: " ";
+    height: 5px;
+    width: 84px;
+    background: #fff;
+    position: absolute;
+    left: 50%;
+    bottom: -3px;
+    -webkit-transform: translate(-50%, 0%);
+    -ms-transform: translate(-50%, 0%);
+    transform: translate(-50%, 0%);
+}
 .store_logo_container {
     margin-bottom: 30px;
     // width: 166px;
