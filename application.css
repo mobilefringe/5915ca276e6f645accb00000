@@ -1170,7 +1170,7 @@ h4{
     margin-bottom: 30px;
     width: 100%;
     height: 50px;
-    border: 1px solid #fff;
+    border: 1px solid #979797;
 }
 .store_search {
     position: relative;
@@ -1202,7 +1202,7 @@ h4{
 .category_selector {
     padding: 11px 0 13px 0;
     font-size: 20px;
-    color: #fff;
+    color: #979797;
     text-align: center;
 }
 .category_selector a:hover, .category_selector a:focus {
