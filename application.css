@@ -1206,7 +1206,7 @@ h4{
     text-align: center;
 }
 .category_selector a:hover, .category_selector a:focus {
-    color: #fff;
+    color: #979797;
     cursor: arrow;
 }
 .category_selector .dropdown_arrow {
