@@ -385,3 +385,67 @@ function submit_contest(slug) {
         }
     });
 }
+function show_cat_stores(){
+    $('.show_cat_stores').click(function(e){
+        var cat_id = $(this).attr('data-id');
+        var cat_name = $(this).attr('name');
+        var rows = $('.cats_row');
+        if(cat_id != "000") {
+            rows.hide();
+            // $('#cat_name').text($(this).text());
+            // $('#cat_name').css('display', 'block');
+            $.each(rows, function(i, val){
+                var cat_array = val.getAttribute('data-cat').split(',');
+                if ($.inArray(cat_id, cat_array) >= 0){
+                    $(val).show();
+                }
+            });
+        } else {
+            rows.show();
+            $.each($('.store_initial'), function(i, val){
+                if ($(val).text().length > 0){
+                    $(val).show();
+                } 
+            });
+            $('#cat_name').hide();    
+        }
+        $('.dropdown-menu .cat_list').css('display', 'none');
+        $('#store_cat_list').html(cat_name + '<span class="dropdown_arrow"><img src="//codecloud.cdn.speedyrails.net/sites/58bdb9106e6f644783090000/image/png/1489097373000/Expand Arrow.png" alt=""></span>');
+        $('html, body').animate({scrollTop : 0},800);
+        e.preventDefault();
+    });
+}
+function store_search() {
+    $('#close_search_results').click(function(){
+        $(this).hide();
+        $('#store_search_img').show();
+        $('#store_search_results').html('');
+        $('#store_search_results').hide();
+        $('#store_search').val('')
+    });
+    $('#store_search').keyup(function(){
+        if ($('#store_search').val() == ""){
+            $('#store_search_results').html('');
+            $('#store_search_results').hide();
+            $('#close_search_results').hide();
+        } else {
+            $('#store_search_img').hide();
+            $('#close_search_results').show();
+            $('#store_search_results').html('');
+            
+            var val = $(this).val().toLowerCase();
+            var results = getSearchResults(val);
+            var s_stores = results.stores;
+            
+            if(s_stores != undefined && s_stores.length > 0){
+                $.each(s_stores, function(i, v){
+                    var div_stores = "<div class='store_search_list'>";
+                    div_stores = div_stores + "<h4><a href='/stores/" + v.slug + "'>" + v.name + "</a></h4>";
+                    div_stores = div_stores + "</div>";
+                    $('#store_search_results').append(div_stores);
+                    $('#store_search_results').show();
+                });
+            }
+        }
+    });
+}
