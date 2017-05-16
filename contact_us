@@ -36,6 +36,7 @@
         </div>
     </div>
 </div>
+
 <script>
     $(document).ready(function(e){
         init(e);
@@ -43,7 +44,7 @@
             var prefix = get_prefix();
             var pages_json = prefix + "/pages/orchardtown-contact-us.json"
             $.getJSON(pages_json).done(function(data) {
-                // $('#mm_page_title').html(data.title.toUpperCase());
+                $('#mm_page_title').html(data.title.toUpperCase());
                 $('#mm_page_content').html(data.body);
             }).fail(function(jqXHR) {
                 if (jqXHR.status == 404) {
