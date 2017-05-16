@@ -58,7 +58,7 @@
        
         ga('create', 'UA-50587834-13', 'auto');
         ga('send', 'pageview');
-        var mall_name = "Halifax Shopping Centre"
+        var mall_name = "Orchard Town Center"
    </script>
 </head>
 
