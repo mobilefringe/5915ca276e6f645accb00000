@@ -275,7 +275,7 @@
     </section>
     <script>
         jQuery(document).ready(function($){
-            $.getJSON("//halifaxcentre.mallmaverick.com/api/v3/halifaxcentre/messages.json").done(function(data){
+            $.getJSON("//orchardtown.mallmaverick.com/api/v3/orchardtown/messages.json").done(function(data){
                 var messages = data.messages.bulletin
                 if (messages != undefined){
                     if (messages.length == 0){
