@@ -333,14 +333,6 @@ function renderEvents(container, template, collection, centre){
         if (val.event_image_url_abs.indexOf('missing.png') > -1){
             val.event_image_url_abs="//codecloud.cdn.speedyrails.net/sites/56c740936e6f642d56000000/image/png/1456246178000/promo_image.png";
         }
-        // var show_date = new Date (val.show_on_web_date + "T04:00:00Z");
-        // start = new Date (val.start_date + "T04:00:00Z");
-        // end = new Date (val.end_date + "T04:00:00Z");
-        // if (start.toDateString() == end.toDateString()) {
-        //     val.dates = (get_month(start.getMonth()))+" "+(start.getDate());    
-        // } else {
-        //     val.dates = (get_month(start.getMonth()))+" "+(start.getDate())+" - "+get_month(end.getMonth())+" "+end.getDate();    
-        // }
         
         var show_date = moment(val.show_on_web_date).tz(getPropertyTimeZone());
         var start = moment(val.start_date).tz(getPropertyTimeZone());
@@ -403,14 +395,6 @@ function renderEventDetails(container, template, collection, mall_name){
         if(val.event_image_url_abs.indexOf('missing.png') > -1){
             val.promo_image_show="display:none";
         }
-        // var show_date = new Date (val.show_on_web_date + "T04:00:00Z");
-        // start = new Date (val.start_date + "T04:00:00Z");
-        // end = new Date (val.end_date + "T04:00:00Z");
-        // if (start.toDateString() == end.toDateString()) {
-        //     val.dates = (get_month(start.getMonth()))+" "+(start.getDate());    
-        // } else {
-        //     val.dates = (get_month(start.getMonth()))+" "+(start.getDate())+" - "+get_month(end.getMonth())+" "+end.getDate();    
-        // }
         
         var show_date = moment(val.show_on_web_date).tz(getPropertyTimeZone());
         var start = moment(val.start_date).tz(getPropertyTimeZone());
