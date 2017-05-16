@@ -42,7 +42,7 @@
                     <img src="//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1463434709000/facebook_post.png" class="" alt="facebook post">
                     <a href="#" id="latest_fb_link" target="_blank"><p id="latest_fb" class="latest_post"></p></a>
                     <p>
-                        <a  class="social_link_blank" href="https://www.facebook.com/OrchardTC" target="_blank">Facebook/ halifaxshoppingcentre</a> <br />
+                        <a  class="social_link_blank" href="https://www.facebook.com/OrchardTC" target="_blank">Facebook/OrchardTC</a> <br />
                         <span id="latest_fb_date"></span>    
                     </p>
                 </div>
