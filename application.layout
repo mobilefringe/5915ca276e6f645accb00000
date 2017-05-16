@@ -47,7 +47,7 @@
     <script>
         // setEndPoint('//twinpines.mallmaverick.com/api/v3/twinpines/all.json');
         setEndPoint('//orchardtown.mallmaverick.com/api/v3/orchardtown/all.json');
-        setSocialEndPoint('//halifaxcentre.mallmaverick.com/api/v2/halifaxcentre/social.json')
+        setSocialEndPoint('//orchardtown.mallmaverick.com/api/v2/orchardtown/social.json')
     </script>
     
      <script>
