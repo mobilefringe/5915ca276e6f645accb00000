@@ -564,12 +564,11 @@ function renderEventsWithImgTemplate(template_id,html_id,not_empty_section_id,em
         }
     });
     item_list.sort(sortByWebDate);
-        $.each( item_list , function( key, val ) {
-            var rendered = Mustache.render(template_html,val);
-            sorted_list.push(rendered);
-        });
-      
-   // console.log(sorted_list);
+    $.each( item_list , function( key, val ) {
+        var rendered = Mustache.render(template_html,val);
+        sorted_list.push(rendered);
+    });
+    
     if(sorted_list.length > 0){
         $(not_empty_section_id).show();
         $(empty_section_id).hide();
@@ -587,20 +586,6 @@ function renderHomeHours(container, template, collection){
     Mustache.parse(template_html);   // optional, speeds up future uses
     item_list.push(collection);    
     $.each( item_list , function( key, val ) {
-        // val.day = get_day(val.day_of_week);
-        // var d = new Date();
-        // val.month = get_month(d.getMonth());
-        // val.weekday = addZero(d.getDate());
-        // if (val.open_time && val.close_time && (val.is_closed == false || val.is_closed == null)){
-        //     var open_time = new Date (val.open_time);
-        //     var close_time = new Date (val.close_time);
-        //     val.open_time = convert_hour(open_time);
-        //     val.close_time = convert_hour(close_time);    
-        //     val.h = get_day(d.getDay()) + " " + val.open_time+ " - " + val.close_time;
-        // } else {
-        //     val.h = "Closed";
-        // }
-        
         val.day = moment().format("ddd");
         var d = moment();
         val.month = moment().month();
@@ -626,7 +611,7 @@ function renderSinglePost(container, template, main_post){
     Mustache.parse(template_html);   // optional, speeds up future uses
 
     if (main_post.image_url.indexOf('missing.png') > 0) {
-        main_post.post_image = "//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1461352407000/HallifaxLogo.png";
+        main_post.post_image = "//codecloud.cdn.speedyrails.net/sites/5915ca276e6f645accb00000/image/jpeg/1495053149000/orchard_default.jpg";
     } else {
         main_post.post_image = main_post.image_url;
     }
