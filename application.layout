@@ -163,7 +163,7 @@
                     <!--    <div class="clearfix"></div>-->
                     <!--    <br class="hidden_phone" />-->
                     <!--</div>-->
-                    <div class="site_searcher_div">
+                    <div class="site_searcher_div hidden_phone">
                         <label class="top_form_control no_margin">
                             <i class="custom_i fa fa-search"></i>
                             <input type="text" placeholder="Search" id="site_search" />
