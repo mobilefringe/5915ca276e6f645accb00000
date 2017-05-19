@@ -536,31 +536,31 @@ function blog_searcher(){
     });
     
     function site_search_mobile(){
-    $('#close_search').click(function(){
+    $('#close_search_mobile').click(function(){
         $(this).hide();
-        $('#search_results_stores').html('');
-        $('#search_results_events').html('');
-        $('#search_results_promotions').html('');
-        $('#search_results_stores').hide();
-        $('#search_results_events').hide();
-        $('#search_results_promotions').hide();
-        $('#site_search').val('')
+        $('#search_results_stores_mobile').html('');
+        $('#search_results_events_mobile').html('');
+        $('#search_results_promotions_mobile').html('');
+        $('#search_results_stores_mobile').hide();
+        $('#search_results_events_mobile').hide();
+        $('#search_results_promotions_mobile').hide();
+        $('#site_search_mobile').val('')
     });
-    $('#site_search').keyup(function(){
-        if ($('#site_search').val() == ""){
-            $('#search_results_stores').html('');
-            $('#search_results_events').html('');
-            $('#search_results_promotions').html('');
-            $('#search_results_stores').hide();
-            $('#search_results_events').hide();
-            $('#search_results_promotions').hide();
-            $('#close_search').hide();
+    $('#site_search_mobile').keyup(function(){
+        if ($('#site_search_mobile').val() == ""){
+            $('#search_results_stores_mobile').html('');
+            $('#search_results_events_mobile').html('');
+            $('#search_results_promotions_mobile').html('');
+            $('#search_results_stores_mobile').hide();
+            $('#search_results_events_mobile').hide();
+            $('#search_results_promotions_mobile').hide();
+            $('#close_search_mobile').hide();
         }
         else{
-            $('#close_search').show();
-            $('#search_results_stores').html('');
-            $('#search_results_events').html('');
-            $('#search_results_promotions').html('');
+            $('#close_search_mobile').show();
+            $('#search_results_stores_mobile').html('');
+            $('#search_results_events_mobile').html('');
+            $('#search_results_promotions_mobile').html('');
             
             var val = $(this).val().toLowerCase();
             
@@ -571,35 +571,35 @@ function blog_searcher(){
             
             if(s_stores !=undefined && s_stores.length > 0){
                 var h2_stores = "<h2 id='open_stores' class='li_open'>(" +s_stores.length + ") Stores<i class='pull-right fa fa-chevron-down'></i></h2>";
-                $('#search_results_stores').append(h2_stores);
+                $('#search_results_stores_mobile').append(h2_stores);
                 $.each(s_stores, function(i, v){
                     var div_stores = "<div class='blog_search_results collapse_open_stores'>";
                     div_stores = div_stores + "<h4><a href='/stores/" + v.slug + "'>" + v.name + "</a></h4>";
                     div_stores = div_stores + "</div>";
-                    $('#search_results_stores').append(div_stores);
-                    $('#search_results_stores').show();
+                    $('#search_results_stores_mobile').append(div_stores);
+                    $('#search_results_stores_mobile').show();
                 });
             }
             if(s_promos != undefined && s_promos.length > 0){
                 var h2_promotions = "<h2 id='open_promotions' class='li_open'>(" +s_promos.length + ") Promotions<i class='pull-right fa fa-chevron-down'></i></h2>";
-                $('#search_results_promotions').append(h2_promotions);
+                $('#search_results_promotions_mobile').append(h2_promotions);
                 $.each(s_promos, function(i, v){
                     var div = "<div class='blog_search_results collapse_open_promotions'>";
                     div = div + "<h4><a href='/promotions/" + v.slug + "'>" + v.name + "</a></h4>";
                     div = div + "</div>";
-                    $('#search_results_promotions').append(div);
-                    $('#search_results_promotions').show();
+                    $('#search_results_promotions_mobile').append(div);
+                    $('#search_results_promotions_mobile').show();
                 });
             }   
             if(s_events != undefined && s_events.length > 0){
                 var h2_events = "<h2 id='open_events' class='li_open'>(" +s_events.length + ") Events<i class='pull-right fa fa-chevron-down'></i></h2>";
-                $('#search_results_stores').append(h2_events);
+                $('#search_results_stores_mobile').append(h2_events);
                 $.each(s_events, function(i, v){
                     var div = "<div class='blog_search_results collapse_open_events'>";
                     div = div + "<h4><a href='/events/" + v.slug + "'>" + v.name + "</a></h4>";
                     div = div + "</div>";
-                    $('#search_results_stores').append(div);
-                    $('#search_results_stores').show();
+                    $('#search_results_stores_mobile').append(div);
+                    $('#search_results_stores_mobile').show();
                 });
             }
             $('.li_open').click(function(){
