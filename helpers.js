@@ -43,6 +43,7 @@ function init(e){
     });
     
      blog_searcher();
+     site_search_mobile();
 }
 
 function show_content(){
