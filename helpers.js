@@ -530,12 +530,12 @@ function blog_searcher(){
                     $(collapse).slideDown('fast');
                 }
                 
-            })
+            });
             
         }
     });
     
-    function site_search_mobile(){
+function site_search_mobile(){
     $('#close_search_mobile').click(function(){
         $(this).hide();
         $('#search_results_stores_mobile').html('');
@@ -613,7 +613,7 @@ function blog_searcher(){
                     $(collapse).slideDown('fast');
                 }
                 
-            })
+            });
             
         }
     });
