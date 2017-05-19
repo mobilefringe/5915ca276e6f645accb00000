@@ -153,16 +153,6 @@
                         </span>
                     </p>
                     <a href="/hours" class="holiday_hours_home soft_hidden_phone">Check for Holiday Hours</a>
-                    <!--<div class="social_icons">-->
-                    <!--    <a href="https://www.facebook.com/OrchardTC" target="_blank">-->
-                    <!--        <span id="social_fb"></span>-->
-                    <!--    </a>-->
-                    <!--    <a href="https://twitter.com/OrchardTC" target="_blank">-->
-                    <!--        <span id="social_twitter"></span>-->
-                    <!--    </a>-->
-                    <!--    <div class="clearfix"></div>-->
-                    <!--    <br class="hidden_phone" />-->
-                    <!--</div>-->
                     <div class="site_searcher_div hidden_phone">
                         <label class="top_form_control no_margin">
                             <i class="custom_i fa fa-search"></i>
@@ -172,6 +162,16 @@
                         <div class="site_search_results" id="search_results_stores"></div>
                         <div class="site_search_results" id="search_results_events"></div>
                         <div class="site_search_results" id="search_results_promotions"></div>
+                    </div>
+                    <div class="social_icons">
+                        <a href="https://www.facebook.com/OrchardTC" target="_blank">
+                            <span id="social_fb"></span>
+                        </a>
+                        <a href="https://twitter.com/OrchardTC" target="_blank">
+                            <span id="social_twitter"></span>
+                        </a>
+                        <div class="clearfix"></div>
+                        <br class="hidden_phone" />
                     </div>
                 </div>
                 <div class="col-md-4 col-xs-4 text-center">
