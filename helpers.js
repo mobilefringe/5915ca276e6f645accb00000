@@ -534,6 +534,7 @@ function blog_searcher(){
             
         }
     });
+}
     
 function site_search_mobile(){
     $('#close_search_mobile').click(function(){
