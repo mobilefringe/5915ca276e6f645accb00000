@@ -451,6 +451,7 @@ function store_search() {
         }
     });
 }
+
 function blog_searcher(){
     $('#close_search').click(function(){
         $(this).hide();
@@ -518,9 +519,6 @@ function blog_searcher(){
                     $('#search_results_stores').show();
                 });
             }
-            
-            
-            
             $('.li_open').click(function(){
                 var collapse = ".collapse_" + $(this).attr('id');
                 if($(this).hasClass('open')){
