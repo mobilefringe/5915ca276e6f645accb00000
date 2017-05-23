@@ -7,7 +7,7 @@
     <div class="margin_25_across">
         <div class="row">
             <p>Sign up to receive the Orchard Town Centre Newsletter.</p>
-            <form action="https://mobilefringe.createsend.com/t/d/s/xnhtd/" method="post" id="subForm">
+            <form action="https://mobilefringe.createsend.com/t/d/s/mtlpl/" method="post" id="subForm">
                 <div class="row">
                     <div class="col-sm-6">
                         <label for="fieldName">First Name</label>
@@ -20,10 +20,9 @@
                 </div>
                 <div class="row">
                     <div class="col-sm-12">
-                        <label for="fieldEmail">Email *</label>
-                        <input class="contest_info" id="fieldEmail" name="cm-xnhtd-xnhtd" type="email" required data-validation-regexp="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$" data-validation-error-msg="Please enter a valid email address" data-validation="custom" tabindex="3"/>
+                        <label for="fieldEmail">Email*</label>
+                        <input class="contest_info" id="fieldEmail" name="cm-mtlpl-mtlpl" type="email" required data-validation-regexp="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$" data-validation-error-msg="Please enter a valid email address" data-validation="custom" tabindex="3"/>
                     </div>
-                    
                 </div>
                 <div class="row">
                     <div class="col-sm-6">
@@ -31,7 +30,7 @@
                         <input class="contest_info" id="fieldokiilj" name="cm-f-okiilj" type="text" tabindex="4"/>
                     </div>
                     <div class="col-sm-6">  
-                        <label for="fieldokiilt">ZIP Code *</label>
+                        <label for="fieldokiilt">ZIP Code*</label>
                         <input class="contest_info" id="fieldokiilt" name="cm-f-okiilt" type="text" required data-validation="required" tabindex="5"/>
                     </div>
                 </div>
