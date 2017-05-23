@@ -47,7 +47,7 @@
                     <div class="col-sm-12">    
                         <label class="newsletter_agree">
                             <input id="newsletter_signup" type="checkbox" name="newsletter_agree" required data-validation="required" tabindex="8"/> 
-                            I agree to receive communications from Domain NORTHSIDE.
+                            I agree to receive communications from Orchard Town Center.
                         </label>
                     </div>
                 </div>
