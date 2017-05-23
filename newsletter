@@ -26,12 +26,12 @@
                 </div>
                 <div class="row">
                     <div class="col-sm-6">
-                        <label for="fieldokiilj">Phone Number</label>
-                        <input class="contest_info" id="fieldokiilj" name="cm-f-okiilj" type="text" tabindex="4"/>
+                        <label for="fieldbhyuju">Phone Number</label>
+                        <input class="contest_info" id="fieldbhyuju" name="cm-f-bhyuju" type="text" tabindex="4"/>
                     </div>
                     <div class="col-sm-6">  
-                        <label for="fieldokiilt">ZIP Code*</label>
-                        <input class="contest_info" id="fieldokiilt" name="cm-f-okiilt" type="text" required data-validation="required" tabindex="5"/>
+                        <label for="fieldbhyutl">ZIP Code*</label>
+                        <input class="contest_info" id="fieldbhyutl" name="cm-f-bhyutl" type="text" required data-validation="required" tabindex="5"/>
                     </div>
                 </div>
                 
