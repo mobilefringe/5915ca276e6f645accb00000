@@ -621,7 +621,7 @@ function site_search_mobile(){
     });
 }
 var default_image = {
-    "image_url" : "//codecloud.cdn.speedyrails.net/sites/58bdb9106e6f644783090000/image/png/1490119146000/northside_logo_default.png",
+    "image_url" : "//codecloud.cdn.speedyrails.net/sites/5915ca276e6f645accb00000/image/jpeg/1495053149000/orchard_default.jpg",
 }
 var promo_default = {
     "image_url" : "//codecloud.cdn.speedyrails.net/sites/58bdb9106e6f644783090000/image/jpeg/1490102972000/promo_default.jpg"
