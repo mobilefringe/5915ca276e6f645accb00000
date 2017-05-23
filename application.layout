@@ -68,7 +68,9 @@
         <div class="opened_mobile_menu">
             <h3>
                 MENU
-                <span id="close_menu" class="pull-right"><img class="menu_icon" src="//codecloud.cdn.speedyrails.net/sites/5915ca276e6f645accb00000/image/png/1461166976000/close_menu.png"  alt="close"></span>        
+                <span id="close_menu" class="pull-right">
+                    <img class="menu_icon" src="//codecloud.cdn.speedyrails.net/sites/5915ca276e6f645accb00000/image/png/1461166976000/close_menu.png"  alt="close">
+                </span>        
             </h3>
             <ul>
                 <li>
@@ -163,16 +165,16 @@
                         <div class="site_search_results" id="search_results_events"></div>
                         <div class="site_search_results" id="search_results_promotions"></div>
                     </div>
-                    <div class="social_icons">
-                        <a href="https://www.facebook.com/OrchardTC" target="_blank">
-                            <span id="social_fb"></span>
-                        </a>
-                        <a href="https://twitter.com/OrchardTC" target="_blank">
-                            <span id="social_twitter"></span>
-                        </a>
-                        <div class="clearfix"></div>
-                        <br class="hidden_phone" />
-                    </div>
+                    <!--<div class="social_icons">-->
+                    <!--    <a href="https://www.facebook.com/OrchardTC" target="_blank">-->
+                    <!--        <span id="social_fb"></span>-->
+                    <!--    </a>-->
+                    <!--    <a href="https://twitter.com/OrchardTC" target="_blank">-->
+                    <!--        <span id="social_twitter"></span>-->
+                    <!--    </a>-->
+                    <!--    <div class="clearfix"></div>-->
+                    <!--    <br class="hidden_phone" />-->
+                    <!--</div>-->
                 </div>
                 <div class="col-md-4 col-xs-4 text-center">
                     <a href="/">
