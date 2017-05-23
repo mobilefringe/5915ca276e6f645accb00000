@@ -10,27 +10,27 @@
             <div class="margin_20"></div>
             <form action="https://mobilefringe.createsend.com/t/d/s/mtlpl/" method="post" id="subForm">
                 <div class="row">
-                    <div class="col-sm-6">
+                    <div class="col-md-6">
                         <label for="fieldName">First Name</label>
                         <input class="form_info form-control" id="fieldName" name="cm-name" type="text" tabindex="1"/>
                     </div>
-                    <div class="col-sm-6">
+                    <div class="col-md-6">
                         <label for="last_name">Last Name</label>
                         <input class="form_info form-control" id="last_name" name="cm-name" type="text" tabindex="2"/>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-sm-12">
+                    <div class="col-md-12">
                         <label for="fieldEmail">Email*</label>
                         <input class="form_info form-control" id="fieldEmail" name="cm-mtlpl-mtlpl" type="email" required data-validation-regexp="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$" data-validation-error-msg="Please enter a valid email address" data-validation="custom" tabindex="3"/>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-sm-6">
+                    <div class="col-md-6">
                         <label for="fieldbhyuju">Phone Number</label>
                         <input class="contest_info form-control" id="fieldbhyuju" name="cm-f-bhyuju" type="text" tabindex="4"/>
                     </div>
-                    <div class="col-sm-6">  
+                    <div class="col-md-6">  
                         <label for="fieldbhyutl">ZIP Code*</label>
                         <input class="form_info form-control" id="fieldbhyutl" name="cm-f-bhyutl" type="text" required data-validation="required" tabindex="5"/>
                     </div>
