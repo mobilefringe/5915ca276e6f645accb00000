@@ -37,10 +37,10 @@
                 </div>
                 <div class="line_break">&nbsp;</div>
                 <div class="row">
-                    <div class="col-sm-6">
+                    <div class="col-md-6">
                         <button class="newsletter_btn" tabindex="7">Submit</button>
                     </div>
-                    <div class="col-sm-6"></div>
+                    <div class="col-md-6"></div>
                 </div>
                 <div class="line_break">&nbsp;</div>
                 <div class="row">
