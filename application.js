@@ -654,7 +654,7 @@ function renderPosts(container, template, collection){
         }
         val.description_short = val.description_short.replace("&amp;", "&");
         
-        val.slug = "our_style/" + val.slug;
+        val.slug = "blog/" + val.slug;
         
         val.twitter_title = val.title + " via @shopHSC";
         
