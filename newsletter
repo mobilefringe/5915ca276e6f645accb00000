@@ -28,7 +28,7 @@
                 <div class="row">
                     <div class="col-md-6">
                         <label for="fieldbhyuju">Phone Number</label>
-                        <input class="contest_info form-control" id="fieldbhyuju" name="cm-f-bhyuju" type="text" tabindex="4"/>
+                        <input class="form_info form-control" id="fieldbhyuju" name="cm-f-bhyuju" type="text" tabindex="4"/>
                     </div>
                     <div class="col-md-6">  
                         <label for="fieldbhyutl">ZIP Code*</label>
