@@ -51,13 +51,13 @@
                         </label>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-sm-6">
-                        <div class="margin_40"></div>
-                        <p class="hidden_now" id="succes_msg">Thank you! Your information has been received.</p>
-                    </div>
-                    <div class="col-sm-6">
-                </div>
+                <!--<div class="row">-->
+                <!--    <div class="col-sm-6">-->
+                <!--        <div class="margin_40"></div>-->
+                <!--        <p class="hidden_now" id="succes_msg">Thank you! Your information has been received.</p>-->
+                <!--    </div>-->
+                <!--    <div class="col-sm-6">-->
+                <!--</div>-->
             </form>
         </div>
     </div>
