@@ -235,9 +235,9 @@
                             <!--<a href="//instagram.com/ " target="_blank">-->
                             <!--    <span id="social_insta"></span>-->
                             <!--</a>-->
-                            <!--<a href="/newsletter">-->
-                            <!--    <span id="social_newsletter"></span>-->
-                            <!--</a>-->
+                            <a href="/newsletter">
+                                <span id="social_newsletter"></span>
+                            </a>
                             <div class="clearfix"></div>
                             <br class="hidden_phone" />
                         </div>
