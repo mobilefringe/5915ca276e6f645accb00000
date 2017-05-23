@@ -38,7 +38,7 @@
                 <div class="line_break">&nbsp;</div>
                 <div class="row">
                     <div class="col-sm-6">
-                        <button class="newsletter_btn" tabindex="10">Submit</button>
+                        <button class="newsletter_btn" tabindex="7">Submit</button>
                     </div>
                     <div class="col-sm-6"></div>
                 </div>
@@ -46,18 +46,11 @@
                 <div class="row">
                     <div class="col-sm-12">    
                         <label class="newsletter_agree">
-                            <input id="newsletter_signup" type="checkbox" name="newsletter_agree" required data-validation="required" tabindex="8"/> 
+                            <input id="newsletter_signup" type="checkbox" name="newsletter_agree" required data-validation="required" tabindex="6"/> 
                             I agree to receive communications from Orchard Town Center.
                         </label>
                     </div>
                 </div>
-                <!--<div class="row">-->
-                <!--    <div class="col-sm-6">-->
-                <!--        <div class="margin_40"></div>-->
-                <!--        <p class="hidden_now" id="succes_msg">Thank you! Your information has been received.</p>-->
-                <!--    </div>-->
-                <!--    <div class="col-sm-6">-->
-                <!--</div>-->
             </form>
         </div>
     </div>
