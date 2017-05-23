@@ -19,36 +19,23 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-sm-6">
+                    <div class="col-sm-12">
                         <label for="fieldEmail">Email *</label>
                         <input class="contest_info" id="fieldEmail" name="cm-xnhtd-xnhtd" type="email" required data-validation-regexp="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$" data-validation-error-msg="Please enter a valid email address" data-validation="custom" tabindex="3"/>
                     </div>
+                    
+                </div>
+                <div class="row">
                     <div class="col-sm-6">
                         <label for="fieldokiilj">Phone Number</label>
                         <input class="contest_info" id="fieldokiilj" name="cm-f-okiilj" type="text" tabindex="4"/>
                     </div>
-                </div>
-                <div class="row">
                     <div class="col-sm-6">  
                         <label for="fieldokiilt">ZIP Code *</label>
                         <input class="contest_info" id="fieldokiilt" name="cm-f-okiilt" type="text" required data-validation="required" tabindex="5"/>
                     </div>
-                    <div class="col-sm-6"></div>
                 </div>
-                <div class="row">
-                    <div class="col-sm-6"> 
-                        <label for="fieldokiili">Age</label>
-                        <input class="contest_info" id="fieldokiili" name="cm-f-okiili" type="text" tabindex="6"/>
-                    </div>
-                    <div class="col-sm-6">  
-                        <label for="fieldokiild">Gender</label>
-                        <select class="contest_info" id="fieldokiild" name="cm-f-okiild" tabindex="7">
-                            <option value="">Select</option>
-                            <option value="female">Female</option>
-                            <option value="male">Male</option>
-                        </select>
-                    </div>
-                </div>
+                
                 <div class="line_break">&nbsp;</div>
                 <div class="row">
                     <div class="col-sm-6">
