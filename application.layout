@@ -18,7 +18,7 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
     <title>{{meta_title}}</title>
-    <link rel="shortcut icon" href="//codecloud.cdn.speedyrails.net/" type="image/x-icon" />
+    <link rel="shortcut icon" href="" type="image/x-icon" />
    
     <!--CSS-->
     <link href="//codecloud.cdn.speedyrails.net/sites/54b83f086e6f646b45000000/f6dbff9c3ff2572186f780a16fceabf0/flexslider.css" rel="stylesheet">
