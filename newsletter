@@ -38,7 +38,7 @@
                 <div class="line_break">&nbsp;</div>
                 <div class="row">
                     <div class="col-sm-6">
-                        <button class="submit_btn caps" tabindex="10">Submit</button>
+                        <button class="newsletter_btn" tabindex="10">Submit</button>
                     </div>
                     <div class="col-sm-6"></div>
                 </div>
