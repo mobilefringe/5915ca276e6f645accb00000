@@ -46,9 +46,8 @@ function init(e){
     $(".alpha_list a").click(function(e) {
         e.preventDefault();
         var id = $(this).attr("href");
-        console.log(id);
         $('html, body').animate({
-            scrollTop: $(id).offset().top
+            scrollTop: $(id).offset({ top: 100 }).top
         }, 2000);
     });
 
