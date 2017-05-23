@@ -11,7 +11,7 @@
     <meta name="keywords" content="{{meta_keywords}}">
     <meta name="author" content="">
     <meta name="twitter:card" content="summary" />
-    <meta name="twitter:site" content="@shopHSC" />
+    <meta name="twitter:site" content="@OrchardTC" />
     <meta name="twitter:title" content="{{meta_title}}" />
     <meta name="twitter:description" content="{{meta_description}}" />
     <meta name="twitter:image" content="{{meta_image}}" />
@@ -120,7 +120,6 @@
 					<!--	<li><a href="/hours">Shopping Hours</a></li>-->
 					<!--	<li class="news_link"><a href="/news">News</a></li>-->
 					<!--	<li><a href="/tourist_info">Tourist Info</a></li>-->
-					<!--	<li><a href="//prettygreathsc.com" target="_blank">Redevelopment</a></li>-->
 					<!--</ul>-->
                 </li>
                 <li>
