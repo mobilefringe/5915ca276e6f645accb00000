@@ -7,6 +7,7 @@
     <div class="margin_25_across">
         <div class="row">
             <p>Sign up to receive the Orchard Town Centre Newsletter.</p>
+            <div class="margin_20"></div>
             <form action="https://mobilefringe.createsend.com/t/d/s/mtlpl/" method="post" id="subForm">
                 <div class="row">
                     <div class="col-sm-6">
