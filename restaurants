@@ -111,8 +111,6 @@
             var restaurants = getStoresListByCategoryID(5119);
             console.log(restaurants);
 
-            // var dine_list = dining.concat(late_night, specialty_foods).sortBy(function(o){ return o.name});
-            // var sorted_list = _.uniq(dine_list, function(o){ return o.name; });
             renderStoreList('#store_list_container','#store_list_template', restaurants, "stores");
             
             show_content();
