@@ -1,0 +1,24 @@
+<div class="newsletter_banner text-center">
+    <h3>NEWSLETTER SIGN-UP</h3>
+    <p>explore • enjoy • shop</p>
+</div>
+<div class="margin_20"></div>
+<div class="content_container main_container mobile_padding">
+    <p>Be the first to know! Sign up to receive the latest Halifax Shopping Centre updates including contests, events and promotions.</p>
+    
+    <div class="newsletter_page">
+    
+    
+    
+    
+    
+        
+    </div>
+</div>
+<script type="text/javascript">
+    $(document).ready(function(e){
+        init(e);
+        show_content();
+    });
+</script>
+    
