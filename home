@@ -131,13 +131,3 @@
         $('#latest_fb_date').text(get_month(fb_date.getMonth()) + " " + fb_date.getDate())
     }
 </script>
-<script type="text/javascript">
-(function l(d){
- var site = '6763', page = 'Homepage', s, er = d.createElement('script');
- er.type = 'text/javascript';
- er.async = true;
- er.src = '//o2.eyereturn.com/?site=' + site + '&page=' + page;
- s = d.getElementsByTagName('script')[0];
- s.parentNode.insertBefore(er, s);
-})(document);
-</script>
