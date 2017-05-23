@@ -716,7 +716,7 @@ function renderPostDetails(container, template, collection, blog_posts){
             }
         }
 
-        val.twitter_title = val.title + " via @shopHSC";
+        val.twitter_title = val.title + " via @OrchardTC";
         
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);
