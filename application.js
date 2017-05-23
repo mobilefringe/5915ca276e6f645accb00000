@@ -626,7 +626,7 @@ function renderSinglePost(container, template, main_post){
     
     main_post.slug = "blog/" + main_post.slug;
     
-    main_post.twitter_title = main_post.title + " via @shopHSC";
+    main_post.twitter_title = main_post.title + " via @OrchardTC";
     
     var rendered = Mustache.render(template_html, main_post);
     item_list.push(rendered);
@@ -656,7 +656,7 @@ function renderPosts(container, template, collection){
         
         val.slug = "blog/" + val.slug;
         
-        val.twitter_title = val.title + " via @shopHSC";
+        val.twitter_title = val.title + " via @OrchardTC";
         
         var date_blog = new Date(val.publish_date);
         val.published_on = get_month(date_blog.getMonth()) + " " + date_blog.getDate() + ", " + date_blog.getFullYear();
