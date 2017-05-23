@@ -24,7 +24,7 @@
                     <div>
                         <a href="#" id="latest_tweet_link" target="_blank"><p id="latest_tweet" class="latest_post"></p></a>
                         <p>
-                            <a class="social_link_blank" href="//twitter.com/shopHSC" target="_blank">@shopHSC</a> <br />
+                            <a class="social_link_blank" href="//twitter.com/shopHSC" target="_blank">@OrchardTC</a> <br />
                             <span id="latest_tweet_date"></span>
                         </p>
                     </div>
