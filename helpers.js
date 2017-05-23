@@ -46,9 +46,9 @@ function init(e){
     $(".alpha_list a").click(function() {
         var id = $(this).attr("href");
         console.log(id);
-        // $('html, body').animate({
-        //     scrollTop: $("#myDiv").offset().top
-        // }, 2000);
+        $('html, body').animate({
+            scrollTop: $(id).offset().top
+        }, 2000);
     });
 
     blog_searcher();
