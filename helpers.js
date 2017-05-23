@@ -48,7 +48,7 @@ function init(e){
         var id = $(this).attr("href");
         $('html, body').animate({
             scrollTop: $(id).offset().top -170
-        }, 2000);
+        }, 1500);
     });
 
     blog_searcher();
