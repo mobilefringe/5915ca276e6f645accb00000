@@ -422,7 +422,7 @@ function show_cat_stores(){
             $('#cat_name').hide();    
         }
         $('.dropdown-menu .cat_list').css('display', 'none');
-        $('#store_cat_list').html(cat_name + '<span class="dropdown_arrow"><i class="fa fa-angle-down" aria-hidden="true"></i></span>');
+        $('#store_cat_list').html(cat_name + '<span class="dropdown_arrow"><i class="fa fa-angle-down"></i></span>');
         $('html, body').animate({scrollTop : 0},800);
         e.preventDefault();
     });
@@ -497,7 +497,7 @@ function blog_searcher(){
             var s_promos = results.promotions;
             
             if(s_stores !=undefined && s_stores.length > 0){
-                var h2_stores = "<h2 id='open_stores' class='li_open'>(" +s_stores.length + ") Stores<i class='pull-right fa fa-chevron-down'></i></h2>";
+                var h2_stores = "<h2 id='open_stores' class='li_open'>(" +s_stores.length + ") Stores<i class='pull-right fa fa-angle-down'></i></h2>";
                 $('#search_results_stores').append(h2_stores);
                 $.each(s_stores, function(i, v){
                     var div_stores = "<div class='blog_search_results collapse_open_stores'>";
@@ -508,7 +508,7 @@ function blog_searcher(){
                 });
             }
             if(s_promos != undefined && s_promos.length > 0){
-                var h2_promotions = "<h2 id='open_promotions' class='li_open'>(" +s_promos.length + ") Promotions<i class='pull-right fa fa-chevron-down'></i></h2>";
+                var h2_promotions = "<h2 id='open_promotions' class='li_open'>(" +s_promos.length + ") Promotions<i class='pull-right fa fa-angle-down'></i></h2>";
                 $('#search_results_promotions').append(h2_promotions);
                 $.each(s_promos, function(i, v){
                     var div = "<div class='blog_search_results collapse_open_promotions'>";
@@ -519,7 +519,7 @@ function blog_searcher(){
                 });
             }   
             if(s_events != undefined && s_events.length > 0){
-                var h2_events = "<h2 id='open_events' class='li_open'>(" +s_events.length + ") Events<i class='pull-right fa fa-chevron-down'></i></h2>";
+                var h2_events = "<h2 id='open_events' class='li_open'>(" +s_events.length + ") Events<i class='pull-right fa fa-angle-down'></i></h2>";
                 $('#search_results_stores').append(h2_events);
                 $.each(s_events, function(i, v){
                     var div = "<div class='blog_search_results collapse_open_events'>";
@@ -581,7 +581,7 @@ function site_search_mobile(){
             var s_promos = results.promotions;
             
             if(s_stores !=undefined && s_stores.length > 0){
-                var h2_stores = "<h2 id='open_stores' class='li_open'>(" +s_stores.length + ") Stores<i class='pull-right fa fa-chevron-down'></i></h2>";
+                var h2_stores = "<h2 id='open_stores' class='li_open'>(" +s_stores.length + ") Stores<i class='pull-right fa fa-angle-down'></i></h2>";
                 $('#search_results_stores_mobile').append(h2_stores);
                 $.each(s_stores, function(i, v){
                     var div_stores = "<div class='blog_search_results collapse_open_stores'>";
@@ -592,7 +592,7 @@ function site_search_mobile(){
                 });
             }
             if(s_promos != undefined && s_promos.length > 0){
-                var h2_promotions = "<h2 id='open_promotions' class='li_open'>(" +s_promos.length + ") Promotions<i class='pull-right fa fa-chevron-down'></i></h2>";
+                var h2_promotions = "<h2 id='open_promotions' class='li_open'>(" +s_promos.length + ") Promotions<i class='pull-right fa fa-angle-down'></i></h2>";
                 $('#search_results_promotions_mobile').append(h2_promotions);
                 $.each(s_promos, function(i, v){
                     var div = "<div class='blog_search_results collapse_open_promotions'>";
@@ -603,7 +603,7 @@ function site_search_mobile(){
                 });
             }   
             if(s_events != undefined && s_events.length > 0){
-                var h2_events = "<h2 id='open_events' class='li_open'>(" +s_events.length + ") Events<i class='pull-right fa fa-chevron-down'></i></h2>";
+                var h2_events = "<h2 id='open_events' class='li_open'>(" +s_events.length + ") Events<i class='pull-right fa fa-angle-down'></i></h2>";
                 $('#search_results_stores_mobile').append(h2_events);
                 $.each(s_events, function(i, v){
                     var div = "<div class='blog_search_results collapse_open_events'>";
