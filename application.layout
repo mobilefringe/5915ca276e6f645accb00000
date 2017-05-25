@@ -77,7 +77,7 @@
                     <a href="#" class="submenu_expander open">
                         SHOP
                         <img class="menu_icon" src="//codecloud.cdn.speedyrails.net/sites/5915ca276e6f645accb00000/image/png/1495737878000/open.png" style="display: none;">
-						<img class="menu_icon" src="//codecloud.cdn.speedyrails.net/sites/5915ca276e6f645accb00000/image/png/1461179572000/close_submenu.png" style="display: inline;">
+						<img class="menu_icon" src="//codecloud.cdn.speedyrails.net/sites/5915ca276e6f645accb00000/image/png/1495738835000/minusicon.png" style="display: inline;">
                     </a>
                     <ul class="sub_menu">
 						<li><a href="/stores">Directory</a></li>
@@ -88,7 +88,7 @@
                     <a href="#"  class="submenu_expander">
                         DINE
                         <img class="menu_icon plus_icon" src="//codecloud.cdn.speedyrails.net/sites/5915ca276e6f645accb00000/image/png/1495737878000/open.png" style="display: inline;">
-						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/5915ca276e6f645accb00000/image/png/1461179572000/close_submenu.png" style="display: none;">
+						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/5915ca276e6f645accb00000/image/png/1495738835000/minusicon.png" style="display: none;">
                     </a>
                     <ul class="sub_menu hidden_now">
 						<li><a href="/restaurants">Restaurants</a></li>
@@ -102,7 +102,7 @@
                     <a href="#"  class="submenu_expander">
                         EVENTS
                         <img class="menu_icon plus_icon" src="//codecloud.cdn.speedyrails.net/sites/5915ca276e6f645accb00000/image/png/1495737878000/open.png" style="display: inline;">
-						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/5915ca276e6f645accb00000/image/png/1461179572000/close_submenu.png" style="display: none;">
+						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/5915ca276e6f645accb00000/image/png/1495738835000/minusicon.png" style="display: none;">
                     </a>
                     <ul class="sub_menu hidden_now">
                         <li><a href="/events">OTC Events</a></li>
@@ -114,7 +114,7 @@
                     <a href="/blog">
                         BUZZ
       <!--                  <img class="menu_icon plus_icon" src="//codecloud.cdn.speedyrails.net/sites/5915ca276e6f645accb00000/image/png/1495737878000/open.png" style="display: inline;">-->
-						<!--<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/5915ca276e6f645accb00000/image/png/1461179572000/close_submenu.png" style="display: none;">-->
+						<!--<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/5915ca276e6f645accb00000/image/png/1495738835000/minusicon.png" style="display: none;">-->
                     </a>
      <!--               <ul class="sub_menu hidden_now">-->
 					<!--	<li><a href="/hours">Shopping Hours</a></li>-->
@@ -126,7 +126,7 @@
                     <a href="#" class="submenu_expander">
                         INFO
                         <img class="menu_icon plus_icon" src="//codecloud.cdn.speedyrails.net/sites/5915ca276e6f645accb00000/image/png/1495737878000/open.png" style="display: inline;">
-						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/5915ca276e6f645accb00000/image/png/1461179572000/close_submenu.png" style="display: none;">
+						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/5915ca276e6f645accb00000/image/png/1495738835000/minusicon.png" style="display: none;">
                     </a>
                     <ul class="sub_menu hidden_now">
 						<li><a href="/contact_us">Contact Us</a></li>
