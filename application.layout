@@ -214,7 +214,7 @@
     <section class="content_container main_container">
         <div class="newsletter_container text-center">
             <h3 class="heading">SIGN UP TO RECEIVE OUR UPDATES</h3>
-            <p class="newsletter_desc"><span>•</span> Fashion <br class="show_phone" /><span>•</span> Events  <br class="show_phone" /><span>•</span> Sales </p>
+            <p class="newsletter_desc">Breaking Fashion News <br class="show_phone" /><span>•</span> Style Tips & Advice  <br class="show_phone" /><span>•</span> Exclusive Events </p>
             <a href="/newsletter" class="newsletter_btn animated_btn">Sign Up</a>
         </div>
         <div class="site_map">
