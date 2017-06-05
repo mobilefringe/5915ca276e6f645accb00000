@@ -56,7 +56,7 @@
         m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
         })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
        
-        ga('create', '', 'auto');
+        ga('create', 'UA-69974835-37', 'auto');
         ga('send', 'pageview');
         var mall_name = "Orchard Town Center"
    </script>
