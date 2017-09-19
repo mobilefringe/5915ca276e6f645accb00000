@@ -73,7 +73,7 @@
     $(document).ready(function(e){
         init(e);
         function renderAll(){
-            var hours = getPropertyHours();
+            var hours = getPropertyRegularHours();
             renderHours('#hours_container','#hours_template', hours, 'reg_hours');
             var holiday_hours = getPropertyHolidayHours().sortBy(function(o){ return o.holiday_date });
             renderHours('#holidays_hours_container','#holidays_hours_template', holiday_hours, 'holiday_hours');
