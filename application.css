@@ -538,7 +538,7 @@ h4{
         margin:0;
         font-size: 54px;
         // color: #888F57;
-        color: #E47341;
+        color: #E24301;
         letter-spacing: 4px;
         padding-top: 60px;
         // padding-top: 135px;
@@ -570,7 +570,7 @@ h4{
         margin:0;
         font-size: 54px;
         // color: #888F57;
-        color: #E47341;
+        color: #E24301;
         letter-spacing: 4px;
         padding-top: 60px;
         // padding-top: 135px;
@@ -602,7 +602,7 @@ h4{
         margin:0;
         font-size: 54px;
         // color: #888F57;
-        color: #E47341;
+        color: #E24301;
         letter-spacing: 4px;
         padding-top: 60px;
         // padding-top: 135px;
@@ -634,7 +634,7 @@ h4{
         margin:0;
         font-size: 54px;
         // color: #888F57;
-        color: #E47341;
+        color: #E24301;
         letter-spacing: 4px;
         padding-top: 60px;
         // padding-top: 135px;
@@ -679,7 +679,7 @@ h4{
         
     }
     .active_heading, .active_heading a{
-        color: #E47341;
+        color: #E24301;
     }
     .row{
         border-bottom:1px solid #979797;
@@ -707,7 +707,7 @@ h4{
         font-family: murcury_display;
         font-size: 54px;
         // color: #888F57;
-        color: #E47341;
+        color: #E24301;
         letter-spacing: 4px;
         text-shadow: 1px 2px 4px rgba(0,0,0,0.5);
     }
@@ -1034,7 +1034,7 @@ h4{
 .newsletter_btn{
     width: 180px;
     display: inline-block;
-    background: #E47341;
+    background: #E24301;
     color: #fff;
     font-family: "Trade Gothic Bold";
     font-size: 16px;
@@ -1590,7 +1590,7 @@ h4{
         -webkit-backface-visibility: hidden; /* Fix for transition flickering */
     }
     &:hover {
-        border: 3px solid #E47341;
+        border: 3px solid #E24301;
         img {
             filter: none;
             -webkit-filter: grayscale(0%);
@@ -1705,7 +1705,7 @@ h4{
     font-style: normal;
     text-transform: uppercase;
     font-size: 20px;
-    color: #E47341;
+    color: #E24301;
     margin-bottom: 25px;
     padding-bottom: 10px;
     border-bottom: 1px solid #979797;
@@ -1718,7 +1718,7 @@ h4{
 .side_stores{
     text-align:center;
     a {
-        background:#E47341;
+        background:#E24301;
         margin-top:20px;
         font-weight:100;
         font-size: 22px;
@@ -2807,7 +2807,7 @@ gallery:after{
             display: inline-block;
             text-align: center;
             font-size: 16px;
-            color: #E47341;
+            color: #E24301;
             text-transform: uppercase;
         }
     }
