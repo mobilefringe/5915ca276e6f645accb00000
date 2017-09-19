@@ -712,7 +712,8 @@ h4{
     }
     p{
         font-size: 20px;
-        color: #B1B1B1;
+        // color: #B1B1B1;
+        color: #FFF;
         letter-spacing: 0.5px;
         margin-bottom:32px;
         font-family: "Trade Gothic Bold";
