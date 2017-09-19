@@ -21,17 +21,17 @@ function renderStoreList(container, template, collection, type){
         }
             
         var current_initial = val.name[0];
-        
-        if(store_initial.toLowerCase() == current_initial.toLowerCase()){
-            val.initial = "";
-            val.show = "display:none;";
-        } else {
-            val.initial = current_initial;
-            store_initial = current_initial;
-            val.show = "visibility: hidden";
-        }
         if(isInt(current_initial)){
             val.initial = "#";
+            if(store_initial.toLowerCase() == current_initial.toLowerCase()){
+                val.initial = "";
+                val.show = "display:none;";
+            } else {
+                val.initial = current_initial;
+                store_initial = current_initial;
+                val.show = "visibility: hidden";
+            }
+        
         }
         
         if(val.is_coming_soon_store == true){
