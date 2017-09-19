@@ -120,7 +120,6 @@
             $('#category_select').prepend('<li class="show_cat_stores" data-id="000" name="All">ALL</li>');
             
             var stores = getStoresList();
-                        log(stores)
             renderStoreList('#store_list_container','#store_list_template', stores, "stores");
             renderGeneral('#category_container', '#category_template', category_list);
             renderGeneral('#category_container_phone', '#category_template_phone', category_list);
