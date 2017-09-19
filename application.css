@@ -528,6 +528,37 @@ h4{
     
     
 }
+
+.stores_banner{
+    background-color:#000;
+    background-image: url(//codecloud.cdn.speedyrails.net/sites/59c08c176e6f64088f070000/image/jpeg/1505841640000/shop_entertainment1.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    padding: 0px 0px 85px 0;
+    h3 {
+        margin:0;
+        font-size: 54px;
+        color: #888F57;
+        letter-spacing: 4px;
+        padding-top: 60px;
+        // padding-top: 135px;
+        margin-bottom: 10px;
+        text-transform:uppercase;
+        font-family: mercury_display;
+        max-width: 940px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    p {
+        font-size: 20px;
+        color: #B1B1B1;
+        letter-spacing: 0.5px;
+        // font-family: 'Open Sans Condensed';
+        text-transform: uppercase;
+    }
+}
+
 #promo_details_container{
     .details_desc{
         margin-left:0 !important;
