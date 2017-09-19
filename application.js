@@ -13,7 +13,7 @@ function renderStoreList(container, template, collection, type){
         
         if(val.categories != null){
             try {
-                val.cat_list = store_details.categories.join(',')
+                val.cat_list = val.categories.join(',')
             }
             catch(err) {
                 console.log(err);
