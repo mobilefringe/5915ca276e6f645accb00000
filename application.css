@@ -726,7 +726,7 @@ h4{
         border: 1px solid #6D8E75;
         display: inline-block;
         // background: transparent;
-        background: rgba(149, 155, 106, .5);
+        background: rgba(149,155,106,0.5);
         font-family: "Trade Gothic Bold";
         font-size: 16px;
         // color: #A9A9A9;
