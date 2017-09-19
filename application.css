@@ -1034,20 +1034,19 @@ h4{
 .newsletter_btn{
     width: 180px;
     display: inline-block;
-    background: #E24301;
+    background: rgba(226, 67, 1, .5);
     color: #fff;
     font-family: "Trade Gothic Bold";
     font-size: 16px;
     margin-top: 25px;
     padding:14px 0px 18px  0;
-    border: 0;
+    border: 1px solid #B23601
     &:hover, &:focus{
         color: #fff;
         text-decoration: none;
-        
-        
     }
 }
+
 .menu_icon{
     width:15px;
 }
