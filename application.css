@@ -734,12 +734,12 @@ h4{
         letter-spacing: 0.35px;
         line-height: 22px;
         text-shadow: 1px 2px 4px rgba(0,0,0,0.5);
-        &:hover{
+        &:hover {
             color:#fff;
             text-decoration:none;
         }
-        &:before{
-                background: #DC4405 !important;
+        &:before {
+            background: #DC4405 !important;
         }
     }
 }
