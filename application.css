@@ -722,15 +722,15 @@ h4{
         text-shadow: 1px 2px 4px rgba(0,0,0,0.5);
     }
     a {
+        padding: 15px 35px 20px;
+        border: 1px solid #959B6A;
+        display: inline-block;
+        // background: transparent;
+        background: rgba(149, 155, 106, .5);
         font-family: "Trade Gothic Bold";
         font-size: 16px;
         color: #A9A9A9;
         letter-spacing: 0.35px;
-        border: 1px solid #959B6A;
-        padding: 15px 35px 20px;
-        display: inline-block;
-        // background: transparent;
-        background: rgba(149, 155, 106, .5);
         line-height: 22px;
         text-shadow: 1px 2px 4px rgba(0,0,0,0.5);
         &:hover{
