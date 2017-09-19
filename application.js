@@ -154,7 +154,20 @@ function renderPromotions(container, template, collection, centre){
             val.store_name = store_details.name;
             val.store_show = "display:inline-block";
             val.image_url = val.promo_image_url_abs;
-            val.cat_list = store_details.categories.join(',')
+            if (val.promo_image_url_abs.indexOf('missing.png') > 0){
+                val.image_url  = store_details.store_front_url_abs;
+            }
+            if (store_details.store_front_url_abs.indexOf('missing.png') > 0){
+                val.image_url  = "//codecloud.cdn.speedyrails.net/sites/5915ca276e6f645accb00000/image/jpeg/1495053149000/orchard_default.jpg"
+            }
+            if(val.cat_list != null){
+                try {
+                    val.cat_list = store_details.categories.join(',')
+                }
+                catch(err) {
+                    console.log(err);
+                }
+            }
             val.store_slug = "/stores/" + store_details.slug
         }
         else{
