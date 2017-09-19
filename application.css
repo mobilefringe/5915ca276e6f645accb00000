@@ -201,7 +201,7 @@ body {
     padding: 15px 20px;
     text-align: center;
     text-decoration: none !important;
-    background: #DC4405;
+    background: #E24301;
     width:240px;
 }
 
@@ -219,7 +219,7 @@ a:hover, a:active, a:focus{
 }
 
 a{
-    color: #DC4405;
+    color: #E24301;
 }
 
 .store_list_navigation{
@@ -275,7 +275,7 @@ a{
     font-size:16px;
     margin-bottom: 0;
      a{
-        color:#DC4405 !important;
+        color:#E24301 !important;
     }
 }
 
@@ -284,7 +284,7 @@ a{
     padding-left: 5px;
     padding-right: 10px;
     a{
-        color:#DC4405 !important;
+        color:#E24301 !important;
     }
 }
 .animated_btn{
@@ -739,7 +739,7 @@ h4{
             text-decoration:none;
         }
         &:before {
-            background: #DC4405 !important;
+            background: #E24301 !important;
         }
     }
 }
@@ -1233,7 +1233,7 @@ h4{
 
 .store_initial{
     font-size: 24px;
-    color: #DC4405;
+    color: #E24301;
     border-bottom: 1px solid #979797;
     padding: 10px;
     margin-bottom: 20px;
@@ -1296,7 +1296,7 @@ h4{
 .promo_main_header{
     font-weight:bold;
     font-size: 22px;
-    color: #DC4405;
+    color: #E24301;
     margin-top:0;
 }
 
@@ -1369,7 +1369,7 @@ h4{
 .read_more{
     font-weight:lighter;
     font-size: 16px;
-    color: #DC4405;
+    color: #E24301;
     display: inline-block;
     margin-top: 10px;
     text-decoration: underline;
@@ -1751,7 +1751,7 @@ h4{
 
 .store_anchors{
     font-size: 20px;
-    color: #DC4405;
+    color: #E24301;
     font-weight: 400;
 }
 
@@ -1867,7 +1867,7 @@ h4{
 .load_more {
     font-weight: lighter;
     font-size: 24px;
-    color: #DC4405;
+    color: #E24301;
     display: inline-block;
 }
 .load_more_arrow {
@@ -2306,7 +2306,7 @@ gallery:after{
     
     .promo_main_header select{
         margin-top:10px;
-        color: #DC4405;   
+        color: #E24301;   
     }
     .mobile_padding{
         padding-left: 5px;
@@ -2430,7 +2430,7 @@ gallery:after{
     }
     
     .stores_main_heading{
-        color: #DC4405;
+        color: #E24301;
     }
     
     .stores_main_desc{
@@ -2448,7 +2448,7 @@ gallery:after{
     .mobile_dd{
         background: #F1F1F1;
         font-size: 20px;
-        color: #DC4405;
+        color: #E24301;
         letter-spacing: 1.5px;
         text-align:center;
         width:100%;
@@ -2461,7 +2461,7 @@ gallery:after{
         height:39px;
         margin-bottom:10px;
         background: #F1F1F1;
-        color: #DC4405;
+        color: #E24301;
         &::focus{
             outline:none;
         }
@@ -2469,7 +2469,7 @@ gallery:after{
     
     .category_header{
         font-family: murcury_display;
-        color: #DC4405;
+        color: #E24301;
         font-size:20px;
         text-transform: uppercase;
         text-align:center;
@@ -2777,7 +2777,7 @@ gallery:after{
     
     .category_header{
         font-family: murcury_display;
-        color: #DC4405;
+        color: #E24301;
         font-size:20px;
         text-transform: uppercase;
     }
@@ -2792,9 +2792,9 @@ gallery:after{
         font-weight:lighter;
     }
     .active_cat{
-        color: #DC4405;
+        color: #E24301;
         &:hover, &:focus{
-            color: #DC4405;;
+            color: #E24301;;
         }
     }
     .alpha_list{
