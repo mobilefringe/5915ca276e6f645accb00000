@@ -11,7 +11,7 @@ function renderStoreList(container, template, collection, type){
             } 
         }
         
-        if(val.cat_list != null){
+        if(val.categories != null){
             try {
                 val.cat_list = store_details.categories.join(',')
             }
