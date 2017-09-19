@@ -110,6 +110,7 @@
         init(e);
         function renderAll(){
             var categories = getStoreCategories();
+            log(categories)
             var category_list = [];
             $.each( categories, function( key, val ){
                 if (val.store_ids != null) {
