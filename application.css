@@ -729,7 +729,8 @@ h4{
         background: rgba(149, 155, 106, .5);
         font-family: "Trade Gothic Bold";
         font-size: 16px;
-        color: #A9A9A9;
+        // color: #A9A9A9;
+        color: #FFF;
         letter-spacing: 0.35px;
         line-height: 22px;
         text-shadow: 1px 2px 4px rgba(0,0,0,0.5);
