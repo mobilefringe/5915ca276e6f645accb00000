@@ -42,14 +42,14 @@ function renderStoreList(container, template, collection, type){
             val.new_store = "display: none";
         }
         
-        if(val.total_published_promos != 0){
+        if(val.total_published_promos != null){
             val.promotion_exist = "display: inline";
             val.promotion_list = val.total_published_promos;
         } else {
             val.promotion_exist = "display: none";
         }
         
-        if (val.total_published_jobs != 0){
+        if (val.total_published_jobs != null){
             val.job_exist = "display: inline";
             val.job_list = val.total_published_jobs;
         } else {
