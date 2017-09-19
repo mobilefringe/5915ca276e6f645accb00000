@@ -1,0 +1,69 @@
+<div class="contact_banner text-center">
+    <h3>NEWSLETTER SIGN-UP</h3>
+    <p>explore • enjoy • shop</p>
+</div>
+<div class="margin_20"></div>
+<div class="content_container main_container">
+    <div class="margin_25_across">
+        <div class="row">
+            <p>Sign up to receive the Orchard Town Centre Newsletter.</p>
+            <div class="margin_20"></div>
+            <form action="https://mobilefringe.createsend.com/t/d/s/mtlpl/" method="post" id="subForm">
+                <div class="row">
+                    <div class="col-md-6">
+                        <label for="fieldName">First Name</label>
+                        <input class="form_info form-control" id="fieldName" name="cm-name" type="text" tabindex="1"/>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="last_name">Last Name</label>
+                        <input class="form_info form-control" id="last_name" name="cm-name" type="text" tabindex="2"/>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <label for="fieldEmail">Email*</label>
+                        <input class="form_info form-control" id="fieldEmail" name="cm-mtlpl-mtlpl" type="email" required data-validation-regexp="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$" data-validation-error-msg="Please enter a valid email address" data-validation="custom" tabindex="3"/>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <label for="fieldbhyuju">Phone Number</label>
+                        <input class="form_info form-control" id="fieldbhyuju" name="cm-f-bhyuju" type="text" tabindex="4"/>
+                    </div>
+                    <div class="col-md-6">  
+                        <label for="fieldbhyutl">ZIP Code*</label>
+                        <input class="form_info form-control" id="fieldbhyutl" name="cm-f-bhyutl" type="text" required data-validation="required" tabindex="5"/>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <button class="newsletter_btn" tabindex="7">Submit</button>
+                    </div>
+                    <div class="col-md-6"></div>
+                </div>
+                <div class="line_break">&nbsp;</div>
+                <div class="row">
+                    <div class="col-md-12">    
+                        <label class="newsletter_agree">
+                            <input id="newsletter_signup" type="checkbox" name="newsletter_agree" required data-validation="required" tabindex="6"/> 
+                            I agree to receive communications from Orchard Town Center.
+                        </label>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
+<script>
+    $(document).ready(function(e){
+        init(e);
+        function renderAll(){
+            
+            $.validate();
+            show_content();
+        }
+        loadMallDataCached(renderAll); 
+    });
+</script>
+    
