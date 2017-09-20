@@ -10,15 +10,16 @@
             <li class="position_relative">
                 <a href="{{url}}" {{css}} onclick="{{noLink}}">
                     <img class="banner_img" alt="banner" src="{{image_url}}" />
+                    <div style="background-image: url({{image_url}})"></div>
                 </a>
             </li>
         </script>
     </ul>
-    <div class="hero_banner text-center">
-    <h3>EXPERIENCE THE LUXURY</h3>
-    <p>Your Premier Shopping Destination</p>
-    <a class="animated_btn" href="/stores">Visit Our Stores</a>
-</div>
+<!--    <div class="hero_banner text-center">-->
+<!--    <h3>EXPERIENCE THE LUXURY</h3>-->
+<!--    <p>Your Premier Shopping Destination</p>-->
+<!--    <a class="animated_btn" href="/stores">Visit Our Stores</a>-->
+<!--</div>-->
 </div>
 
 
