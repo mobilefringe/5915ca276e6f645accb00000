@@ -1,3 +1,19 @@
+<style>
+    .home_banner {
+        margin: 0 auto;
+        position: relative;
+        height: auto;
+        text-align: center;
+    }
+    .banner_wrapper {
+    margin: 0 auto;
+    width: 1194;
+    height: 546px;
+    position: relative;
+    color: #fff;
+    text-align: center;
+}
+</style>
 <div class="popup_home hidden_now">
     <a href="#">
         <img src="#" alt="pop up" />
