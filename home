@@ -6,13 +6,17 @@
         text-align: center;
     }
     .banner_wrapper {
-    margin: 0 auto;
-    width: 1194;
-    height: 546px;
-    position: relative;
-    color: #fff;
-    text-align: center;
-}
+        margin: 0 auto;
+        width: 1194;
+        height: 540px;
+        position: fixed;
+        top: 90px;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        color: #fff ;
+        text-align: center;
+    }
 </style>
 <div class="popup_home hidden_now">
     <a href="#">
