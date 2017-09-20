@@ -1,3 +1,8 @@
+<style>
+    .flexslider {
+        z-index: -9;
+    }
+</style>
 <div class="popup_home hidden_now">
     <a href="#">
         <img src="#" alt="pop up" />
