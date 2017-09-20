@@ -89,7 +89,7 @@
         init(e);
         function renderAll(){
             var banners = getBanners();
-            renderBanner('#banner_slider_container','#banner_slider_template', banners);
+            renderBanner('#banner_slider_ul','#banner_slider_template', banners);
             
             loadSocialFeeds(render_social)
             renderFeatureItems();
