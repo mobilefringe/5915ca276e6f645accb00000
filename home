@@ -10,7 +10,7 @@
             <li class="position_relative">
                 <a href="{{url}}" {{css}} onclick="{{noLink}}">
                    
-                    <div style="background-image: url({{image_url}})"></div>
+                    <div class="hero_banner" style="background-image: url({{image_url}})"></div>
                 </a>
             </li>
         </script>
