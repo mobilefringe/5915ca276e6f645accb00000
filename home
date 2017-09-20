@@ -4,11 +4,11 @@
     </a>
     <i class="fa fa-remove close_popup"></i>
 </div>
-<div id="banner_slider">
+<div class="hero_banner text-center" id="banner_slider">
     <ul class="slides" id="banner_slider_ul">
         <script id="banner_slider_template" type="x-tmpl-mustache/text">
             <li class="item">
-                <div class="hero_banner text-center" style="background-image:url({{image_url}})">
+                <div style="background-image:url({{image_url}})">
                     <h3>EXPERIENCE THE LUXURY</h3>
                     <p>Your Premier Shopping Destination</p>
                     <a class="animated_btn" href="/stores">Visit Our Stores</a>
