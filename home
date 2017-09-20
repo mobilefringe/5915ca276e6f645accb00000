@@ -14,20 +14,14 @@
             </li>
         </script>
     </ul>
+    <div class="hero_banner text-center" style="background-image:url({{image_url}})">
+    <h3>EXPERIENCE THE LUXURY</h3>
+    <p>Your Premier Shopping Destination</p>
+    <a class="animated_btn" href="/stores">Visit Our Stores</a>
 </div>
-<!--<div id="banner_slider">-->
-<!--    <ul class="slides" id="banner_slider_ul">-->
-<!--        <script id="banner_slider_template" type="x-tmpl-mustache/text">-->
-<!--            <li class="item">-->
-<!--                <div class="hero_banner text-center" style="background-image:url({{image_url}})">-->
-<!--                    <h3>EXPERIENCE THE LUXURY</h3>-->
-<!--                    <p>Your Premier Shopping Destination</p>-->
-<!--                    <a class="animated_btn" href="/stores">Visit Our Stores</a>-->
-<!--                </div>-->
-<!--            </li>-->
-<!--        </script>-->
-<!--    </ul>-->
-<!--</div>-->
+</div>
+
+
 <div class="content_container main_container">
     <div class="feature_items_box mobile_padding">
         <div class="feature_row">
