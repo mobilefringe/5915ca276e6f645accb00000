@@ -10,11 +10,7 @@
             <li class="position_relative">
                 <a href="{{url}}" {{css}} onclick="{{noLink}}">
                    
-                    <div class="hero_banner" style="background-image: url({{image_url}})">
-                        <h3>EXPERIENCE THE LUXURY</h3>
-    <p>Your Premier Shopping Destination</p>
-    <a class="animated_btn" href="/stores">Visit Our Stores</a>
-                    </div>
+                    <div class="hero_banner" style="background-image: url({{image_url}})"></div>
                 </a>
             </li>
         </script>
