@@ -122,7 +122,7 @@
 		        $(".popup_home").remove();
             });
             
-            $('.banner_slider').flexslider({
+            $('.flexslider').flexslider({
                 animation: "slide",
             });
         }
