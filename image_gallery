@@ -26,7 +26,15 @@
     <div class="margin_25_across">
         <div class="row">
             <div class="col-md-12">
-                <div id="mm_page_content"></div>
+                <div class="portfolio_container">
+                    <script id="photo_template" type="x-tmpl-mustache/text">
+                        <div class="portfolio_item"> 
+                            <a href="{{alt_url}}" rel="lightbox-gallery" title="{{name}}">
+                                <img alt="photo{{id}}" src="{{alt_url}}"/>
+                            </a>
+                        </div>
+                    </script>
+                </div>
             </div>
         </div>
     </div>
@@ -35,7 +43,8 @@
     $(document).ready(function(e){
         init(e);
         function renderAll(){
-            
+            var gallery_repo = getRepoDetailsByName("Image Gallery").images; 
+            renderPhotos("#photo_container", "#photo_template", repoList);
             
             show_content();
         }
