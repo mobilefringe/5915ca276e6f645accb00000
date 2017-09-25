@@ -43,8 +43,10 @@
     $(document).ready(function(e){
         init(e);
         function renderAll(){
-            var gallery_repo = getRepoDetailsByName("Image Gallery").images; 
-            renderPhotos("#photo_container", "#photo_template", repoList);
+            var gallery_repo = getRepoDetailsByName("Image Gallery").images;
+            if(gallery_repo != null){
+                renderPhotos("#photo_container", "#photo_template", gallery_repo);
+            }
             
             show_content();
         }
