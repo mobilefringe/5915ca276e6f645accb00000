@@ -2,7 +2,27 @@
     <h3>NEWSLETTER SIGN-UP</h3>
     <p>explore • enjoy • shop</p>
 </div>
-<div class="margin_20"></div>
+<div class="store_list_head main_container">
+    <div class="row hidden_phone">
+        <div class="col-md-4">
+            <h5 class="active_heading">IMAGE GALLERY</h5>
+        </div>
+        <div class="col-md-4">
+            <h5><a href="/newsletter">NEWSLETTER SIGN-UP</a></h5>
+        </div>
+        <div class="col-md-4">
+            <h5><a href="/whats_happening">WHAT'S HAPPENING</a></h5>
+        </div>
+    </div>
+    <h5 class="text-center tap_here show_phone">
+        <select id="option_selector" class="link_selector">
+            <option value="" disabled selected>TAP FOR MORE OPTIONS</option>
+            <option value="/newsletter">Newsletter Sign-Up</option>
+            <option value="/whats_happening">What's Happening</option>
+        </select>
+    </h5>
+</div>
+<!--<div class="margin_20"></div>-->
 <div class="content_container main_container">
     <div class="margin_25_across">
         <div class="row">
