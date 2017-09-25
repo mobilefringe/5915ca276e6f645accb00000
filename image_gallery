@@ -46,7 +46,7 @@
             var gallery_repo = getRepoDetailsByName("Image Gallery").images;
             console.log(gallery_repo)
             if(gallery_repo != null){
-                renderPhotos("#photo_container", "#photo_template", gallery_repo);
+                renderGeneral("#photo_container", "#photo_template", gallery_repo);
             }
             
             show_content();
