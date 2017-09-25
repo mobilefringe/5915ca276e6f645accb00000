@@ -26,7 +26,7 @@
     <div class="margin_25_across">
         <div class="row">
             <div class="col-md-12">
-                <div class="photo_container">
+                <div id="photo_container">
                     <script id="photo_template" type="x-tmpl-mustache/text">
                         <div class="portfolio_item"> 
                             <a href="{{alt_url}}" rel="lightbox-gallery" title="{{name}}">
