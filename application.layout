@@ -110,16 +110,16 @@
 					</ul>
                 </li>
                 <li>
-                    <a href="/blog">
+                    <a href="#" class="submenu_expander">
                         BUZZ
-      <!--                  <img class="menu_icon plus_icon" src="//codecloud.cdn.speedyrails.net/sites/5915ca276e6f645accb00000/image/png/1495737878000/open.png" style="display: inline;">-->
-						<!--<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/5915ca276e6f645accb00000/image/png/1495738835000/minusicon.png" style="display: none;">-->
+                        <img class="menu_icon plus_icon" src="//codecloud.cdn.speedyrails.net/sites/5915ca276e6f645accb00000/image/png/1495737878000/open.png" style="display: inline;">
+						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/5915ca276e6f645accb00000/image/png/1495738835000/minusicon.png" style="display: none;">
                     </a>
-     <!--               <ul class="sub_menu hidden_now">-->
-					<!--	<li><a href="/hours">Shopping Hours</a></li>-->
-					<!--	<li class="news_link"><a href="/news">News</a></li>-->
-					<!--	<li><a href="/tourist_info">Tourist Info</a></li>-->
-					<!--</ul>-->
+                    <ul class="sub_menu hidden_now">
+						<li><a href="/hours">Shopping Hours</a></li>
+						<li class="news_link"><a href="/news">News</a></li>
+						<li><a href="/tourist_info">Tourist Info</a></li>
+					</ul>
                 </li>
                 <li>
                     <a href="#" class="submenu_expander">
