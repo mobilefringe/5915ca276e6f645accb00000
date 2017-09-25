@@ -116,9 +116,9 @@
 						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/5915ca276e6f645accb00000/image/png/1495738835000/minusicon.png" style="display: none;">
                     </a>
                     <ul class="sub_menu hidden_now">
-						<li><a href="/hours">Shopping Hours</a></li>
-						<li class="news_link"><a href="/news">News</a></li>
-						<li><a href="/tourist_info">Tourist Info</a></li>
+						<li><a href="/image_gallery">Image Gallery</a></li>
+						<li><a href="/newsletter">Newsletter Sign-Up</a></li>
+						<li><a href="/whats_happening">What's Happening</a></li>
 					</ul>
                 </li>
                 <li>
@@ -129,7 +129,7 @@
                     </a>
                     <ul class="sub_menu hidden_now">
 						<li><a href="/contact_us">Contact Us</a></li>
-						<li><a href="/directions">Directions</a></li>
+						<li><a href="/guest_services">Guest Services</a></li>
 						<li><a href="/hours">Hours</a></li>
 						<li><a href="/jobs">Employment</a></li>
 					</ul>
