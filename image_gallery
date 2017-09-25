@@ -59,10 +59,10 @@
             Mustache.parse(template_html);   // optional, speeds up future uses
             $.each( collection , function( key, val ) {
               
-                    $.each( val.images , function( key, val ) {
-                        val.alt_url = getImageURL(val.photo_url);
-                        item_list.push(val);
-                    });
+                    // $.each( val.images , function( key, val ) {
+                    //     val.alt_url = getImageURL(val.photo_url);
+                    //     item_list.push(val);
+                    // });
                 
             });
             $.each( item_list , function( key, val ) {
