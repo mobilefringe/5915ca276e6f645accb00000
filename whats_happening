@@ -5,13 +5,13 @@
 <div class="store_list_head main_container">
     <div class="row hidden_phone">
         <div class="col-md-4">
-            <h5 class="active_heading">IMAGE GALLERY</h5>
+            <h5><a href="/image_gallery">IMAGE GALLERY</a></h5>
         </div>
         <div class="col-md-4">
             <h5><a href="/newsletter">NEWSLETTER SIGN-UP</a></h5>
         </div>
         <div class="col-md-4">
-            <h5><a href="/whats_happening">WHAT'S HAPPENING</a></h5>
+            <h5 class="active_heading">WHAT'S HAPPENING</h5>
         </div>
     </div>
     <h5 class="text-center tap_here show_phone">
