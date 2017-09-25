@@ -8,7 +8,7 @@
             <h5><a href="/contact_us">CONTACT US</a></h5>
         </div>
         <div class="col-md-3">
-            <h5><a href="/directions">DIRECTIONS</a></h5>
+            <h5><a href="/guest_services">GUEST SERVICES</a></h5>
         </div>
         <div class="col-md-3">
             <h5><a href="/hours">HOURS</a></h5>
@@ -21,7 +21,7 @@
         <select id="option_selector" class="link_selector">
             <option value="" disabled selected>TAP FOR MORE OPTIONS</option>
             <option value="/contact_us">Contact Us</option>
-            <option value="/directions">Directions</option>
+            <option value="/guest_services">Guest Services</option>
             <option value="/hours">Hours</option>
         </select>
     </h5>
