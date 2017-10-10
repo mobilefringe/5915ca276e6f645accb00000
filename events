@@ -24,6 +24,11 @@
 </div>
 <div class="content_container main_container">
     <div class="margin_25_across">
+        <div class="row" id="no_events">
+            <div class="col-md-12">
+                <p>There are currently no events posted. Please check back soon.</p>
+            </div>
+        </div>
         <div class="row">
             <div class="col-md-12">
                 <div id="promos_container">
@@ -71,8 +76,7 @@
             });
             if(published_promos.length > 0){
                 renderEvents("#promos_container","#promos_template", published_promos, "Orchard Town Center");
-            }
-            else{
+            } else {
                 $('#no_promos').show()
             }
             show_content();
