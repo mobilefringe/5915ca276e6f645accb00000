@@ -74,7 +74,7 @@
                     published_promos.push(val)
                 } 
             });
-            if(published_promos.length > 0){
+            if(published_promos.length > 10){
                 renderEvents("#promos_container","#promos_template", published_promos, "Orchard Town Center");
             } else {
                 $('#no_events').show()
