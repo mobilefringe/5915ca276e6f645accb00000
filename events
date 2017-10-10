@@ -24,7 +24,7 @@
 </div>
 <div class="content_container main_container">
     <div class="margin_25_across">
-        <div class="row" id="no_events">
+        <div class="row hidden_now" id="no_events">
             <div class="col-md-12">
                 <p>There are currently no events posted. Please check back soon.</p>
             </div>
