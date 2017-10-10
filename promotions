@@ -5,6 +5,11 @@
 <div class="margin_20"></div>
 <div class="content_container main_container">
     <div class="margin_25_across">
+        <div class="row hidden_now" id="no_promos">
+            <div class="col-md-12">
+                <p>There are currently no promotions posted. Please check back soon.</p>
+            </div>
+        </div>
         <div class="row">
             <div class="col-md-12">
                 <p class="hidden_now" id="no_promo_in_category">There are no promotions in this category.</p>
@@ -52,8 +57,7 @@
             });
             if(published_promos.length > 0){
                 renderPromotions("#promos_container","#promos_template", published_promos, "Orchard Town Center");
-            }
-            else{
+            } else {
                 $('#no_promos').show()
             }
             show_content();
