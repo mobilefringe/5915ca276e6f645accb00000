@@ -265,7 +265,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <h3 class="site_map_heading">© 2017 - THE ORCHARD</h3>
+                    <h3 class="site_map_heading">&copy; <span id="current_year"></span> - THE ORCHARD</h3>
                     <p class="rights_reserved">
                         <a href="https://www.google.ca/maps/place/The+Orchard+Town+Center/@39.9620741,-104.994779,17z/data=!3m1!4b1!4m5!3m4!1s0x876c751f544d3b79:0x745214e27d92d10e!8m2!3d39.96207!4d-104.9925903" target="_blank">
                             14697 Delaware Street, Suite 850,  
