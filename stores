@@ -9,13 +9,13 @@
             <h5 class="active_heading">Shopping Directory</h5>
         </div>
         <div class="col-md-6">
-            <h5><a href="/map">Centre Map</a></h5>
+            <h5><a href="/map">Center Map</a></h5>
         </div>
     </div>
     <h5 class="text-center tap_here show_phone">
         <select id="option_selector" class="link_selector">
             <option value="" disabled selected>TAP FOR MORE OPTIONS</option>
-            <option value="/map">Centre Map</option>
+            <option value="/map">Center Map</option>
         </select>
     </h5>
 </div>
