@@ -145,7 +145,7 @@
         </div>
         <section class="content_container main_container position_relative">
             <div class="row header mobile_margin">
-                <div class="col-md-1 col-xs-1">
+                <!--<div class="col-md-1 col-xs-1">-->
                 <!--<div class="col-md-4 col-xs-4">-->
                 <!--    <p class="hours_home hidden_phone"><span class="hours_dot"></span> -->
                 <!--        Today's Hours:-->
@@ -166,14 +166,14 @@
                     <!--    <div class="clearfix"></div>-->
                     <!--    <br class="hidden_phone" />-->
                     <!--</div>-->
-                </div>
+                <!--</div>-->
                 <div class="col-md-10 col-xs-10 text-center">
                 <!--<div class="col-md-4 col-xs-4 text-center">-->
                     <a href="/">
                         <img src="//codecloud.cdn.speedyrails.net/sites/5915ca276e6f645accb00000/image/png/1495052881000/logo1.png" class="main_logo " alt="main_logo">
                     </a>
                 </div>
-                <div class="col-md-1 col-xs-1 text-right position_relative">
+                <div class="col-md-2 col-xs-2 text-right position_relative">
                 <!--<div class="col-md-4 col-xs-4 text-right position_relative">-->
                     <!--<div class="site_searcher_div hidden_phone">-->
                     <!--    <label class="top_form_control no_margin">-->
