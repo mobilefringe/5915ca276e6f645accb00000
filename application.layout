@@ -83,7 +83,6 @@
                     <ul class="sub_menu">
 						<li><a href="/stores">Directory</a></li>
 						<li><a href="/map">Center Map</a></li>
-						<li><a href="/promotions">Sales & Promotions</a></li>
 					</ul>
                 </li>
                 <li>
@@ -97,9 +96,9 @@
 						<li><a href="/specialty_foods">Specialty Foods</a></li>
 					</ul>
                 </li>
-                <!--<li>-->
-                <!--    <a href="/promotions">SALES & PROMOTIONS</a>-->
-                <!--</li>-->
+                <li>
+                    <a href="/promotions">SALES & PROMOTIONS</a>
+                </li>
                 <li>
                     <a href="#"  class="submenu_expander">
                         EVENTS
@@ -107,11 +106,9 @@
 						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/5915ca276e6f645accb00000/image/png/1495738835000/minusicon.png" style="display: none;">
                     </a>
                     <ul class="sub_menu hidden_now">
-                        <li><a href="/events">Center Events</a></li>
-                        <li><a href="/orchard_train">Orchard Train</a></li>
-                        <li><a href="">Entertainment</a></li>
-						<!--<li><a href="/amc_movie_times">AMC Movie Times</a></li>-->
-						
+                        <li><a href="/events">OTC Events</a></li>
+						<li><a href="/amc_movie_times">AMC Movie Times</a></li>
+						<li><a href="/orchard_train">Orchard Train</a></li>
 					</ul>
                 </li>
                 <li>
