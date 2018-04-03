@@ -83,6 +83,7 @@
                     <ul class="sub_menu">
 						<li><a href="/stores">Directory</a></li>
 						<li><a href="/map">Center Map</a></li>
+						<li><a href="/promotions">Sales & Promotions</a></li>
 					</ul>
                 </li>
                 <li>
@@ -96,9 +97,9 @@
 						<li><a href="/specialty_foods">Specialty Foods</a></li>
 					</ul>
                 </li>
-                <li>
-                    <a href="/promotions">SALES & PROMOTIONS</a>
-                </li>
+                <!--<li>-->
+                <!--    <a href="/promotions">SALES & PROMOTIONS</a>-->
+                <!--</li>-->
                 <li>
                     <a href="#"  class="submenu_expander">
                         EVENTS
