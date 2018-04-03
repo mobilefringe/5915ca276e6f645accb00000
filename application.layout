@@ -107,9 +107,11 @@
 						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/5915ca276e6f645accb00000/image/png/1495738835000/minusicon.png" style="display: none;">
                     </a>
                     <ul class="sub_menu hidden_now">
-                        <li><a href="/events">OTC Events</a></li>
-						<li><a href="/amc_movie_times">AMC Movie Times</a></li>
-						<li><a href="/orchard_train">Orchard Train</a></li>
+                        <li><a href="/events">Center Events</a></li>
+                        <li><a href="/orchard_train">Orchard Train</a></li>
+                        <li><a href="">Entertainment</a></li>
+						<!--<li><a href="/amc_movie_times">AMC Movie Times</a></li>-->
+						
 					</ul>
                 </li>
                 <li>
