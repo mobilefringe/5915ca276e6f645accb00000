@@ -122,21 +122,25 @@
                     </a>
                     <ul class="sub_menu hidden_now">
 						<li><a href="/image_gallery">Image Gallery</a></li>
-						<li><a href="/newsletter">Newsletter Sign-Up</a></li>
+						
 						<li><a href="/whats_happening">What's Happening</a></li>
+						
+						<li><a href="/guest_services">Guest Services</a></li>
+						<li><a href="/hours">Hours</a></li>
+						<li><a href="/jobs">Employment</a></li>
 					</ul>
                 </li>
                 <li>
                     <a href="#" class="submenu_expander">
-                        INFO
+                        CONNECT
                         <img class="menu_icon plus_icon" src="//codecloud.cdn.speedyrails.net/sites/5915ca276e6f645accb00000/image/png/1495737878000/open.png" style="display: inline;">
 						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/5915ca276e6f645accb00000/image/png/1495738835000/minusicon.png" style="display: none;">
                     </a>
                     <ul class="sub_menu hidden_now">
+                        <li><a href="/newsletter">Newsletter Sign-Up</a></li>
+                        <li><a href="">News</a></li>
+                        <li><a href="">Leasing</a></li>
 						<li><a href="/contact_us">Contact Us</a></li>
-						<li><a href="/guest_services">Guest Services</a></li>
-						<li><a href="/hours">Hours</a></li>
-						<li><a href="/jobs">Employment</a></li>
 					</ul>
                 </li>
             </ul>
