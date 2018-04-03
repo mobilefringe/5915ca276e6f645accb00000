@@ -145,16 +145,16 @@
         </div>
         <section class="content_container main_container position_relative">
             <div class="row header mobile_margin">
-                <div class="col-md-4 col-xs-4">
-                    <p class="hours_home hidden_phone"><span class="hours_dot"></span> 
-                        Today's Hours:
-                        <span id="home_hours_container">
-                            <script id="home_hours_template" type="x-tmpl-mustache/text">
-                                <span class="hours_today" id="hours_home">{%raw%}{{h}}{%endraw%}</span>
-                            </script>
-                        </span>
-                    </p>
-                    <a href="/hours" class="holiday_hours_home soft_hidden_phone">Check for Holiday Hours</a>
+                <!--<div class="col-md-4 col-xs-4">-->
+                <!--    <p class="hours_home hidden_phone"><span class="hours_dot"></span> -->
+                <!--        Today's Hours:-->
+                <!--        <span id="home_hours_container">-->
+                <!--            <script id="home_hours_template" type="x-tmpl-mustache/text">-->
+                <!--                <span class="hours_today" id="hours_home">{%raw%}{{h}}{%endraw%}</span>-->
+                <!--            </script>-->
+                <!--        </span>-->
+                <!--    </p>-->
+                <!--    <a href="/hours" class="holiday_hours_home soft_hidden_phone">Check for Holiday Hours</a>-->
                     <!--<div class="social_icons">-->
                     <!--    <a href="https://www.facebook.com/OrchardTC" target="_blank">-->
                     <!--        <span id="social_fb"></span>-->
@@ -165,23 +165,23 @@
                     <!--    <div class="clearfix"></div>-->
                     <!--    <br class="hidden_phone" />-->
                     <!--</div>-->
-                </div>
+                <!--</div>-->
                 <div class="col-md-4 col-xs-4 text-center">
                     <a href="/">
                         <img src="//codecloud.cdn.speedyrails.net/sites/5915ca276e6f645accb00000/image/png/1495052881000/logo1.png" class="main_logo " alt="main_logo">
                     </a>
                 </div>
                 <div class="col-md-4 col-xs-4 text-right position_relative">
-                    <div class="site_searcher_div hidden_phone">
-                        <label class="top_form_control no_margin">
-                            <i class="custom_i fa fa-search"></i>
-                            <input type="text" placeholder="Search" id="site_search" />
-                            <i id="close_search" class="fa fa-times-circle"></i>
-                        </label>
-                        <div class="site_search_results" id="search_results_stores"></div>
-                        <div class="site_search_results" id="search_results_events"></div>
-                        <div class="site_search_results" id="search_results_promotions"></div>
-                    </div>
+                    <!--<div class="site_searcher_div hidden_phone">-->
+                    <!--    <label class="top_form_control no_margin">-->
+                    <!--        <i class="custom_i fa fa-search"></i>-->
+                    <!--        <input type="text" placeholder="Search" id="site_search" />-->
+                    <!--        <i id="close_search" class="fa fa-times-circle"></i>-->
+                    <!--    </label>-->
+                    <!--    <div class="site_search_results" id="search_results_stores"></div>-->
+                    <!--    <div class="site_search_results" id="search_results_events"></div>-->
+                    <!--    <div class="site_search_results" id="search_results_promotions"></div>-->
+                    <!--</div>-->
                     <img src="//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1460488452000/icon_menu.png" class="open_menu" alt="menu open">
                 </div>
                 <div class="col-xs-12 show_phone home_hours_phone">
