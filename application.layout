@@ -187,26 +187,26 @@
                     <!--</div>-->
                     <img src="//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1460488452000/icon_menu.png" class="open_menu" alt="menu open">
                 </div>
-                <div class="col-xs-12 show_phone home_hours_phone">
-                    <p class="hours_home"><span class="hours_dot"></span> Today's Hours: 
-                        <span id="home_hours_container3">
-                            <script id="home_hours_template3" type="x-tmpl-mustache/text">
-                                <span class="hours_today">{%raw%}{{h}}{%endraw%}</span>
-                            </script>
-                        </span>
-                    </p>
-                    <a class="holiday_hours_home" href="/hours">Check for Holiday Hours</a></p>
-                    <div class="site_searcher_div">
-                        <label class="top_form_control no_margin">
-                            <i class="custom_i fa fa-search"></i>
-                            <input type="text" placeholder="Search" id="site_search_mobile"/>
-                            <i id="close_search_mobile" class="fa fa-times-circle"></i>
-                        </label>
-                        <div class="site_search_results" id="search_results_stores_mobile"></div>
-                        <div class="site_search_results" id="search_results_events_mobile"></div>
-                        <div class="site_search_results" id="search_results_promotions_mobile"></div>
-                    </div>
-                </div>
+                <!--<div class="col-xs-12 show_phone home_hours_phone">-->
+                <!--    <p class="hours_home"><span class="hours_dot"></span> Today's Hours: -->
+                <!--        <span id="home_hours_container3">-->
+                <!--            <script id="home_hours_template3" type="x-tmpl-mustache/text">-->
+                <!--                <span class="hours_today">{%raw%}{{h}}{%endraw%}</span>-->
+                <!--            </script>-->
+                <!--        </span>-->
+                <!--    </p>-->
+                <!--    <a class="holiday_hours_home" href="/hours">Check for Holiday Hours</a></p>-->
+                <!--    <div class="site_searcher_div">-->
+                <!--        <label class="top_form_control no_margin">-->
+                <!--            <i class="custom_i fa fa-search"></i>-->
+                <!--            <input type="text" placeholder="Search" id="site_search_mobile"/>-->
+                <!--            <i id="close_search_mobile" class="fa fa-times-circle"></i>-->
+                <!--        </label>-->
+                <!--        <div class="site_search_results" id="search_results_stores_mobile"></div>-->
+                <!--        <div class="site_search_results" id="search_results_events_mobile"></div>-->
+                <!--        <div class="site_search_results" id="search_results_promotions_mobile"></div>-->
+                <!--    </div>-->
+                <!--</div>-->
             </div>
             <div class="hedaer_divider"></div>
         </section>
