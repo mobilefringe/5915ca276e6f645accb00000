@@ -126,7 +126,6 @@
             $('.flexslider').flexslider({
                 animation: "slide",
             });
-            $(".flex-next").html('');
         }
         
         loadMallDataCached(renderAll); 
