@@ -14,7 +14,7 @@ function init(e){
     //     $('.plus_icon').show();
     //     $('.minus_icon.menu_icon').hide()
     // });
-    
+    $('.collapse').collapse()
     $('#menu-icon').click(function(e){
 		e.preventDefault();
 		$(this).toggleClass('open');
