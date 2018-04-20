@@ -1,0 +1,17 @@
+<div class="inside_banner newsletter_banner text-center">
+    <h3>NEWSLETTER</h3>
+</div>
+<div class="margin_20"></div>
+<div class="content_container main_container">
+    <div class="margin_25_across">
+        <h2>Thank You!</h2>
+        <p>Your subscription has been confirmed. You've been added to our list and will hear from us soon.</p>
+        <p><a href="/">Click here</a> to return to the Home page.</p>
+    </div>
+</div>
+<script>
+    $(document).ready(function(e){
+        init(e);
+        show_content();
+    })
+</script>
