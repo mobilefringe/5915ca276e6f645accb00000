@@ -18,7 +18,7 @@
         <select id="option_selector" class="link_selector">
             <option value="" disabled selected>TAP FOR MORE OPTIONS</option>
             <option value="/events">Center Events</option>
-            <option value="/entertainment">Entertainment</option>
+            <option value="/orchard_train">Orchard Train</option>
         </select>
     </h5>
 </div>
