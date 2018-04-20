@@ -16,9 +16,10 @@ function init(e){
     });
     
     $('#menu-icon').click(function(){
+		e.preventDefault();
 		$(this).toggleClass('open');
+        $('body').addClass('no_scroll');
 		$('.mobile_menu_container').toggleClass('active_menu');
-		$('body').toggleClass('no_scroll');
 	});
 	
     $('.submenu_expander').click(function(e){
