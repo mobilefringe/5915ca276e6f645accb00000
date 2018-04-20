@@ -188,7 +188,7 @@
                                 <span>Connect</span>
                                 <ul>
                                     <li class="dropdown_item"><a href="/newsletter">Newsletter Sign-Up</a></li>
-            						<li class="dropdown_item"><a href="/news">News</a></li>
+            						<!--<li class="dropdown_item"><a href="/news">News</a></li>-->
                                     <li class="dropdown_item"><a href="/leasing">Leasing</a></li>
                                 </ul>
                             </li>
