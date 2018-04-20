@@ -15,7 +15,7 @@ function init(e){
         $('.minus_icon.menu_icon').hide()
     });
     
-    $('#menu-icon').click(function(){
+    $('#menu-icon').click(function(e){
 		e.preventDefault();
 		$(this).toggleClass('open');
         $('body').addClass('no_scroll');
