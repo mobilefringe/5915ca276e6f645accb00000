@@ -65,49 +65,77 @@
 
 <body class="">
     <div class="mobile_menu_container">
-        <div id="accordion">
-            <div class="card">
-                <div class="card-header" id="headingOne">
-                    <h5 class="mb-0">
-                        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            Collapsible Group Item #1
-                        </button>
-                    </h5>
-                </div>
-                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-                    <div class="card-body">
-            
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-header" id="headingTwo">
-                    <h5 class="mb-0">
-                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            Collapsible Group Item #2
-                        </button>
-                    </h5>
-                </div>
-                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-                    <div class="card-body">
-
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-header" id="headingThree">
-                    <h5 class="mb-0">
-                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            Collapsible Group Item #3
-                        </button>
-                    </h5>
-                </div>
-                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-                    <div class="card-body">
-
-                    </div>
-                </div>
-            </div>
+        <div class="opened_mobile_menu">
+            <h3>
+                MENU
+                <span id="close_menu" class="pull-right">
+                    <img class="menu_icon" src="//codecloud.cdn.speedyrails.net/sites/5915ca276e6f645accb00000/image/png/1495737874000/close.png" alt="close">
+                </span>        
+            </h3>
+            <ul>
+                <li>
+                    <a href="#" class="submenu_expander open">
+                        SHOP
+                        <img class="menu_icon" src="//codecloud.cdn.speedyrails.net/sites/5915ca276e6f645accb00000/image/png/1495737878000/open.png" style="display: none;">
+						<img class="menu_icon" src="//codecloud.cdn.speedyrails.net/sites/5915ca276e6f645accb00000/image/png/1495738835000/minusicon.png" style="display: inline;">
+                    </a>
+                    <ul class="sub_menu">
+						<li><a href="/stores">Directory</a></li>
+						<li><a href="/map">Center Map</a></li>
+					</ul>
+                </li>
+                <li>
+                    <a href="#"  class="submenu_expander">
+                        DINE
+                        <img class="menu_icon plus_icon" src="//codecloud.cdn.speedyrails.net/sites/5915ca276e6f645accb00000/image/png/1495737878000/open.png" style="display: inline;">
+						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/5915ca276e6f645accb00000/image/png/1495738835000/minusicon.png" style="display: none;">
+                    </a>
+                    <ul class="sub_menu hidden_now">
+						<li><a href="/restaurants">Restaurants</a></li>
+						<li><a href="/specialty_foods">Specialty Foods</a></li>
+					</ul>
+                </li>
+                <li>
+                    <a href="/promotions">SALES & PROMOTIONS</a>
+                </li>
+                <li>
+                    <a href="#"  class="submenu_expander">
+                        EVENTS
+                        <img class="menu_icon plus_icon" src="//codecloud.cdn.speedyrails.net/sites/5915ca276e6f645accb00000/image/png/1495737878000/open.png" style="display: inline;">
+						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/5915ca276e6f645accb00000/image/png/1495738835000/minusicon.png" style="display: none;">
+                    </a>
+                    <ul class="sub_menu hidden_now">
+                        <li><a href="/events">OTC Events</a></li>
+						<li><a href="/amc_movie_times">AMC Movie Times</a></li>
+						<li><a href="/orchard_train">Orchard Train</a></li>
+					</ul>
+                </li>
+                <li>
+                    <a href="#" class="submenu_expander">
+                        BUZZ
+                        <img class="menu_icon plus_icon" src="//codecloud.cdn.speedyrails.net/sites/5915ca276e6f645accb00000/image/png/1495737878000/open.png" style="display: inline;">
+						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/5915ca276e6f645accb00000/image/png/1495738835000/minusicon.png" style="display: none;">
+                    </a>
+                    <ul class="sub_menu hidden_now">
+						<li><a href="/image_gallery">Image Gallery</a></li>
+						<li><a href="/newsletter">Newsletter Sign-Up</a></li>
+						<li><a href="/whats_happening">What's Happening</a></li>
+					</ul>
+                </li>
+                <li>
+                    <a href="#" class="submenu_expander">
+                        INFO
+                        <img class="menu_icon plus_icon" src="//codecloud.cdn.speedyrails.net/sites/5915ca276e6f645accb00000/image/png/1495737878000/open.png" style="display: inline;">
+						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/5915ca276e6f645accb00000/image/png/1495738835000/minusicon.png" style="display: none;">
+                    </a>
+                    <ul class="sub_menu hidden_now">
+						<li><a href="/contact_us">Contact Us</a></li>
+						<li><a href="/guest_services">Guest Services</a></li>
+						<li><a href="/hours">Hours</a></li>
+						<li><a href="/jobs">Employment</a></li>
+					</ul>
+                </li>
+            </ul>
         </div>
     </div>
     <div class="fixed_header">
@@ -167,13 +195,8 @@
                         </ul>
                     </nav>
                 </div>
-                <div class="col-md-2 col-xs-2 position_relative">
-                    <div id="menu-icon">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>    
+                <div class="col-md-2 col-xs-2 text-right position_relative">
+                    
                 </div>
             </div>
         </section>
