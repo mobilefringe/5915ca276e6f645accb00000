@@ -170,7 +170,7 @@
                                     <li class="dropdown_item"><a href="/map">Center Map</a></li>
                                 </ul> 
                             </li>
-                            <li class="menu_item"><a href="/getting_here">About</a>
+                            <li class="menu_item">About
                                 <ul>
                                     <li class="dropdown_item"><a href="/getting_here">Getting Here</a></li>
                                     <li class="dropdown_item"><a href="/grand_hall">The Grand Hall</a></li>
@@ -178,7 +178,7 @@
                                     <li class="dropdown_item"><a href="/living">Living</a></li>
                                 </ul>
                             </li>
-                            <li class="menu_item"><a href="/gateway">Connect</a>
+                            <li class="menu_item">Connect
                                 <ul>
                                     <li class="dropdown_item"><a href="/gateway">The Gateway</a></li>
                                     <li class="dropdown_item"><a href="/posts">Press</a></li>
