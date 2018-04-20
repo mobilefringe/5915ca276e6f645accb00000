@@ -26,7 +26,6 @@
                         <img src="{{alt_photo_url}}" class="details_image" style="{{promo_image}}" />
                         <p class="bold">{{name}}</p>
                         <div class="details_desc margin_30">{{{rich_description}}}</div>
-                        
                         <form id="contest_form">
                             <input id="property_id" name="contest[property_id]" type="hidden" value="{{property_id}}"/>
                             <input id="contest_id" name="contest[contest_id]" type="hidden"  value="{{id}}" />
@@ -89,8 +88,6 @@
         </div>
     </div>
 </div>
-
-
 <script>
     $(document).ready(function(e){
         init(e);
