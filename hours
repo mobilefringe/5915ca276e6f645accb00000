@@ -21,7 +21,7 @@
         <select id="option_selector" class="link_selector">
             <option value="" disabled selected>TAP FOR MORE OPTIONS</option>
             <option value="/image_gallery">Image Gallery</option>
-            <option value="/hours">Hours</option>
+            <option value="/guest_services">Guest Services</option>
             <option value="/jobs">Employment</option>
         </select>
     </h5>
