@@ -73,6 +73,7 @@
             
             $('.flexslider').flexslider({
                 animation: "slide",
+                pauseOnHover: true,
             });
             $(".flex-prev").html("");
             $(".flex-next").html("");
