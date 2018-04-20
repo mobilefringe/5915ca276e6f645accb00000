@@ -8,17 +8,17 @@
             <h5 class="active_heading">CENTER EVENTS</h5>
         </div>
         <div class="col-md-4">
-            <h5><a href="/amc_movie_times">AMC MOVIE TIMES</a></h5>
+            <h5><a href="/orchard_train">ORCHARD TRAIN</a></h5>
         </div>
         <div class="col-md-4">
-            <h5><a href="/orchard_train">ORCHARD TRAIN</a></h5>
+            <h5><a href="/entertainment">ENTERTAINMENT</a></h5>
         </div>
     </div>
     <h5 class="text-center tap_here show_phone">
         <select id="option_selector" class="link_selector">
             <option value="" disabled selected>TAP FOR MORE OPTIONS</option>
-            <option value="/amc_movie_times">AMC Movie Times</option>
             <option value="/orchard_train">Orchard Train</option>
+            <option value="/entertainment">Entertainment</option>
         </select>
     </h5>
 </div>
