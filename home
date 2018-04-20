@@ -74,6 +74,8 @@
             $('.flexslider').flexslider({
                 animation: "slide",
             });
+            $(".flex-prev").html("");
+            $(".flex-next").html("");
         }
         
         loadMallDataCached(renderAll); 
