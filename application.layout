@@ -168,7 +168,12 @@
                     </nav>
                 </div>
                 <div class="col-md-2 col-xs-2 text-right position_relative">
-                    
+                    <div id="menu-icon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>    
                 </div>
             </div>
         </section>
