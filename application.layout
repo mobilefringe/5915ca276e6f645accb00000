@@ -157,38 +157,39 @@
                                 <ul>
                                     <li class="dropdown_item"><a href="/stores">Directory</a></li>
                                     <li class="dropdown_item"><a href="/map">Center Map</a></li>
+                                    <li class="dropdown_item"><a href="/promotions">Sales & Promotions</a></li>
                                 </ul>
                             </li>
                             <li class="menu_item">
                                 <span>Dine</span>
                                 <ul>
-                                    <li class="dropdown_item"><a href="/dine">Directory</a></li>
-                                    <li class="dropdown_item"><a href="/map">Center Map</a></li>
+                                    <li class="dropdown_item"><a href="/restaurants">Restaurants</a></li>
+						            <li class="dropdown_item"><a href="/specialty_foods">Specialty Foods</a></li>
                                 </ul> 
                             </li>
                             <li class="menu_item">
                                 <span>Events</span>
                                 <ul>
-                                    <li class="dropdown_item"><a href="/entertainment">Directory</a></li>
-                                    <li class="dropdown_item"><a href="/map">Center Map</a></li>
+                                    <li class="dropdown_item"><a href="/events">Center Events</a></li>
+                                    <li class="dropdown_item"><a href="/orchard_train">Orchard Train</a></li>
+						            <li class="dropdown_item"><a href="/entertainment">Entertainment</a></li>
                                 </ul> 
                             </li>
                             <li class="menu_item">
                                 <span>About</span>
                                 <ul>
-                                    <li class="dropdown_item"><a href="/getting_here">Getting Here</a></li>
-                                    <li class="dropdown_item"><a href="/grand_hall">The Grand Hall</a></li>
-                                    <li class="dropdown_item"><a href="/office">Office</a></li>
-                                    <li class="dropdown_item"><a href="/living">Living</a></li>
+                                    <li class="dropdown_item"><a href="/image_gallery">Image Gallery</a></li>
+                                    <li class="dropdown_item"><a href="/guest_services">Guest Services</a></li>
+                                    <li class="dropdown_item"><a href="/hours">Hours</a></li>
+                                    <li class="dropdown_item"><a href="/jobs">Employment</a></li>
                                 </ul>
                             </li>
                             <li class="menu_item">
                                 <span>Connect</span>
                                 <ul>
-                                    <li class="dropdown_item"><a href="/gateway">The Gateway</a></li>
-                                    <li class="dropdown_item"><a href="/posts">Press</a></li>
+                                    <li class="dropdown_item"><a href="/newsletter">Newsletter Sign-Up</a></li>
+            						<li class="dropdown_item"><a href="/news">News</a></li>
                                     <li class="dropdown_item"><a href="/leasing">Leasing</a></li>
-                                    <li class="dropdown_item"><a href="/contact_us">Contact Us</a></li>
                                 </ul>
                             </li>
                         </ul>
