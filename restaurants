@@ -1,3 +1,8 @@
+<style>
+    .store_list_head {
+        margin-bottom: 0;
+    }
+</style>
 <div class="inside_banner dine_banner text-center">
     <h3>Restaurants</h3>
 </div>
