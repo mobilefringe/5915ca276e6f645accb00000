@@ -16,11 +16,11 @@
             </script>
         </ul>
     </div>
-    <div class="banner_wrapper text-center">
-        <h3>EXPERIENCE THE LUXURY</h3>
-        <p>Your Premier Shopping Destination</p>
-        <a class="animated_btn" href="/stores">Visit Our Stores</a>
-    </div>
+    <!--<div class="banner_wrapper text-center">-->
+    <!--    <h3>EXPERIENCE THE LUXURY</h3>-->
+    <!--    <p>Your Premier Shopping Destination</p>-->
+    <!--    <a class="animated_btn" href="/stores">Visit Our Stores</a>-->
+    <!--</div>-->
 </div>
 <div class="content_container main_container">
     <div class="feature_items_box mobile_padding">
