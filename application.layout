@@ -188,7 +188,7 @@
                         <div class="clearfix"></div>
                         <br class="hidden_phone" />
                     </div>
-                    <div id="menu-icon">
+                    <div id="menu-icon" class="show_phone">
                         <span></span>
                         <span></span>
                         <span></span>
