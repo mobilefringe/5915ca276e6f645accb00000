@@ -172,6 +172,22 @@
                     </nav>
                 </div>
                 <div class="col-md-2 col-xs-2 text-right position_relative">
+                    <div class="social_icons hidden_phone">
+                        <a href="https://www.facebook.com/OrchardTC" target="_blank">
+                            <span id="social_fb"></span>
+                        </a>
+                        <a href="https://twitter.com/OrchardTC" target="_blank">
+                            <span id="social_twitter"></span>
+                        </a>
+                        <a href="//instagram.com/ " target="_blank">
+                            <span id="social_insta"></span>
+                        </a>
+                        <a href="/newsletter">
+                            <span id="social_newsletter"></span>
+                        </a>
+                        <div class="clearfix"></div>
+                        <br class="hidden_phone" />
+                    </div>
                     <div id="menu-icon">
                         <span></span>
                         <span></span>
@@ -207,9 +223,9 @@
                             <a href="https://twitter.com/OrchardTC" target="_blank">
                                 <span id="social_twitter"></span>
                             </a>
-                            <!--<a href="//instagram.com/ " target="_blank">-->
-                            <!--    <span id="social_insta"></span>-->
-                            <!--</a>-->
+                            <a href="//instagram.com/ " target="_blank">
+                                <span id="social_insta"></span>
+                            </a>
                             <a href="/newsletter">
                                 <span id="social_newsletter"></span>
                             </a>
