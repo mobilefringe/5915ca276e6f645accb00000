@@ -18,7 +18,6 @@
             <option value="" disabled selected>TAP FOR MORE OPTIONS</option>
             <option value="/stores">Directory</option>
             <option value="/map">Center Map</option>
-            
         </select>
     </h5>
 </div>
@@ -48,7 +47,7 @@
                                     <span class="promo_dates">{{dates}}</span>
                                 </p>
                                 <div class="promo_list_desc">{{description_short}}</div>
-                                <a class="read_more" href="/promotions/{{slug}}">Read More</a>
+                                <a class="read_more" href="/promotions/{{slug}}">View Promotion Details</a>
                             </div>
                         </div>
                     </script>
