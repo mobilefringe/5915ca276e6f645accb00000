@@ -32,6 +32,7 @@
     <!--Javascript-->
     <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.collapsible/1.2/jquery.collapsible.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/flexslider/2.5.0/jquery.flexslider.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
     <script src="//codecloud.cdn.speedyrails.net/sites/579231876e6f6467cf000000/application/x-javascript/1468507772000/moment.min.js"></script>
