@@ -1,19 +1,19 @@
 function init(e){
     $('<div class="modal-backdrop custom_backdrop"><img src="//kodekloud.s3.amazonaws.com/sites/554a79236e6f64713f000000/69e8cd982124dc73de1f5a67a627ee75/loading.gif" class="" alt=""></div>').appendTo(document.body);
     
-    $('.open_menu').click(function(e){
-        e.preventDefault();
-        $('body').addClass('no_scroll');
-        $('.mobile_menu_container').addClass('active_menu')
-    });
-    $('#close_menu').click(function(e){
-        e.preventDefault();
-        $('body').removeClass('no_scroll');
-        $('.mobile_menu_container').removeClass('active_menu');
-        $('.sub_menu.hidden_now').css('display', "none")
-        $('.plus_icon').show();
-        $('.minus_icon.menu_icon').hide()
-    });
+    // $('.open_menu').click(function(e){
+    //     e.preventDefault();
+    //     $('body').addClass('no_scroll');
+    //     $('.mobile_menu_container').addClass('active_menu')
+    // });
+    // $('#close_menu').click(function(e){
+    //     e.preventDefault();
+    //     $('body').removeClass('no_scroll');
+    //     $('.mobile_menu_container').removeClass('active_menu');
+    //     $('.sub_menu.hidden_now').css('display', "none")
+    //     $('.plus_icon').show();
+    //     $('.minus_icon.menu_icon').hide()
+    // });
     
     $('#menu-icon').click(function(e){
 		e.preventDefault();
