@@ -72,7 +72,7 @@
                 <ul class="mobile-menu__list">
                     <li class="first-li">
                         <a class="mobile-menu__link sublink-1" href="">
-                            <img class="arrow" src="https://www.paulekman.com/wp-content/themes/paulekman/images/arrow-right.png" alt="">Paul Ekman
+                            <img class="arrow" src="https://www.paulekman.com/wp-content/themes/paulekman/images/arrow-right.png" alt="">Shop
                         </a>
                         <ul class="mobile-menu__sublist-1">
                             <li><a class="mobile-menu__sublink" href="https://www.paulekman.com/paul-ekman/">Paul Ekman</a></li>
@@ -80,18 +80,15 @@
                     </li>
                     <li class="first-li">
                         <a class="mobile-menu__link sublink-2" href="">
-                            <img class="arrow" src="https://www.paulekman.com/wp-content/themes/paulekman/images/arrow-right.png" alt="">Training
+                            <img class="arrow" src="https://www.paulekman.com/wp-content/themes/paulekman/images/arrow-right.png" alt="">Dine
                         </a>    
                         <ul class="mobile-menu__sublist-2">
                             <li><a class="mobile-menu__sublink" href="https://www.paulekman.com/micro-expressions-training-tools/">Training Tools</a></li>
                         </ul>
                     </li>
-                    <li>
-                        <a class="mobile-menu__link" href="https://www.paulekman.com/micro-expressions/">Micro Expressions</a>
-                    </li>
                     <li class="first-li">
                         <a class="mobile-menu__link sublink sublink-3" href="">
-                            <img class="arrow" src="https://www.paulekman.com/wp-content/themes/paulekman/images/arrow-right.png" alt="">Resources
+                            <img class="arrow" src="https://www.paulekman.com/wp-content/themes/paulekman/images/arrow-right.png" alt="">Events
                         </a>
                         <ul class="mobile-menu__sublist-3">
                             <li><a class="mobile-menu__sublink" href="https://www.paulekman.com/journal-articles/">Books</a></li>
@@ -100,9 +97,17 @@
                     </li>
                     <li class="first-li">
                         <a class="mobile-menu__link sublink-4" href="">
-                            <img class="arrow" src="https://www.paulekman.com/wp-content/themes/paulekman/images/arrow-right.png" alt="">Support
+                            <img class="arrow" src="https://www.paulekman.com/wp-content/themes/paulekman/images/arrow-right.png" alt="">About
                         </a>
                         <ul class="mobile-menu__sublist-4">
+                            <li><a class="mobile-menu__sublink" href="https://www.paulekman.com/contact-us/">Contact Us</a></li>
+                        </ul>
+                    </li>
+                    <li class="first-li">
+                        <a class="mobile-menu__link sublink-5" href="">
+                            <img class="arrow" src="https://www.paulekman.com/wp-content/themes/paulekman/images/arrow-right.png" alt="">Connect
+                        </a>
+                        <ul class="mobile-menu__sublist-5">
                             <li><a class="mobile-menu__sublink" href="https://www.paulekman.com/contact-us/">Contact Us</a></li>
                         </ul>
                     </li>
