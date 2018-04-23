@@ -80,18 +80,16 @@
                         </ul>
                     </li>
                     <li class="mobile-menu__item">
-                        <a class="mobile-menu__link sublink" href="">
-                            Dine <i class="fa fa-chevron-right"></i>
-                        </a>    
+                        <a class="mobile-menu__link sublink" href="">Dine</a>  
+                        <i class="fa fa-chevron-right"></i>
                         <ul class="mobile-menu__sublist">
                             <li><a class="mobile-menu__sublink" href="/restaurants">Restaurants</a></li>
 				            <li><a class="mobile-menu__sublink" href="/specialty_foods">Specialty Foods</a></li>
                         </ul>
                     </li>
                     <li class="mobile-menu__item">
-                        <a class="mobile-menu__link sublink sublink" href="">
-                            Events <i class="fa fa-chevron-right"></i>
-                        </a>
+                        <a class="mobile-menu__link sublink sublink" href="">Events</a>
+                        <i class="fa fa-chevron-right"></i>
                         <ul class="mobile-menu__sublist">
                             <li><a class="mobile-menu__sublink" href="/events">Center Events</a></li>
                             <li><a class="mobile-menu__sublink" href="/orchard_train">Orchard Train</a></li>
@@ -99,9 +97,8 @@
                         </ul>
                     </li>
                     <li class="mobile-menu__item">
-                        <a class="mobile-menu__link sublink" href="">
-                            About <i class="fa fa-chevron-right"></i>
-                        </a>
+                        <a class="mobile-menu__link sublink" href="">About</a>
+                        <i class="fa fa-chevron-right"></i>
                         <ul class="mobile-menu__sublist">
                             <li><a class="mobile-menu__sublink" href="/image_gallery">Image Gallery</a></li>
                             <li><a class="mobile-menu__sublink" href="/guest_services">Guest Services</a></li>
@@ -110,9 +107,8 @@
                         </ul>
                     </li>
                     <li class="mobile-menu__item">
-                        <a class="mobile-menu__link sublink" href="">
-                            Connect <i class="fa fa-chevron-right"></i>
-                        </a>
+                        <a class="mobile-menu__link sublink" href="">Connect</a>
+                        <i class="fa fa-chevron-right"></i>
                         <ul class="mobile-menu__sublist">
                             <li><a class="mobile-menu__sublink" href="/newsletter">Newsletter Sign-Up</a></li>
     						<!--<li><a class="mobile-menu__sublink" href="/news">News</a></li>-->
