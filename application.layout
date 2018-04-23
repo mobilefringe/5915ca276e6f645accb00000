@@ -71,7 +71,7 @@
             <div class="mobile-menu">
                 <ul class="mobile-menu__list">
                     <li class="mobile-menu__item">
-                        <a class="mobile-menu__link sublink" href="">Shop</a>
+                        <span class="mobile-menu__link sublink" href="">Shop</span>
                         <i class="menu-icon fa fa-chevron-right"></i>
                         <ul class="mobile-menu__sublist">
                             <li><a class="mobile-menu__sublink" href="/stores">Directory</a></li>
