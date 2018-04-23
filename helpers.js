@@ -66,11 +66,8 @@ function init(e){
     $("#current_year").text(current_year);
     
     $('.mobile-menu__item').click(function () {
-        // $(this).toggleClass('active');
-        // $('.mobile-menu__sublist').slideToggle('600');
         $(this).children('.menu-icon').toggleClass('rotate');
         $(this).children('.mobile-menu__sublist').slideToggle('600');
-        return false;
     });
     
     
