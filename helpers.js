@@ -68,6 +68,7 @@ function init(e){
     $('.mobile-menu__item').click(function () {
         // $(this).toggleClass('active');
         // $('.mobile-menu__sublist').slideToggle('600');
+        $(this).children('.mobile-menu__link .fa').toggleClass('rotate');
         $(this).children('.mobile-menu__sublist').slideToggle('600');
         return false;
     });
