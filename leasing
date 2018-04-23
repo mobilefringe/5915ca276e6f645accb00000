@@ -34,6 +34,7 @@
                 <div id="retail_page_content"></div>    
             </div>
         </div>
+        <hr>
         <div class="row">
             <div class="col-md-12">
                 <h3 id="office_page_title"></h3>
