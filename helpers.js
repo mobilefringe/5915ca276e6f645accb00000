@@ -65,7 +65,8 @@ function init(e){
     var current_year = moment().year();
     $("#current_year").text(current_year);
     
-    $('.mobile-menu__item').click(function () {
+    $('.mobile-menu__item').click(function(e) {
+        e.preventDefault();
         $(this).children('.menu-icon').toggleClass('rotate');
         $(this).children('.mobile-menu__sublist').slideToggle('600');
     });
