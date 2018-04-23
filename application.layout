@@ -71,7 +71,7 @@
             <div class="mobile-menu">
                 <ul class="mobile-menu__list">
                     <li class="first-li">
-                        <a class="mobile-menu__link sublink-1" href="">
+                        <a class="mobile-menu__link sublink" href="">
                             Shop <i class="fa fa-chevron-right"></i>
                         </a>
                         <ul class="mobile-menu__sublist-1">
@@ -84,7 +84,7 @@
                         <a class="mobile-menu__link sublink-2" href="">
                             Dine <i class="fa fa-chevron-right"></i>
                         </a>    
-                        <ul class="mobile-menu__sublist-2">
+                        <ul class="mobile-menu__sublist">
                             <li><a class="mobile-menu__sublink" href="/restaurants">Restaurants</a></li>
 				            <li><a class="mobile-menu__sublink" href="/specialty_foods">Specialty Foods</a></li>
                         </ul>
@@ -93,7 +93,7 @@
                         <a class="mobile-menu__link sublink sublink-3" href="">
                             Events <i class="fa fa-chevron-right"></i>
                         </a>
-                        <ul class="mobile-menu__sublist-3">
+                        <ul class="mobile-menu__sublist">
                             <li><a class="mobile-menu__sublink" href="/events">Center Events</a></li>
                             <li><a class="mobile-menu__sublink" href="/orchard_train">Orchard Train</a></li>
 				            <li><a class="mobile-menu__sublink" href="/entertainment">Entertainment</a></li>
@@ -103,7 +103,7 @@
                         <a class="mobile-menu__link sublink-4" href="">
                             About <i class="fa fa-chevron-right"></i>
                         </a>
-                        <ul class="mobile-menu__sublist-4">
+                        <ul class="mobile-menu__sublist">
                             <li><a class="mobile-menu__sublink" href="/image_gallery">Image Gallery</a></li>
                             <li><a class="mobile-menu__sublink" href="/guest_services">Guest Services</a></li>
                             <li><a class="mobile-menu__sublink" href="/hours">Hours</a></li>
@@ -114,7 +114,7 @@
                         <a class="mobile-menu__link sublink-5" href="">
                             Connect <i class="fa fa-chevron-right"></i>
                         </a>
-                        <ul class="mobile-menu__sublist-5">
+                        <ul class="mobile-menu__sublist">
                             <li><a class="mobile-menu__sublink" href="/newsletter">Newsletter Sign-Up</a></li>
     						<!--<li><a class="mobile-menu__sublink" href="/news">News</a></li>-->
                             <li><a class="mobile-menu__sublink" href="/leasing">Leasing</a></li>
