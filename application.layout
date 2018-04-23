@@ -130,7 +130,7 @@
         </div>
         <section class="content_container main_container position_relative">
             <div class="row header mobile_margin">
-                <div class="col-md-2">
+                <div class="col-xs-6 col-md-2">
                     <a href="/">
                         <img src="//codecloud.cdn.speedyrails.net/sites/5ada0c9c6e6f64676c960000/image/png/1523376831000/2014_Ochard Logo_no tagline_1.png" class="main_logo " alt="main_logo">
                     </a>
@@ -181,7 +181,7 @@
                         </ul>
                     </nav>
                 </div>
-                <div class="col-md-2 col-xs-2 text-right position_relative">
+                <div class="col-xs-6 col-md-2  text-right position_relative">
                     <div class="social_icons hidden_phone">
                         <a href="https://www.facebook.com/OrchardTC" target="_blank">
                             <span id="social_fb"></span>
