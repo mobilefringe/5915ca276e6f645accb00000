@@ -26,7 +26,7 @@
     <link href="//cdnjs.cloudflare.com/ajax/libs/flexslider/2.5.0/flexslider.css" rel="stylesheet">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.9.0/css/lightbox.min.css" rel="stylesheet">
-    <!--<link href="/scaffold.css" rel="stylesheet">-->
+    <link href="/scaffold.css" rel="stylesheet">
     <link href="/application.css" rel="stylesheet">
     
     <!--Javascript-->
@@ -69,10 +69,10 @@
     <div class="mobile_menu_container">
         <div class="opened_mobile_menu">
             <div class="container">
-  <div class="accordion-option">
-    <h3 class="title">Lorem Ipsum</h3>
-    <a href="javascript:void(0)" class="toggle-accordion active" accordion-id="#accordion"></a>
-  </div>
+  <!--<div class="accordion-option">-->
+  <!--  <h3 class="title">Lorem Ipsum</h3>-->
+  <!--  <a href="javascript:void(0)" class="toggle-accordion active" accordion-id="#accordion"></a>-->
+  <!--</div>-->
   <div class="clearfix"></div>
   <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
     <div class="panel panel-default">
