@@ -123,6 +123,7 @@ function show_content(){
     })
     
     $(".toggle-accordion").on("click", function() {
+        console.log("click")
         var accordionId = $(this).attr("accordion-id"),
         numPanelOpen = $(accordionId + ' .collapse.in').length;
     
