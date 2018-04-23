@@ -66,14 +66,6 @@
 </head>
 
 <body class="">
-    <div class="position_relative">
-        <div id="menu-icon" class="show_phone">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>    
-    </div>
     <div class="mobile_menu_container">
         <div class="opened_mobile_menu">
             <div class="mobile-menu">
@@ -200,6 +192,12 @@
                         </a>
                         <div class="clearfix"></div>
                     </div>
+                    <div id="menu-icon" class="show_phone">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>    
                 </div>
             </div>
         </section>
