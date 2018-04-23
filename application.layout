@@ -65,8 +65,7 @@
    </script>
 </head>
 
-<body class="">
-    
+<body>
     <div class="fixed_header">
         <div class="news-ticker" data-speed="5000">
             <ul class="bulletin" id="bulletin"></ul>
@@ -208,7 +207,6 @@
     <section class="yield">
         {{yield}}
     </section>
-    
     <section class="content_container main_container">
         <div class="newsletter_container text-center">
             <h3 class="heading">SIGN UP TO RECEIVE OUR UPDATES</h3>
@@ -288,8 +286,7 @@
                 if (messages != undefined){
                     if (messages.length == 0){
                         $('.news-ticker').hide();
-                    }
-                    else{
+                    } else {
                         $.each(messages, function(key ,val){
                             $('#bulletin').append('<li><strong>' + val.messages[0].title + ' </strong>'  + val.messages[0].body +  '</li>')
                         });
@@ -302,7 +299,6 @@
                             var slideCount = ($('.news-ticker li').length) - 1;
                             
                             var startTicker = setInterval(function(){
-                            
                                 $('.news-ticker ul li').eq(currentSlide).fadeOut(500)
                                 
                                 if (currentSlide < slideCount) {
@@ -312,19 +308,15 @@
                                 }
                                 
                                 $('.news-ticker ul li').eq(currentSlide).fadeIn(500)
-                            
                             }, tickerSpeed);
-                            
                         }
-                    $('.news-ticker').show();
+                        $('.news-ticker').show();
                     }
-                }
-                else{
+                } else {
                     $('.news-ticker').hide();
                 }
             });
         });
-  
     </script>
 </body>
 
