@@ -135,8 +135,8 @@
                         <img src="//codecloud.cdn.speedyrails.net/sites/5ada0c9c6e6f64676c960000/image/png/1523376831000/2014_Ochard Logo_no tagline_1.png" class="main_logo " alt="main_logo">
                     </a>
                 </div>
-                <div class="col-md-8">
-                    <nav id="primary_nav" class="hidden_phone">
+                <div class="col-md-8 hidden_phone">
+                    <nav id="primary_nav">
                         <ul>
                             <li class="menu_item">
                                 <span>Shop</span>
