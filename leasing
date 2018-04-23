@@ -30,7 +30,14 @@
     <div class="margin_25_across">
         <div class="row">
             <div class="col-md-12">
-                <div id="mm_page_content"></div>    
+                <h3 id="retail_page_title"></h3>
+                <div id="retail_page_content"></div>    
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h3 id="office_page_title"></h3>
+                <div id="office_page_content"></div>    
             </div>
         </div>
     </div>
