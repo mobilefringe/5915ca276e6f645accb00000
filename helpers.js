@@ -65,9 +65,10 @@ function init(e){
     var current_year = moment().year();
     $("#current_year").text(current_year);
     
-    $('.sublink').click(function () {
-        $(this).toggleClass('active');
-        $('.mobile-menu__sublist').slideToggle('600');
+    $('.first-li').click(function () {
+        // $(this).toggleClass('active');
+        // $('.mobile-menu__sublist').slideToggle('600');
+        $(this).children('.mobile-menu__sublist').slideToggle('600');
         return false;
     });
     
