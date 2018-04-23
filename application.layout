@@ -80,7 +80,7 @@
                         </ul>
                     </li>
                     <li class="mobile-menu__item">
-                        <a class="mobile-menu__link sublink" href="">Dine</a>  
+                        <span class="mobile-menu__link sublink" href="">Dine</span>  
                         <i class="menu-icon fa fa-chevron-right"></i>
                         <ul class="mobile-menu__sublist">
                             <li><a class="mobile-menu__sublink" href="/restaurants">Restaurants</a></li>
@@ -88,7 +88,7 @@
                         </ul>
                     </li>
                     <li class="mobile-menu__item">
-                        <a class="mobile-menu__link sublink sublink" href="">Events</a>
+                        <span class="mobile-menu__link sublink sublink" href="">Events</span>
                         <i class="menu-icon fa fa-chevron-right"></i>
                         <ul class="mobile-menu__sublist">
                             <li><a class="mobile-menu__sublink" href="/events">Center Events</a></li>
@@ -97,7 +97,7 @@
                         </ul>
                     </li>
                     <li class="mobile-menu__item">
-                        <a class="mobile-menu__link sublink" href="">About</a>
+                        <span class="mobile-menu__link sublink" href="">About</span>
                         <i class="menu-icon fa fa-chevron-right"></i>
                         <ul class="mobile-menu__sublist">
                             <li><a class="mobile-menu__sublink" href="/image_gallery">Image Gallery</a></li>
@@ -107,7 +107,7 @@
                         </ul>
                     </li>
                     <li class="mobile-menu__item">
-                        <a class="mobile-menu__link sublink" href="">Connect</a>
+                        <span class="mobile-menu__link sublink" href="">Connect</span>
                         <i class="menu-icon fa fa-chevron-right"></i>
                         <ul class="mobile-menu__sublist">
                             <li><a class="mobile-menu__sublink" href="/newsletter">Newsletter Sign-Up</a></li>
