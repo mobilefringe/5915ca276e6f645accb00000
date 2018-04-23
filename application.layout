@@ -119,6 +119,7 @@
                                     <li class="dropdown_item"><a href="/newsletter">Newsletter Sign-Up</a></li>
             						<!--<li class="dropdown_item"><a href="/news">News</a></li>-->
                                     <li class="dropdown_item"><a href="/leasing">Leasing</a></li>
+                                    <li class="dropdown_item"><a href="/contact_us">Contact Us</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -195,6 +196,7 @@
                                     <li><a class="mobile-menu__sublink" href="/newsletter">Newsletter Sign-Up</a></li>
             						<!--<li><a class="mobile-menu__sublink" href="/news">News</a></li>-->
                                     <li><a class="mobile-menu__sublink" href="/leasing">Leasing</a></li>
+                                    <li><a class="mobile-menu__sublink" href="/leasing">Contact Us</a></li>
                                 </ul>
                             </li>
                         </ul>
