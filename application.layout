@@ -136,7 +136,7 @@
                     </a>
                 </div>
                 <div class="col-md-8">
-                    <nav id="primary_nav">
+                    <nav id="primary_nav" class="hidden_phone">
                         <ul>
                             <li class="menu_item">
                                 <span>Shop</span>
