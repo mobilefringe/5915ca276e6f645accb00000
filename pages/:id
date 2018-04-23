@@ -4,7 +4,8 @@
 <div class="store_list_head main_container">
     <div class="row hidden_phone">
         <div class="col-md-12">
-            <h5 class="mm_page_title"></h5>
+            <div class="filler"></div>
+            <!--<h5 class="mm_page_title"></h5>-->
         </div>
     </div>
     <h5 class="text-center tap_here show_phone">
