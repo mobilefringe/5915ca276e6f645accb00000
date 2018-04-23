@@ -115,7 +115,9 @@
                             <img class="arrow" src="https://www.paulekman.com/wp-content/themes/paulekman/images/arrow-right.png" alt="">Connect
                         </a>
                         <ul class="mobile-menu__sublist-5">
-                            <li><a class="mobile-menu__sublink" href="https://www.paulekman.com/contact-us/">Contact Us</a></li>
+                            <li><a class="mobile-menu__sublink" href="/newsletter">Newsletter Sign-Up</a></li>
+    						<!--<li><a class="mobile-menu__sublink" href="/news">News</a></li>-->
+                            <li><a class="mobile-menu__sublink" href="/leasing">Leasing</a></li>
                         </ul>
                     </li>
                 </ul>
