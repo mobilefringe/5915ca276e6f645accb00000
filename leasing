@@ -60,7 +60,7 @@
             
             var office_json = prefix + "/pages/orchardtown-office-leasing.json"
             $.getJSON(office_json).done(function(data) {
-                $('#retail_page_title').html(data.title.toUpperCase());
+                $('#office_page_title').html(data.title.toUpperCase());
                 $('#office_page_content').html(data.body);
             }).fail(function(jqXHR) {
                 if (jqXHR.status == 404) {
