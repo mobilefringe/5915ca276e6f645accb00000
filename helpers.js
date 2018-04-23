@@ -21,33 +21,6 @@ function init(e){
         $('body').addClass('no_scroll');
 		$('.mobile_menu_container').toggleClass('active_menu');
 	});
-	
-	
-	$(".toggle-accordion").on("click", function() {
-	    console.log("click")
-        var accordionId = $(this).attr("accordion-id"),
-        numPanelOpen = $(accordionId + ' .collapse.in').length;
-    
-        $(this).toggleClass("active");
-
-        if (numPanelOpen == 0) {
-            openAllPanels(accordionId);
-        } else {
-            closeAllPanels(accordionId);
-        }
-    });
-
-//   openAllPanels = function(aId) {
-//     console.log("setAllPanelOpen");
-//     $(aId + ' .panel-collapse:not(".in")').collapse('show');
-//   }
-//   closeAllPanels = function(aId) {
-//     console.log("setAllPanelclose");
-//     $(aId + ' .panel-collapse.in').collapse('hide');
-//   }
-     
-// });
-
 
     $('.submenu_expander').click(function(e){
 		e.preventDefault()
