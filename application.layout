@@ -68,63 +68,64 @@
 <body class="">
     <div class="mobile_menu_container">
         <div class="opened_mobile_menu">
-            <div class="container">
-  <!--<div class="accordion-option">-->
-  <!--  <h3 class="title">Lorem Ipsum</h3>-->
-  <!--  <a href="javascript:void(0)" class="toggle-accordion active" accordion-id="#accordion"></a>-->
-  <!--</div>-->
-  <div class="clearfix"></div>
-  <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-    <div class="panel panel-default">
-      <div class="panel-heading" role="tab" id="headingOne">
-        <h4 class="panel-title">
-        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-          Collapsible Group Item #1
-        </a>
-      </h4>
-      </div>
-      <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-        <div class="panel-body">
-          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
-          on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table,
-          raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-        </div>
-      </div>
-    </div>
-    <div class="panel panel-default">
-      <div class="panel-heading" role="tab" id="headingTwo">
-        <h4 class="panel-title">
-        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-          Collapsible Group Item #2
-        </a>
-      </h4>
-      </div>
-      <div id="collapseTwo" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingTwo">
-        <div class="panel-body">
-          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
-          on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table,
-          raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-        </div>
-      </div>
-    </div>
-    <div class="panel panel-default">
-      <div class="panel-heading" role="tab" id="headingThree">
-        <h4 class="panel-title">
-        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
-          Collapsible Group Item #3
-        </a>
-      </h4>
-      </div>
-      <div id="collapseThree" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingThree">
-        <div class="panel-body">
-          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
-          on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table,
-          raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-        </div>
-      </div>
-    </div>
-  </div>
+            <div class="mobile-menu">
+                <ul class="mobile-menu__list">
+                    <li class="first-li">
+                        <a class="mobile-menu__link sublink-1" href="">
+                            <img class="arrow" src="https://www.paulekman.com/wp-content/themes/paulekman/images/arrow-right.png" alt="">Paul Ekman
+                        </a>
+                        <ul class="mobile-menu__sublist-1">
+                            <li><a class="mobile-menu__sublink" href="https://www.paulekman.com/paul-ekman/">Paul Ekman</a></li>
+                        </ul>
+                    </li>
+    
+                    <li class="first-li">
+                        <a class="mobile-menu__link sublink-2" href=""><img class="arrow" src="https://www.paulekman.com/wp-content/themes/paulekman/images/arrow-right.png" alt="">Training</a>
+       <ul class="mobile-menu__sublist-2">
+   
+        <li><a class="mobile-menu__sublink" href="https://www.paulekman.com/micro-expressions-training-tools/">Training Tools</a></li>
+        <li><a class="mobile-menu__sublink" href="https://www.paulekman.com/product-category/facs/">Facial Action Coding System</a></li>
+        <li><a class="mobile-menu__sublink" title="Photographs" href="https://www.paulekman.com/product-category/research-products/">Photographs</a></li>
+        <li><a class="mobile-menu__sublink" title="Workshops" href="https://www.paulekman.com/workshops/">Workshops</a></li>
+      </ul>
+    
+    </li>
+        <li><a class="mobile-menu__link" href="https://www.paulekman.com/micro-expressions/">Micro Expressions</a></li>
+        
+        
+      
+     
+   
+           <li class="first-li"><a class="mobile-menu__link sublink sublink-3" href=""><img class="arrow" src="https://www.paulekman.com/wp-content/themes/paulekman/images/arrow-right.png" alt="">Resources</a>
+            <ul class="mobile-menu__sublist-3">
+            <li><a class="mobile-menu__sublink" href="https://www.paulekman.com/journal-articles/">Books</a></li>
+<li><a class="mobile-menu__sublink" href="https://www.paulekman.com/journal-articles/">Journal Articles</a></li>
+<li><a class="mobile-menu__sublink" href="https://www.paulekman.com/paul-ekman/videos/">Videos</a></li>
+<li><a class="mobile-menu__sublink" target="_blank" href="http://www.atlasofemotions.com">Atlas of Emotions</a></li>
+<li><a class="mobile-menu__sublink" href="https://www.paulekman.com/parentsguide/">Parents&rsquo; Guide to <em>Inside Out</em></a></li>
+<li><a class="mobile-menu__sublink" href="https://www.paulekman.com/webisodes/">Global Compassion</a></li>
+      </ul>
+    
+    </li>
+    
+          <li class="first-li"><a class="mobile-menu__link sublink-4" href=""><img class="arrow" src="https://www.paulekman.com/wp-content/themes/paulekman/images/arrow-right.png" alt="">Support</a>
+            <ul class="mobile-menu__sublist-4">
+      <li><a class="mobile-menu__sublink" href="https://www.paulekman.com/contact-us/">Contact Us</a></li>
+<li><a class="mobile-menu__sublink" title="PEG FAQ" href="https://www.paulekman.com/peg-faq/">Paul Ekman FAQ</a></li>
+<li><a class="mobile-menu__sublink" href="https://www.paulekman.com/atlas-emotions-faq/">Atlas of Emotions FAQ</a></li>
+<li><a class="mobile-menu__sublink" href="https://www.paulekman.com/technical-requirements/">Technical Requirements</a></li>
+<li><a class="mobile-menu__sublink" href="https://www.paulekman.com/lostpassword/">Password Reset</a></li>
+<li><a class="mobile-menu__sublink" href="https://www.paulekman.com/terms-conditions/">Terms and Conditions</a></li>
+      </ul>
+    
+    </li>
+    
+   <li class="first-li"><a class="mobile-menu__link" href="https://www.paulekman.com/cart/">Cart</a></li>
+   <li class="first-li"><a class="mobile-menu__link" href="https://www.paulekman.com/my-account/trainings/">My Account</a></li>
+   
+  </ul>
 </div>
+  
         </div>
     </div>
     <div class="fixed_header">
