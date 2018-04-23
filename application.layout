@@ -66,59 +66,7 @@
 </head>
 
 <body class="">
-    <div class="mobile_menu_container">
-        <div class="opened_mobile_menu">
-            <div class="mobile-menu">
-                <ul class="mobile-menu__list">
-                    <li class="mobile-menu__item">
-                        <span class="mobile-menu__link sublink" href="">Shop</span>
-                        <i class="menu-icon fa fa-chevron-right"></i>
-                        <ul class="mobile-menu__sublist">
-                            <li><a class="mobile-menu__sublink" href="/stores">Directory</a></li>
-                            <li><a class="mobile-menu__sublink" href="/map">Center Map</a></li>
-                            <li><a class="mobile-menu__sublink" href="/promotions">Sales & Promotions</a></li>
-                        </ul>
-                    </li>
-                    <li class="mobile-menu__item">
-                        <span class="mobile-menu__link sublink" href="">Dine</span>  
-                        <i class="menu-icon fa fa-chevron-right"></i>
-                        <ul class="mobile-menu__sublist">
-                            <li><a class="mobile-menu__sublink" href="/restaurants">Restaurants</a></li>
-				            <li><a class="mobile-menu__sublink" href="/specialty_foods">Specialty Foods</a></li>
-                        </ul>
-                    </li>
-                    <li class="mobile-menu__item">
-                        <span class="mobile-menu__link sublink sublink" href="">Events</span>
-                        <i class="menu-icon fa fa-chevron-right"></i>
-                        <ul class="mobile-menu__sublist">
-                            <li><a class="mobile-menu__sublink" href="/events">Center Events</a></li>
-                            <li><a class="mobile-menu__sublink" href="/orchard_train">Orchard Train</a></li>
-				            <li><a class="mobile-menu__sublink" href="/entertainment">Entertainment</a></li>
-                        </ul>
-                    </li>
-                    <li class="mobile-menu__item">
-                        <span class="mobile-menu__link sublink" href="">About</span>
-                        <i class="menu-icon fa fa-chevron-right"></i>
-                        <ul class="mobile-menu__sublist">
-                            <li><a class="mobile-menu__sublink" href="/image_gallery">Image Gallery</a></li>
-                            <li><a class="mobile-menu__sublink" href="/guest_services">Guest Services</a></li>
-                            <li><a class="mobile-menu__sublink" href="/hours">Hours</a></li>
-                            <li><a class="mobile-menu__sublink" href="/jobs">Employment</a></li>
-                        </ul>
-                    </li>
-                    <li class="mobile-menu__item">
-                        <span class="mobile-menu__link sublink" href="">Connect</span>
-                        <i class="menu-icon fa fa-chevron-right"></i>
-                        <ul class="mobile-menu__sublist">
-                            <li><a class="mobile-menu__sublink" href="/newsletter">Newsletter Sign-Up</a></li>
-    						<!--<li><a class="mobile-menu__sublink" href="/news">News</a></li>-->
-                            <li><a class="mobile-menu__sublink" href="/leasing">Leasing</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
+    
     <div class="fixed_header">
         <div class="news-ticker" data-speed="5000">
             <ul class="bulletin" id="bulletin"></ul>
@@ -200,6 +148,59 @@
                     </div>    
                 </div>
             </div>
+            <div class="mobile_menu_container">
+        <div class="opened_mobile_menu">
+            <div class="mobile-menu">
+                <ul class="mobile-menu__list">
+                    <li class="mobile-menu__item">
+                        <span class="mobile-menu__link sublink" href="">Shop</span>
+                        <i class="menu-icon fa fa-chevron-right"></i>
+                        <ul class="mobile-menu__sublist">
+                            <li><a class="mobile-menu__sublink" href="/stores">Directory</a></li>
+                            <li><a class="mobile-menu__sublink" href="/map">Center Map</a></li>
+                            <li><a class="mobile-menu__sublink" href="/promotions">Sales & Promotions</a></li>
+                        </ul>
+                    </li>
+                    <li class="mobile-menu__item">
+                        <span class="mobile-menu__link sublink" href="">Dine</span>  
+                        <i class="menu-icon fa fa-chevron-right"></i>
+                        <ul class="mobile-menu__sublist">
+                            <li><a class="mobile-menu__sublink" href="/restaurants">Restaurants</a></li>
+				            <li><a class="mobile-menu__sublink" href="/specialty_foods">Specialty Foods</a></li>
+                        </ul>
+                    </li>
+                    <li class="mobile-menu__item">
+                        <span class="mobile-menu__link sublink sublink" href="">Events</span>
+                        <i class="menu-icon fa fa-chevron-right"></i>
+                        <ul class="mobile-menu__sublist">
+                            <li><a class="mobile-menu__sublink" href="/events">Center Events</a></li>
+                            <li><a class="mobile-menu__sublink" href="/orchard_train">Orchard Train</a></li>
+				            <li><a class="mobile-menu__sublink" href="/entertainment">Entertainment</a></li>
+                        </ul>
+                    </li>
+                    <li class="mobile-menu__item">
+                        <span class="mobile-menu__link sublink" href="">About</span>
+                        <i class="menu-icon fa fa-chevron-right"></i>
+                        <ul class="mobile-menu__sublist">
+                            <li><a class="mobile-menu__sublink" href="/image_gallery">Image Gallery</a></li>
+                            <li><a class="mobile-menu__sublink" href="/guest_services">Guest Services</a></li>
+                            <li><a class="mobile-menu__sublink" href="/hours">Hours</a></li>
+                            <li><a class="mobile-menu__sublink" href="/jobs">Employment</a></li>
+                        </ul>
+                    </li>
+                    <li class="mobile-menu__item">
+                        <span class="mobile-menu__link sublink" href="">Connect</span>
+                        <i class="menu-icon fa fa-chevron-right"></i>
+                        <ul class="mobile-menu__sublist">
+                            <li><a class="mobile-menu__sublink" href="/newsletter">Newsletter Sign-Up</a></li>
+    						<!--<li><a class="mobile-menu__sublink" href="/news">News</a></li>-->
+                            <li><a class="mobile-menu__sublink" href="/leasing">Leasing</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
         </section>
     </div>
     <section class="yield">
