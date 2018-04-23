@@ -70,7 +70,7 @@
         <div class="opened_mobile_menu">
             <div class="mobile-menu">
                 <ul class="mobile-menu__list">
-                    <li class="first-li">
+                    <li class="mobile-menu__item">
                         <a class="mobile-menu__link sublink" href="">
                             Shop <i class="fa fa-chevron-right"></i>
                         </a>
@@ -80,7 +80,7 @@
                             <li><a class="mobile-menu__sublink" href="/promotions">Sales & Promotions</a></li>
                         </ul>
                     </li>
-                    <li class="first-li">
+                    <li class="mobile-menu__item">
                         <a class="mobile-menu__link sublink" href="">
                             Dine <i class="fa fa-chevron-right"></i>
                         </a>    
@@ -89,7 +89,7 @@
 				            <li><a class="mobile-menu__sublink" href="/specialty_foods">Specialty Foods</a></li>
                         </ul>
                     </li>
-                    <li class="first-li">
+                    <li class="mobile-menu__item">
                         <a class="mobile-menu__link sublink sublink" href="">
                             Events <i class="fa fa-chevron-right"></i>
                         </a>
@@ -99,7 +99,7 @@
 				            <li><a class="mobile-menu__sublink" href="/entertainment">Entertainment</a></li>
                         </ul>
                     </li>
-                    <li class="first-li">
+                    <li class="mobile-menu__item">
                         <a class="mobile-menu__link sublink" href="">
                             About <i class="fa fa-chevron-right"></i>
                         </a>
@@ -110,7 +110,7 @@
                             <li><a class="mobile-menu__sublink" href="/jobs">Employment</a></li>
                         </ul>
                     </li>
-                    <li class="first-li">
+                    <li class="mobile-menu__item">
                         <a class="mobile-menu__link sublink" href="">
                             Connect <i class="fa fa-chevron-right"></i>
                         </a>
