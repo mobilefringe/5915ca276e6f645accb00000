@@ -18,7 +18,7 @@ function init(e){
     $('#menu-icon').click(function(e){
 		e.preventDefault();
 		$(this).toggleClass('open');
-        $('body').addClass('no_scroll');
+        $('body').toggleClass('no_scroll');
 		$('.mobile_menu_container').toggleClass('active_menu');
 	});
 
