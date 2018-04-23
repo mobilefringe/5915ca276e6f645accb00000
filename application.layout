@@ -78,54 +78,36 @@
                             <li><a class="mobile-menu__sublink" href="https://www.paulekman.com/paul-ekman/">Paul Ekman</a></li>
                         </ul>
                     </li>
-    
                     <li class="first-li">
-                        <a class="mobile-menu__link sublink-2" href=""><img class="arrow" src="https://www.paulekman.com/wp-content/themes/paulekman/images/arrow-right.png" alt="">Training</a>
-       <ul class="mobile-menu__sublist-2">
-   
-        <li><a class="mobile-menu__sublink" href="https://www.paulekman.com/micro-expressions-training-tools/">Training Tools</a></li>
-        <li><a class="mobile-menu__sublink" href="https://www.paulekman.com/product-category/facs/">Facial Action Coding System</a></li>
-        <li><a class="mobile-menu__sublink" title="Photographs" href="https://www.paulekman.com/product-category/research-products/">Photographs</a></li>
-        <li><a class="mobile-menu__sublink" title="Workshops" href="https://www.paulekman.com/workshops/">Workshops</a></li>
-      </ul>
-    
-    </li>
-        <li><a class="mobile-menu__link" href="https://www.paulekman.com/micro-expressions/">Micro Expressions</a></li>
-        
-        
-      
-     
-   
-           <li class="first-li"><a class="mobile-menu__link sublink sublink-3" href=""><img class="arrow" src="https://www.paulekman.com/wp-content/themes/paulekman/images/arrow-right.png" alt="">Resources</a>
-            <ul class="mobile-menu__sublist-3">
-            <li><a class="mobile-menu__sublink" href="https://www.paulekman.com/journal-articles/">Books</a></li>
-<li><a class="mobile-menu__sublink" href="https://www.paulekman.com/journal-articles/">Journal Articles</a></li>
-<li><a class="mobile-menu__sublink" href="https://www.paulekman.com/paul-ekman/videos/">Videos</a></li>
-<li><a class="mobile-menu__sublink" target="_blank" href="http://www.atlasofemotions.com">Atlas of Emotions</a></li>
-<li><a class="mobile-menu__sublink" href="https://www.paulekman.com/parentsguide/">Parents&rsquo; Guide to <em>Inside Out</em></a></li>
-<li><a class="mobile-menu__sublink" href="https://www.paulekman.com/webisodes/">Global Compassion</a></li>
-      </ul>
-    
-    </li>
-    
-          <li class="first-li"><a class="mobile-menu__link sublink-4" href=""><img class="arrow" src="https://www.paulekman.com/wp-content/themes/paulekman/images/arrow-right.png" alt="">Support</a>
-            <ul class="mobile-menu__sublist-4">
-      <li><a class="mobile-menu__sublink" href="https://www.paulekman.com/contact-us/">Contact Us</a></li>
-<li><a class="mobile-menu__sublink" title="PEG FAQ" href="https://www.paulekman.com/peg-faq/">Paul Ekman FAQ</a></li>
-<li><a class="mobile-menu__sublink" href="https://www.paulekman.com/atlas-emotions-faq/">Atlas of Emotions FAQ</a></li>
-<li><a class="mobile-menu__sublink" href="https://www.paulekman.com/technical-requirements/">Technical Requirements</a></li>
-<li><a class="mobile-menu__sublink" href="https://www.paulekman.com/lostpassword/">Password Reset</a></li>
-<li><a class="mobile-menu__sublink" href="https://www.paulekman.com/terms-conditions/">Terms and Conditions</a></li>
-      </ul>
-    
-    </li>
-    
-   <li class="first-li"><a class="mobile-menu__link" href="https://www.paulekman.com/cart/">Cart</a></li>
-   <li class="first-li"><a class="mobile-menu__link" href="https://www.paulekman.com/my-account/trainings/">My Account</a></li>
-   
-  </ul>
-</div>
-  
+                        <a class="mobile-menu__link sublink-2" href="">
+                            <img class="arrow" src="https://www.paulekman.com/wp-content/themes/paulekman/images/arrow-right.png" alt="">Training
+                        </a>    
+                        <ul class="mobile-menu__sublist-2">
+                            <li><a class="mobile-menu__sublink" href="https://www.paulekman.com/micro-expressions-training-tools/">Training Tools</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="mobile-menu__link" href="https://www.paulekman.com/micro-expressions/">Micro Expressions</a>
+                    </li>
+                    <li class="first-li">
+                        <a class="mobile-menu__link sublink sublink-3" href="">
+                            <img class="arrow" src="https://www.paulekman.com/wp-content/themes/paulekman/images/arrow-right.png" alt="">Resources
+                        </a>
+                        <ul class="mobile-menu__sublist-3">
+                            <li><a class="mobile-menu__sublink" href="https://www.paulekman.com/journal-articles/">Books</a></li>
+                            <li><a class="mobile-menu__sublink" href="https://www.paulekman.com/journal-articles/">Journal Articles</a></li>
+                        </ul>
+                    </li>
+                    <li class="first-li">
+                        <a class="mobile-menu__link sublink-4" href="">
+                            <img class="arrow" src="https://www.paulekman.com/wp-content/themes/paulekman/images/arrow-right.png" alt="">Support
+                        </a>
+                        <ul class="mobile-menu__sublist-4">
+                            <li><a class="mobile-menu__sublink" href="https://www.paulekman.com/contact-us/">Contact Us</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
     <div class="fixed_header">
