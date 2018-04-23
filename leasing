@@ -48,7 +48,7 @@
         function renderAll(){
             var prefix = get_prefix();
             var retail_json = prefix + "/pages/orchardtown-retail-leasing.json"
-            $.getJSON(pages_json).done(function(data) {
+            $.getJSON(retail_json).done(function(data) {
                 $('#retail_page_title').html(data.title.toUpperCase());
                 $('#retail_page_content').html(data.body);
             }).fail(function(jqXHR) {
@@ -58,7 +58,7 @@
             });
             
             var office_json = prefix + "/pages/orchardtown-office-leasing.json"
-            $.getJSON(pages_json).done(function(data) {
+            $.getJSON(office_json).done(function(data) {
                 $('#retail_page_title').html(data.title.toUpperCase());
                 $('#office_page_content').html(data.body);
             }).fail(function(jqXHR) {
