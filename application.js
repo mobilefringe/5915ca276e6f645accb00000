@@ -470,7 +470,7 @@ function renderJobDetails(container, template, collection, mall_name){
             }
         } else {
             val.store_name = mall_name;
-            val.store_image = "//codecloud.cdn.speedyrails.net/sites/5915ca276e6f645accb00000/image/jpeg/1495053149000/orchard_default.jpg";
+            val.store_image = site_json.default_image;
             val.store_show = "display:none";
             val.phone_show = "display:none";
             val.show = "display:none";
