@@ -40,7 +40,7 @@ function init(e){
 function show_content(){
     var scrolled = 0;
     $('.yield').fadeIn();
-    // $(".modal-backdrop").remove();
+    $(".modal-backdrop").remove();
     
     var d = new Date();
     var n = d.getDay();
