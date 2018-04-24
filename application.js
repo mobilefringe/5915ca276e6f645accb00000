@@ -476,7 +476,7 @@ function renderJobDetails(container, template, collection, mall_name){
             val.show = "display:none";
         }
         if (val.store_image.indexOf('missing.png') > 0){
-            val.store_image = "//codecloud.cdn.speedyrails.net/sites/5915ca276e6f645accb00000/image/jpeg/1495053149000/orchard_default.jpg";
+            val.store_image = site_json.default_image;
         }
         
         var show_date = moment(val.show_on_web_date).tz(getPropertyTimeZone());
@@ -617,7 +617,7 @@ function renderEventsWithImgTemplate(template_id,html_id,not_empty_section_id,em
                 } else {
                     val.show = '';
                 }
-                val.event_image_url =  "//codecloud.cdn.speedyrails.net/sites/5915ca276e6f645accb00000/image/jpeg/1495053149000/orchard_default.jpg";
+                val.event_image_url = site_json.default_image;
             }
             item_list.push(val);        
         }
@@ -670,7 +670,7 @@ function renderSinglePost(container, template, main_post){
     Mustache.parse(template_html);   // optional, speeds up future uses
 
     if (main_post.image_url.indexOf('missing.png') > 0) {
-        main_post.post_image = "//codecloud.cdn.speedyrails.net/sites/5915ca276e6f645accb00000/image/jpeg/1495053149000/orchard_default.jpg";
+        main_post.post_image = site_json.default_image;
     } else {
         main_post.post_image = main_post.image_url;
     }
@@ -700,7 +700,7 @@ function renderPosts(container, template, collection){
     Mustache.parse(template_html);   // optional, speeds up future uses
     $.each( collection , function( key, val ) {
         if (val.image_url.indexOf('missing.png') > -1) {
-            val.post_image = "//codecloud.cdn.speedyrails.net/sites/5915ca276e6f645accb00000/image/jpeg/1495053149000/orchard_default.jpg";
+            val.post_image = site_json.default_image;
         } else {
             val.post_image = val.image_url;
         }
@@ -736,7 +736,7 @@ function renderPostDetails(container, template, collection, blog_posts){
     var template_html = $(template).html();
     $.each(collection , function( key, val ) {
         if (val.image_url.indexOf('missing.png') > -1) {
-            val.post_image = "//codecloud.cdn.speedyrails.net/sites/5915ca276e6f645accb00000/image/jpeg/1495053149000/orchard_default.jpg";
+            val.post_image = site_json.default_image;
         } else {
             val.post_image = val.image_url;
         }
@@ -791,7 +791,7 @@ function renderGallery(container, template, collection){
     Mustache.parse(template_html);   // optional, speeds up future uses
     $.each( collection , function( key, val ) {
         if (val.photo_url.indexOf('missing.png') > -1) {
-            val.gallery_image = "//codecloud.cdn.speedyrails.net/sites/5915ca276e6f645accb00000/image/jpeg/1495053149000/orchard_default.jpg";
+            val.gallery_image = site_json.default_image;
         } else {
             val.gallery_image = "//www.mallmaverick.com" + val.photo_url;
         }
