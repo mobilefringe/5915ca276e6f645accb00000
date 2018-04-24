@@ -5,6 +5,7 @@ function init(e){
 		e.preventDefault();
 		$(this).toggleClass('open');
         $('body').toggleClass('no_scroll');
+        $('.flex-prev').toggle();
 		$('.mobile_menu_container').toggleClass('active_menu');
 	});
 
