@@ -6,6 +6,7 @@ function init(e){
 		$(this).toggleClass('open');
         $('body').toggleClass('no_scroll');
         $('.flex-prev').fadeToggle();
+        $('.flex-next').fadeToggle();
 		$('.mobile_menu_container').toggleClass('active_menu');
 	});
 
