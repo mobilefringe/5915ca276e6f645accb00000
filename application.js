@@ -41,7 +41,7 @@ function renderStoreList(container, template, collection, type){
     $.each(collection, function(key, val) {
         if(type == "stores" || type == "category_stores"){
             if(!val.store_front_url_abs ||  val.store_front_url_abs.indexOf('missing.png') > -1 || val.store_front_url_abs.length === 0){
-                val.store_front_url_abs = default_image.image_url;
+                val.store_front_url_abs = site_json.default_image;
             } 
         }
         
@@ -139,7 +139,7 @@ function renderStoreDetails(container, template, collection, slug){
     item_list.push(collection);
     $.each( item_list , function( key, val ) {
         if ((val.store_front_url).indexOf('missing.png') > -1){
-            val.alt_store_front_url = "//codecloud.cdn.speedyrails.net/sites/5915ca276e6f645accb00000/image/jpeg/1495053149000/orchard_default.jpg";
+            val.alt_store_front_url = site_json.default_image;
         } else {
             val.alt_store_front_url = getImageURL(val.store_front_url); 
         }
@@ -196,7 +196,7 @@ function renderPromotions(container, template, collection, centre){
                 val.image_url  = store_details.store_front_url_abs;
             }
             if (store_details.store_front_url_abs.indexOf('missing.png') > 0){
-                val.image_url  = "//codecloud.cdn.speedyrails.net/sites/5915ca276e6f645accb00000/image/jpeg/1495053149000/orchard_default.jpg"
+                val.image_url  = site_json.default_image;
             }
             if(val.cat_list != null){
                 try {
@@ -207,9 +207,8 @@ function renderPromotions(container, template, collection, centre){
                 }
             }
             val.store_slug = "/stores/" + store_details.slug
-        }
-        else{
-            val.image_url = "//codecloud.cdn.speedyrails.net/sites/5915ca276e6f645accb00000/image/jpeg/1495053149000/orchard_default.jpg";
+        } else {
+            val.image_url = site_json.default_image;
             val.store_name = mall_name;
             val.store_slug = "/"
             val.store_show = "display:none;";
@@ -219,8 +218,7 @@ function renderPromotions(container, template, collection, centre){
         }
         if (val.description.length > 200){
             val.description_short = val.description.substring(0,200) + "...";
-        }
-        else {
+        } else {
             val.description_short = val.description
         }
         
@@ -229,8 +227,7 @@ function renderPromotions(container, template, collection, centre){
         var end = moment(val.end_date).tz(getPropertyTimeZone());
         if (start.format("DMY") == end.format("DMY")){
         	val.dates = start.format("MMM D");
-        }
-        else {
+        } else {
         	val.dates = start.format("MMM D") + " - " + end.format("MMM D");
         }
         
@@ -257,28 +254,25 @@ function renderPromoDetails(container, template, collection, centre){
             if (store_details.website != null && store_details.website.length > 0){
                 val.show = "display:block";
                 val.website = store_details.website
-            }
-            else{
+            } else {
                 val.show = "display:none";
             }
             if (store_details.phone != null && store_details.phone.length > 0){
                 val.phone_show = "display:block";
                 val.phone = store_details.phone
-            }
-            else{
+            } else {
                 val.phone_show = "display:none";
             }
-        }
-        else{
+        } else {
             val.store_name = mall_name;
-            val.store_image = "//codecloud.cdn.speedyrails.net/sites/5915ca276e6f645accb00000/image/jpeg/1495053149000/orchard_default.jpg";
+            val.store_image = site_json.default_image;
             val.store_show = "display:none";
             val.phone_show = "display:none";
             val.show = "display:none";
         }
         val.image_url = val.promo_image_url_abs
         if(val.image_url.indexOf('missing.png') > 0){
-            val.image_url  = "//codecloud.cdn.speedyrails.net/sites/5915ca276e6f645accb00000/image/jpeg/1495053149000/orchard_default.jpg";
+            val.image_url  = site_json.default_image;
         }
         if(val.promo_image_url_abs.indexOf('missing.png') > -1){
             val.promo_image_show="display:none";
@@ -289,8 +283,7 @@ function renderPromoDetails(container, template, collection, centre){
         var end = moment(val.end_date).tz(getPropertyTimeZone());
         if (start.format("DMY") == end.format("DMY")){
         	val.dates = start.format("MMM D");
-        }
-        else {
+        } else {
         	val.dates = start.format("MMM D") + " - " + end.format("MMM D");
         }
         
@@ -314,22 +307,20 @@ function renderEvents(container, template, collection, centre){
             if(store_details.categories != null){
                 val.cat_list = store_details.categories.join(',')
             }
-        }
-        else {
+        } else {
             val.store_name = centre;
-            val.image_url = "//codecloud.cdn.speedyrails.net/sites/5915ca276e6f645accb00000/image/jpeg/1495053149000/orchard_default.jpg";
+            val.image_url = site_json.default_image;
         }
         if (val.image_url.indexOf('missing.png') > 0){
-            val.image_url  = "//codecloud.cdn.speedyrails.net/sites/5915ca276e6f645accb00000/image/jpeg/1495053149000/orchard_default.jpg";
+            val.image_url  = site_json.default_image;
         }
         if (val.description.length > 200){
             val.description_short = val.description.substring(0,200) + "...";
-        }
-        else {
+        } else {
             val.description_short = val.description
         }
         if (val.event_image_url_abs.indexOf('missing.png') > -1){
-            val.event_image_url_abs="//codecloud.cdn.speedyrails.net/sites/5915ca276e6f645accb00000/image/jpeg/1495053149000/orchard_default.jpg";
+            val.event_image_url_abs = site_json.default_image;
         }
         
         var show_date = moment(val.show_on_web_date).tz(getPropertyTimeZone());
@@ -337,8 +328,7 @@ function renderEvents(container, template, collection, centre){
         var end = moment(val.end_date).tz(getPropertyTimeZone());
         if (start.format("DMY") == end.format("DMY")){
         	val.dates = start.format("MMM D");
-        }
-        else {
+        } else {
         	val.dates = start.format("MMM D") + " - " + end.format("MMM D");
         }
         
@@ -364,22 +354,19 @@ function renderEventDetails(container, template, collection, mall_name){
             if (store_details.website != null && store_details.website.length > 0){
                 val.show = "display:block";
                 val.website = store_details.website
-            }
-            else{
+            } else {
                 val.show = "display:none";
             }
             if (store_details.phone != null && store_details.phone.length > 0){
                 val.phone_show = "display:block";
                 val.phone = store_details.phone
-            }
-            else{
+            } else {
                 val.phone_show = "display:none";
                 val.show = "display:none";
             }
-        }
-        else{
+        } else {
             val.store_name = mall_name;
-            val.store_image = "//codecloud.cdn.speedyrails.net/sites/5915ca276e6f645accb00000/image/jpeg/1495053149000/orchard_default.jpg";
+            val.store_image = site_json.default_image;
             val.store_show = "display:none";
             val.phone_show = "display:none";
             val.show = "display:none";
@@ -387,7 +374,7 @@ function renderEventDetails(container, template, collection, mall_name){
         val.image_url = val.event_image_url_abs
         
         if(val.image_url.indexOf('missing.png') > 0){
-            val.image_url  = "//codecloud.cdn.speedyrails.net/sites/5915ca276e6f645accb00000/image/jpeg/1495053149000/orchard_default.jpg";
+            val.image_url  = site_json.default_image;
         }
         
         if(val.event_image_url_abs.indexOf('missing.png') > -1){
@@ -399,8 +386,7 @@ function renderEventDetails(container, template, collection, mall_name){
         var end = moment(val.end_date).tz(getPropertyTimeZone());
         if (start.format("DMY") == end.format("DMY")){
         	val.dates = start.format("MMM D");
-        }
-        else {
+        } else {
         	val.dates = start.format("MMM D") + " - " + end.format("MMM D");
         }
         
@@ -420,15 +406,13 @@ function renderJobs(container, template, collection){
             val.store_name = getStoreDetailsByID(val.jobable_id).name;
             val.store_slug = getStoreDetailsByID(val.jobable_id).slug;
             val.store_show = "display:block";
-        }
-        else {
+        } else {
             val.store_name = mall_name;
             val.store_show = "display:none";
         }
         if (val.description.length > 200){
             val.description_short = val.description.substring(0,200) + "...";
-        }
-        else {
+        } else {
             val.description_short = val.description;
         }
         
