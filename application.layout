@@ -244,8 +244,7 @@
                     <div class="row footer_site_map">
                         <div class="col-md-6 col-xs-6">
                             <ul>
-                                <li><a href="/pages/orchardtown-retail-leasing">Retail Leasing</a></li>
-                                <li><a href="/pages/orchardtown-office-leasing">Office Leasing</a></li>
+                                <li><a href="/leasing">Leasing</a></li>
                                 <li><a href="/pages/orchardtown-terms-conditions">Terms & Conditions</a></li>
                                 <li><a href="/pages/orchardtown-privacy-policy">Privacy Policy</a></li>
                             </ul>
@@ -254,7 +253,7 @@
                             <ul>
                                 <li><a href="/hours">Hours</a></li>
                                 <li><a href="/contact_us">Contact Us</a></li>
-                                <li><a href="/pages/orchardtown-media">Media Kit</a></li>
+                                <!--<li><a href="/pages/orchardtown-media">Media Kit</a></li>-->
                                 <li><a href="/jobs">Employment</a></li>
                             </ul>
                         </div>
