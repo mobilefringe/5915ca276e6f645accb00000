@@ -31,10 +31,12 @@
             <div class="col-md-12">
                 <div id="photo_container" class="row">
                     <script id="photo_template" type="x-tmpl-mustache/text">
-                        <div class="col-md-6 portfolio_item"> 
-                            <a href="{{image_url}}" data-lightbox="{{id}}" data-title="{{name}}">
-                                <img class="hoverer" alt="photo{{id}}" src="{{image_url}}"/>
-                            </a>
+                        <div class="col-md-6"> 
+                            <div class="portfolio_item">
+                                <a href="{{image_url}}" data-lightbox="{{id}}" data-title="{{name}}">
+                                    <img class="hoverer" alt="photo{{id}}" src="{{image_url}}"/>
+                                </a>
+                            </div>
                         </div>
                     </script>
                 </div>
