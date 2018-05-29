@@ -46,9 +46,13 @@
                         <h3 class="hours_heading">Reduced Holiday Hours of Operation</h3>
                         <div id="holidays_hours_container" class="hours_container">
                             <script id="holidays_hours_template" type="x-tmpl-mustache/text">
-                                <div class="hours_div">
-                                    <span>{{holiday_name}} <br>({{formatted_date}})</span>
-                                    <span>{{h}}</span>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <span>{{holiday_name}} <br>({{formatted_date}})</span>
+                                    </div>
+                                    <div  class="col-md-6">
+                                        <span>{{h}}</span>
+                                    </div>
                                 </div>
                             </script>
                         </div>
@@ -67,6 +71,10 @@
         </div>
     </div>
 </div>
+<div class="hours_div">
+                                    <span>{{holiday_name}} <br>({{formatted_date}})</span>
+                                    <span>{{h}}</span>
+                                </div>
 <script>
     $(document).ready(function(e){
         init(e);
