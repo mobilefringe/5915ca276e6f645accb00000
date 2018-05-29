@@ -44,7 +44,7 @@
                     </div>
                     <div class="col-md-7">
                         <h3 class="hours_heading">Reduced Holiday Hours of Operation</h3>
-                        <div id="holidays_hours_container">
+                        <div id="holidays_hours_container" class="hours_container">
                             <script id="holidays_hours_template" type="x-tmpl-mustache/text">
                                 <div class="row">
                                     <div class="col-md-6">
