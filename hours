@@ -47,10 +47,10 @@
                         <div id="holidays_hours_container">
                             <script id="holidays_hours_template" type="x-tmpl-mustache/text">
                                 <div class="row">
-                                    <div class="col-md-6">
+                                    <div class="col-sm-6">
                                         <p>{{holiday_name}}<p> <p>({{formatted_date}})</p>
                                     </div>
-                                    <div  class="col-md-6">
+                                    <div  class="col-sm-6">
                                         <span>{{h}}</span>
                                     </div>
                                 </div>
@@ -71,10 +71,6 @@
         </div>
     </div>
 </div>
-<div class="hours_div">
-                                    <span>{{holiday_name}} <br>({{formatted_date}})</span>
-                                    <span>{{h}}</span>
-                                </div>
 <script>
     $(document).ready(function(e){
         init(e);
