@@ -2489,6 +2489,10 @@ gallery:after{
     .col-md-4, .col-md-6, .col-md-8, .col-md-12{
         padding:0;
     }
+    .mobile_row {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
     .hidden_phone{
         display:none;
     }
