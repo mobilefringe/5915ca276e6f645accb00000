@@ -53,9 +53,9 @@
             if(gallery_repo != null){
                 renderGeneral("#photo_container", "#photo_template", gallery_repo);
             }
-            $(".lb-prev").hover(function() {
+            // $(".lb-prev").hover(function() {
                 $("a.lb-prev").show();    
-            });
+            // });
             show_content();
         }
         
