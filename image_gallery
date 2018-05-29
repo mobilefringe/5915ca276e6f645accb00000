@@ -33,7 +33,7 @@
                     <script id="photo_template" type="x-tmpl-mustache/text">
                         <div class="col-md-6"> 
                             <div class="portfolio_item">
-                                <a href="{{image_url}}" data-lightbox="{{id}}">
+                                <a href="{{image_url}}" data-lightbox="gallery">
                                     <img class="hoverer" src="{{image_url}}" alt="photo{{id}}" rel="lightbox[gallery]"/>
                                 </a>
                             </div>
