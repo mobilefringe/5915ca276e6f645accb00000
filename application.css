@@ -2213,7 +2213,6 @@ gallery:after{
             width: 45px;
             transform: translateX(-50%);
             border-top: 1px solid $primary;
-            
         }
     }
     #insta_container {
@@ -2230,12 +2229,12 @@ gallery:after{
                 vertical-align: top;
             }
         }
-        // .ig-image:first-child {
-        //     margin-left: 0;
-        // }
-        // .ig-image:last-child {
-        //     margin-right: 0;
-        // }
+        .ig-image:first-child {
+            margin-left: 0;
+        }
+        .ig-image:last-child {
+            margin-right: 0;
+        }
     }
 }
 
