@@ -50,7 +50,8 @@
     
     <script>
         setEndPoint('//orchardtown.mallmaverick.com/api/v4/orchardtown/all.json');
-        setSocialEndPoint('//orchardtown.mallmaverick.com/api/v2/orchardtown/social.json')
+        // setSocialEndPoint('//orchardtown.mallmaverick.com/api/v2/orchardtown/social.json')
+        setSocialEndPoint('//devonshire.mallmaverick.com/api/v4/devonshire/social.json')
     </script>
     
      <script>
