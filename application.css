@@ -2197,18 +2197,22 @@ gallery:after{
     .insta_title {
         margin: 0;
         margin-bottom: 30px;
-        // font-weight: 800;
-        // font-size: 20px;
-        // letter-spacing: 1.5px;
-        // line-height: 24px;
-        
         font-family: "Mercury Display Italic";
         font-size: 20px;
-        // color: #FFF;
         letter-spacing: 1.5px;
         line-height: 24px;
         text-align: center;
         text-transform: uppercase;
+        &:after {
+            content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        z-index: 1;
+        top: -13px;
+        border-top: 1px solid #9B9B9B;
+        width: 26px;
+        }
     }
     #insta_container {
         text-align: center;
