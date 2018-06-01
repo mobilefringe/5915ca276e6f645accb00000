@@ -2206,13 +2206,12 @@ gallery:after{
         text-transform: uppercase;
         &:after {
             content: "";
-        position: absolute;
-        left: 0;
-        right: 0;
-        z-index: 1;
-        top: -13px;
-        border-top: 1px solid #9B9B9B;
-        width: 26px;
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            z-index: 1;
+            border-top: 1px solid $primary;
+            width: 45px;
         }
     }
     #insta_container {
