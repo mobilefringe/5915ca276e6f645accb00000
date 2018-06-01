@@ -100,19 +100,16 @@
         var latest_fb_post = social_feed.facebook[0]
         if(latest_tweet.text.length > 100){
             $('#latest_tweet').text(latest_tweet.text.substr(0,100) + "...")
-        }
-        else{
+        } else {
             $('#latest_tweet').text(latest_tweet.text)
         }
         $('#latest_tweet_link').attr('href', latest_tweet.link)
         var tweet_date = new Date(latest_tweet.created_at.split(',')[0])
         $('#latest_tweet_date').text(get_month(tweet_date.getMonth()) + " " + tweet_date.getDate())
         
-        
         if(latest_fb_post.text.length > 100){
             $('#latest_fb').text(latest_fb_post.text.substr(0,100) + "...")
-        }
-        else{
+        } else {
             $('#latest_fb').text(latest_fb_post.text)
         }
         $('#latest_fb_link').attr('href', latest_fb_post.link)
@@ -120,29 +117,3 @@
         $('#latest_fb_date').text(get_month(fb_date.getMonth()) + " " + fb_date.getDate())
     }
 </script>
-
-<!-- FACEBOOK -->
-<!--<a href="https://www.facebook.com/OrchardTC" target="_blank" class="show_phone">-->
-<!--    <img src="//codecloud.cdn.speedyrails.net/sites/59c08c176e6f64088f070000/image/png/1506454445000/FB OTC.png" alt="fb">-->
-<!--</a>-->
-<!--<div class="hidden_phone social_box text-center" id="social_fb">-->
-<!--    <img src="//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1463434709000/facebook_post.png" class="" alt="facebook post">-->
-<!--    <a href="#" id="latest_fb_link" target="_blank"><p id="latest_fb" class="latest_post"></p></a>-->
-<!--    <p>-->
-<!--        <a  class="social_link_blank" href="https://www.facebook.com/OrchardTC" target="_blank">Facebook/OrchardTC</a> <br />-->
-<!--        <span id="latest_fb_date"></span>    -->
-<!--    </p>-->
-<!--</div>-->
-
-<!-- TWITTER -->
-<!--<a class="show_phone" href="//twitter.com/OrchardTC" target="_blank"><img src="//codecloud.cdn.speedyrails.net/sites/59c08c176e6f64088f070000/image/png/1506454446000/Twitter OTC.png"  alt=""></a>-->
-<!--<div class="social_box hidden_phone text-center" d="social_twitter">-->
-<!--    <img src="//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1463434698000/tweet.png" class="" alt="tweet">-->
-<!--    <div>-->
-<!--        <a href="#" id="latest_tweet_link" target="_blank"><p id="latest_tweet" class="latest_post"></p></a>-->
-<!--        <p>-->
-<!--            <a class="social_link_blank" href="//twitter.com/OrchardTC" target="_blank">@OrchardTC</a> <br />-->
-<!--            <span id="latest_tweet_date"></span>-->
-<!--        </p>-->
-<!--    </div>-->
-<!--</div>-->
