@@ -2231,9 +2231,11 @@ gallery:after{
         }
         .ig-image:first-child {
             margin-left: 0;
+            width: calc(25% - 5px);
         }
         .ig-image:last-child {
             margin-right: 0;
+            width: calc(25% - 5px);
         }
     }
 }
