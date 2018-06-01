@@ -2820,12 +2820,14 @@ gallery:after{
                 width: calc(50% - 10px);
                 max-height: 359px;
             }
-            // .ig-image:first-child {
-            //     margin-left: 5px;
-            // }
-            // .ig-image:last-child {
-            //     margin-right: 5px;
-            // }
+            .ig-image:first-child {
+                margin-left: 5px;
+                width: calc(50% - 10px);
+            }
+            .ig-image:last-child {
+                margin-right: 5px;
+                width: calc(50% - 10px);
+            }
         }
     }
     
