@@ -2197,6 +2197,7 @@ gallery:after{
     .insta_title {
         margin: 0;
         margin-bottom: 30px;
+        position: relative;
         font-family: "Mercury Display Italic";
         font-size: 20px;
         letter-spacing: 1.5px;
