@@ -2190,6 +2190,43 @@ gallery:after{
     }
 }
 
+
+/* *** INSTAGRAM *** */
+.instagram_container {
+    margin: 60px 0;
+    .insta_title {
+        margin: 0;
+        margin-bottom: 30px;
+        font-weight: 800;
+        font-size: 20px;
+        letter-spacing: 1.5px;
+        line-height: 24px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    #insta_container {
+        text-align: center;
+        .ig-image {
+            margin: 0 5px;
+            padding: 0;
+            display: inline-block;
+            width: calc(25% - 10px);
+            max-height: 225px;
+            overflow: hidden;
+            img {
+                width: 100%;
+                vertical-align: top;
+            }
+        }
+        // .ig-image:first-child {
+        //     margin-left: 0;
+        // }
+        // .ig-image:last-child {
+        //     margin-right: 0;
+        // }
+    }
+}
+
 @media(max-width: 320px){
     .opened_mobile_menu ul a{
         padding: 5px 0;
