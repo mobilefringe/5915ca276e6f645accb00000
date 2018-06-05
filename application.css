@@ -1148,7 +1148,7 @@ h4{
     background: rgba(226, 67, 1, .5);
     color: #fff;
     font-family: "Trade Gothic Bold";
-    font-size: 16px;
+    font-size: 18px;
     text-transform: uppercase;
     margin-top: 25px;
     padding:14px 0px 18px  0;
@@ -1850,8 +1850,8 @@ h4{
         width: 100%;
         border: 1px solid #B23601;
         background: rgba(226,67,1,0.5);
-        font-family: "Trade Gothic", "Helvetica", "Arial", sans-serif;
-        font-size: 22px;
+        font-family: "Trade Gothic Bold";
+        font-size: 18px;
         color: #fff;
         &:hover{
             text-decoration: none;
