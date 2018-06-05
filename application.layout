@@ -132,9 +132,9 @@
                         <a href="https://twitter.com/OrchardTC" target="_blank">
                             <span id="social_twitter"></span>
                         </a>
-                        <!--<a href="//instagram.com/ " target="_blank">-->
-                        <!--    <span id="social_insta"></span>-->
-                        <!--</a>-->
+                        <a href="https://www.instagram.com/orchardtowncenter " target="_blank">
+                            <span id="social_insta"></span>
+                        </a>
                         <a href="/newsletter">
                             <span id="social_newsletter"></span>
                         </a>
@@ -228,9 +228,9 @@
                             <a href="https://twitter.com/OrchardTC" target="_blank">
                                 <span id="social_twitter"></span>
                             </a>
-                            <!--<a href="//instagram.com/ " target="_blank">-->
-                            <!--    <span id="social_insta"></span>-->
-                            <!--</a>-->
+                            <a href="https://www.instagram.com/orchardtowncenter" target="_blank">
+                                <span id="social_insta"></span>
+                            </a>
                             <a href="/newsletter">
                                 <span id="social_newsletter"></span>
                             </a>
