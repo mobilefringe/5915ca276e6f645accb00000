@@ -319,7 +319,7 @@ $primary: #E24301;
     width: 100%;
     text-align: center;
     margin: 0;
-    font-family: "Mercury Display Italic";
+    font-family: "Trade Gothic Bold";
     font-size: 20px;
     color: #FFF;
     letter-spacing: 1.5px;
@@ -2190,7 +2190,7 @@ gallery:after{
         margin: 0;
         margin-bottom: 30px;
         position: relative;
-        font-family: "Mercury Display Italic";
+        font-family: "Trade Gothic Bold";
         font-size: 20px;
         letter-spacing: 1.5px;
         line-height: 24px;
