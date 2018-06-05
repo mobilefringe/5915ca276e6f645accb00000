@@ -1848,6 +1848,7 @@ h4{
         margin-top: 20px;
         padding: 18px 0;
         width: 100%;
+        background: $primary;
         font-family: "Trade Gothic", "Helvetica", "Arial", sans-serif;
         font-size: 22px;
         color: #fff;
