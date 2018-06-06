@@ -2386,6 +2386,9 @@ gallery:after{
             display: none;
         }
     }
+    .flex-direction-nav {
+        display: none;
+    }
     .feature_items_box{
         margin-top: 30px;
     }
