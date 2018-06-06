@@ -3054,7 +3054,7 @@ gallery:after{
 
 @media (max-width: 425px) {
     .home_banner, .hero_banner {
-        height: 250px;
+        height: 230px;
     }
     .inside_banner h3, .pages_banner h3 {
         font-size: 34px;
