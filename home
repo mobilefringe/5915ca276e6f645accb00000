@@ -66,8 +66,7 @@
             
             var today_hours = getTodaysHours();
             renderHomeHours('#home_hours_container2', '#home_hours_template2', today_hours)   
-            
-            // loadSocialFeeds(render_social)
+
             renderInstaFeed('#insta_container', '#insta_template');
             
             show_content();
@@ -86,7 +85,6 @@
                 $(".modal-backdrop").remove();
 		        $(".popup_home").remove();
             });
-            
             $('.flexslider').flexslider({
                 animation: "slide",
                 pauseOnHover: true,
