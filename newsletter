@@ -69,7 +69,7 @@
                             </label>
                         </div>
                     </div>
-                    <div class="line_break">&nbsp;</div>
+                    <!--<div class="line_break">&nbsp;</div>-->
                     <div class="row">
                         <div class="col-md-6">
                             <button class="newsletter_btn animated_btn" tabindex="7">Submit</button>
