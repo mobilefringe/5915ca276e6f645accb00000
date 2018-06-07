@@ -59,8 +59,6 @@
                             <input class="form_info form-control" id="fieldbhyutl" name="cm-f-bhyutl" type="text" required data-validation="required" tabindex="5"/>
                         </div>
                     </div>
-                    
-                    
                     <div class="row">
                         <div class="col-md-12">    
                             <label class="newsletter_agree">
@@ -69,7 +67,6 @@
                             </label>
                         </div>
                     </div>
-                    <!--<div class="line_break">&nbsp;</div>-->
                     <div class="row">
                         <div class="col-md-6">
                             <button class="newsletter_btn animated_btn" tabindex="7">Submit</button>
