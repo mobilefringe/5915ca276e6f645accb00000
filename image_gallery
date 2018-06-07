@@ -49,7 +49,6 @@
         init(e);
         function renderAll(){
             var gallery_repo = getRepoDetailsByName("Image Gallery").images;
-            console.log(gallery_repo)
             if(gallery_repo != null){
                 renderGeneral("#photo_container", "#photo_template", gallery_repo);
             }
