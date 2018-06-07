@@ -38,7 +38,7 @@
         </div>
     </div>
     <div class="instagram_container mobile_padding">
-        <h5 class="insta_title">Our Feed</h5>
+        <h5 class="insta_title">@OrchardTownCenter</h5>
         <div id="insta_container" class="socialize_div">
             <script id="insta_template" type="x-tmpl-mustache/text">
                 <div class="ig-image">
