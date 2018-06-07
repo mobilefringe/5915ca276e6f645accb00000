@@ -1,0 +1,81 @@
+<div class="inside_banner jobs_banner text-center">
+    <h3>EMPLOYMENT</h3>
+</div>
+<div class="store_list_head main_container">
+    <div class="row hidden_phone">
+        <div class="col-md-3">
+            <h5><a href="/image_gallery">IMAGE GALLERY</a></h5>
+        </div>
+        <div class="col-md-3">
+            <h5><a href="/guest_services">GUEST SERVICES</a></h5>
+        </div>
+        <div class="col-md-3">
+            <h5><a href="/hours">HOURS</a></h5>
+        </div>
+        <div class="col-md-3">
+            <h5 class="active_heading">EMPLOYMENT</h5>
+        </div>
+    </div>
+    <h5 class="text-center tap_here show_phone">
+        <select id="option_selector" class="link_selector">
+            <option value="" disabled selected>TAP FOR MORE OPTIONS</option>
+            <option value="/image_gallery">Image Gallery</option>
+            <option value="/guest_services">Guest Services</option>
+            <option value="/hours">Hours</option>
+        </select>
+    </h5>
+</div>
+<div class="margin_20"></div>
+<div class="content_container main_container mobile_padding">
+    <div class="margin_25_across">
+        <div class="row">
+            <div class="col-md-12">
+                <div id="no_jobs" class="hidden_now">
+                    <p>There are currently no jobs posted. Please check back soon.</p>
+                </div>
+                <div id="jobs_container">
+                    <script id="jobs_template" type="x-tmpl-mustache/text">
+                        <div class="row promo_item cats_row job_list_item" data-cat="{{cat_list}}">
+                            <div class="col-md-12">
+                                <h2 class="promo_list_name">{{name}}</h2>
+                                <p>
+                                    <span class="promo_store">{{store_name}}</span>
+                                    {{#job_type}}
+                                    <span class="promo_store">{{job_type}}</span>
+                                    {{/job_type}}
+                                    <span class="promo_dates">{{published_on}}</span>
+                                </p>
+                                <div class="promo_list_desc hidden_phone">{{description_short}}</div>
+                                <a class="read_more" href="/jobs/{{slug}}">View Job Details</a>
+                            </div>
+                        </div>
+                    </script>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function(e){
+        init(e);
+        function renderAll (){
+            var jobs = getJobsList().sortBy(function(o){ return o.name});
+            var published_jobs = [];
+            $.each( jobs , function( key, val ){
+                var today = moment();
+                var webDate = moment(val.show_on_web_date);
+                if (today >= webDate) {
+                    published_jobs.push(val)
+                } 
+            });
+            if(published_jobs.length > 0){
+                renderJobs('#jobs_container', '#jobs_template', jobs, "Orchard Town Center");
+            } else {
+                $('#no_jobs').show()
+            }
+            show_content();
+        }
+		loadMallDataCached(renderAll); 
+    })
+</script>
