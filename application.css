@@ -2308,7 +2308,7 @@ gallery:after{
         height: 90px;
     }
     .fixed_header.opened_menu {
-        
+        position: fixed;
     }
     .cropped_image{
         width:inherit;
