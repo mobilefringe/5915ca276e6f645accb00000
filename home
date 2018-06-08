@@ -41,8 +41,8 @@
         <h5 class="insta_title">@OrchardTownCenter</h5>
         <div id="insta_container" class="socialize_div">
             <script id="insta_template" type="x-tmpl-mustache/text">
-                <div class="ig-image" >
-                    <a href="{{link}}" target="_blank" title="{{caption}}" style="background-image:url({{image}})">
+                <div class="ig-image" style="background-image:url({{image}})">
+                    <a href="{{link}}" target="_blank" title="{{caption}}">
                         <!--<img src="{{image}}" />-->
                     </a>
                 </div>
