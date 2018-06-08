@@ -13,8 +13,11 @@ function init(e){
 		$('.mobile_menu_container').toggleClass('active_menu');
 		$('.fixed_header').toggleClass('opened_menu');
 		if($(this).hasClass('open')) {
-		//open first menu
-		$(".mobile-menu__item")[0]
+    		//open first menu
+    		var first_menu = $(".mobile-menu__item")[0];
+    		$(this).find('span.mobile-menu__link').addClass('open');
+            $(this).children('.menu-icon').toggleClass('rotate');
+            $(this).children('.mobile-menu__sublist').slideToggle('600');
 		}
 	});
 
