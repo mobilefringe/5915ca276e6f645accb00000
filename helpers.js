@@ -32,6 +32,7 @@ function init(e){
         });
         
         // console.log($(".mobile-menu__item span"));
+        $(this).find('span.mobile-menu__link').addClass('open');
         $(this).children('.menu-icon').toggleClass('rotate');
         $(this).children('.mobile-menu__sublist').slideToggle('600');
         
