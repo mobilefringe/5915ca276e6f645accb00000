@@ -20,7 +20,7 @@ function init(e){
         	$('.open').find('img').toggle();
         	$('.open').toggleClass('open')
 		}
-        $(this).children('.menu-icon').toggleClass('rotate');
+        $(this).children('#menu-icon').toggleClass('rotate');
         $(this).children('.mobile-menu__sublist').slideToggle('600');
     });
 
