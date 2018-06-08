@@ -17,7 +17,7 @@ body {
     font-size: 20px;
     line-height: 26px;
     font-weight: lighter;
-        overflow-x: hidden;
+    overflow-x: hidden;
 }
 
 .news-ticker{
@@ -1157,7 +1157,7 @@ h4{
     width:15px;
 }
 .mobile_menu_container{
-    overflow: scroll;
+    overflow-y: scroll;
     position: absolute;
     background: #FFF;
     height: 600px;
