@@ -24,7 +24,7 @@ function init(e){
             if($(span).hasClass( "open" )) {
                 // console.log($(this).find('span.mobile-menu__link'));
                 $(span).removeClass('open');
-                $(parent).children('.mobile-menu__sublist').slideToggle('600');
+                $(parent).children('.mobile-menu__sublist').slideUp('600');
                 $(parent).children('.menu-icon').toggleClass('rotate');
             }
           
