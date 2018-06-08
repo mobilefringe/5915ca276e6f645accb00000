@@ -18,7 +18,7 @@ function init(e){
             
         // }
         $(".mobile-menu__item").each(function( index ) {
-            
+            var parent = $(this);
             var span = $(this).find('span.mobile-menu__link');
             console.log("span",$(span));
             if($(span).hasClass( "open" )) {
