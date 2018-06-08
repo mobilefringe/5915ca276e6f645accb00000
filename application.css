@@ -222,6 +222,7 @@ $primary: #E24301;
 /* MENU ICON */
 #menu-icon {
     width: 30px;
+    height: 30px;
     position: absolute;
     top: 20px;
     right: 20px;
