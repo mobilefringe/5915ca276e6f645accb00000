@@ -12,15 +12,9 @@ function init(e){
         $('body').toggleClass('no_scroll');
 		$('.mobile_menu_container').toggleClass('active_menu');
 	});
-    
-    $('.mobile-menu__item').click(function(e) {
-    	e.preventDefault()
-		if ($(this).hasClass('open') == false){
-        	$('.open').next().slideToggle();
-        	$('.open').find('img').toggle();
-        	$('.open').toggleClass('open')
-		}
-        $(this).children('#menu-icon').toggleClass('rotate');
+
+    $('.mobile-menu__item').click(function() {
+        $(this).children('.menu-icon').toggleClass('rotate');
         $(this).children('.mobile-menu__sublist').slideToggle('600');
     });
 
