@@ -23,7 +23,7 @@ function init(e){
             console.log("span",$(span));
             if($(span).hasClass( "open" )) {
                 console.log($(this).find('span.mobile-menu__link'));
-            //   $(this).removeClass('open');
+                $(span).removeClass('open');
             //     $(".mobile-menu__item").children('.mobile-menu__sublist').slideToggle('600');
             //     $(".mobile-menu__item").children('.menu-icon').toggleClass('rotate');
             }
