@@ -2818,7 +2818,8 @@ gallery:after{
     .instagram_container {
         #insta_container {
             a{
-                display:inline-blog;
+                display:inline-block;
+                 width: calc(50% - 10px);
             }
             .ig-image {
                 margin: 5px;
