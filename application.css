@@ -2830,10 +2830,10 @@ gallery:after{
                 width:100%;
                 height: 150px;
                 &:first-child {
-                    
+                    width:100%;
                 }
                 &:last-child{
-                    
+                    width:100%;
                 }
             }
              a:first-child {
