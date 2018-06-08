@@ -1160,6 +1160,7 @@ h4{
     overflow-y: scroll;
     position: absolute;
     background: #FFF;
+    display:none;
     height: calc(100vh - 91px);//500px;
     z-index: 12;
     top: 90px;
