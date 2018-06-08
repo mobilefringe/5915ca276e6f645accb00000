@@ -15,9 +15,9 @@ function init(e){
 		if($(this).hasClass('open')) {
     		//open first menu
     		var first_menu = $(".mobile-menu__item")[0];
-    		$(this).find('span.mobile-menu__link').addClass('open');
-            $(this).children('.menu-icon').toggleClass('rotate');
-            $(this).children('.mobile-menu__sublist').slideToggle('600');
+    		$(first_menu).find('span.mobile-menu__link').addClass('open');
+            $(first_menu).children('.menu-icon').addClass('rotate');
+            $(first_menu).children('.mobile-menu__sublist').slideToggle('600');
 		}
 	});
 
