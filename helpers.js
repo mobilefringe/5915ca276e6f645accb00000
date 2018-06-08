@@ -12,7 +12,8 @@ function init(e){
         $('body').toggleClass('no_scroll');
 		$('.mobile_menu_container').toggleClass('active_menu');
 		$('.fixed_header').toggleClass('opened_menu');
-		$(".mobile-menu__item")
+		//open first menu
+		$(".mobile-menu__item")[0]
 	});
 
     $('.mobile-menu__item').click(function() {
