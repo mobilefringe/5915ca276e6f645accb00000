@@ -2829,11 +2829,11 @@ gallery:after{
                 // max-height: 359px;
                 height: 150px;
             }
-            .ig-image:first-child {
+             a:first-child {
                 margin-left: 5px;
                 // width: calc(50% - 10px);
             }
-            .ig-image:last-child {
+             a:last-child {
                 margin-right: 5px;
                 // width: calc(50% - 10px);
             }
