@@ -2214,14 +2214,15 @@ gallery:after{
             margin: 0 5px;
             padding: 0;
             display: inline-block;
-            width: calc(25% - 10px);
-            height: 225px;
+            
             overflow: hidden;
             // background-image: url(//codecloud.cdn.speedyrails.net/sites/59c08c176e6f64088f070000/image/jpeg/1506446610000/otc_fall_heroinner4.jpg);
             a{
                 background-position: center center;
-            background-size: cover;
-            background-repeat: no-repeat; 
+                background-size: cover;
+                background-repeat: no-repeat; 
+                width: calc(25% - 10px);
+            height: 225px;
             }
             img {
                 width: 100%;
