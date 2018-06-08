@@ -43,7 +43,7 @@
             <script id="insta_template" type="x-tmpl-mustache/text">
                 <div class="ig-image" style="background-image:url({{image}})">
                     <a href="{{link}}" target="_blank" title="{{caption}}">
-                        // <img src="{{image}}" />
+                        <!--<img src="{{image}}" />-->
                     </a>
                 </div>
             </script>
