@@ -18,7 +18,7 @@ function init(e){
             
         // }
         $(".mobile-menu__item span").each(function( index ) {
-            console.log($(this));
+            console.log($(this).ClassName);
             // $(".mobile-menu__item span").removeClass('open');
         // $(".mobile-menu__item").children('.mobile-menu__sublist').slideToggle('600');
         // $(".mobile-menu__item").children('.menu-icon').toggleClass('rotate');
