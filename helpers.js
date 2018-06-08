@@ -15,6 +15,7 @@ function init(e){
 
     $('.mobile-menu__item').click(function() {
         $(".mobile-menu__item span").removeClass('open');
+        console.log($(".mobile-menu__item span"));
         $(this).children('.menu-icon').toggleClass('rotate');
         $(this).children('.mobile-menu__sublist').slideToggle('600');
         
