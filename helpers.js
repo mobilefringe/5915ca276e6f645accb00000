@@ -25,6 +25,7 @@ function init(e){
                 // console.log($(this).find('span.mobile-menu__link'));
                 $(span).removeClass('open');
                 $(parent).children('.mobile-menu__sublist').slideUp('600');
+                console.log($(parent).children('.mobile-menu__sublist'));
                 $(parent).children('.menu-icon').removeClass('rotate');
             }
           
