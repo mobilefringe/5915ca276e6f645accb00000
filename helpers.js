@@ -13,8 +13,8 @@ function init(e){
 		$('.mobile_menu_container').toggleClass('active_menu');
 	});
     
-    $('.mobile-menu__item').click(function() {
-        	e.preventDefault()
+    $('.mobile-menu__item').click(function(e) {
+    	e.preventDefault()
 		if ($(this).hasClass('open') == false){
         	$('.open').next().slideToggle();
         	$('.open').find('img').toggle();
