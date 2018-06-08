@@ -42,11 +42,11 @@
         <div id="insta_container" class="socialize_div">
             <script id="insta_template" type="x-tmpl-mustache/text">
                 <a href="{{link}}" target="_blank" title="{{caption}}">
-                <div class="ig-image" style="background-image:url({{image}})">
-                   
-                        <!--<img src="{{image}}" />-->
-                    
-                </div>
+                    <div class="ig-image" style="background-image:url({{image}})">
+                       
+                            <!--<img src="{{image}}" />-->
+                        
+                    </div>
                 </a>
             </script>
         </div>
