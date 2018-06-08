@@ -2817,7 +2817,8 @@ gallery:after{
             .ig-image {
                 margin: 5px;
                 width: calc(50% - 10px);
-                max-height: 359px;
+                // max-height: 359px;
+                height: 150px;
             }
             .ig-image:first-child {
                 margin-left: 5px;
