@@ -17,7 +17,7 @@ function init(e){
         // if(){
             
         // }
-        $(".mobile-menu__item span").each(function( index ) {
+        $(".mobile-menu__item").each(function( index ) {
             console.log();
             if($(this).hasClass( "open" )) {
                $(this).removeClass('open');
