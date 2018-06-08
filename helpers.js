@@ -11,13 +11,11 @@ function init(e){
 		$(this).toggleClass('open');
         $('body').toggleClass('no_scroll');
 		$('.mobile_menu_container').toggleClass('active_menu');
-		$('fixed_header').toggleClass('opened_menu');
+		$('.fixed_header').toggleClass('opened_menu');
 	});
 
     $('.mobile-menu__item').click(function() {
-        // if(){
-            
-        // }
+      
         $(".mobile-menu__item").each(function( index ) {
             var parent = $(this);
             var span = $(this).find('span.mobile-menu__link');
