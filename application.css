@@ -2820,6 +2820,7 @@ gallery:after{
             a{
                 display:inline-block;
                  width: calc(50% - 10px);
+                 height: 150px;
             }
             .ig-image {
                 margin: 5px;
