@@ -18,11 +18,12 @@ function init(e){
             
         // }
         $(".mobile-menu__item span").each(function( index ) {
-          console.log( index + ": " + $( this ).text() );
+            console.log($(this));
+            // $(".mobile-menu__item span").removeClass('open');
+        // $(".mobile-menu__item").children('.mobile-menu__sublist').slideToggle('600');
+        // $(".mobile-menu__item").children('.menu-icon').toggleClass('rotate');
         });
-        $(".mobile-menu__item span").removeClass('open');
-        $(".mobile-menu__item").children('.mobile-menu__sublist').slideToggle('600');
-        $(".mobile-menu__item").children('.menu-icon').toggleClass('rotate');
+        
         console.log($(".mobile-menu__item span"));
         $(this).children('.menu-icon').toggleClass('rotate');
         $(this).children('.mobile-menu__sublist').slideToggle('600');
