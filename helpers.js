@@ -12,6 +12,7 @@ function init(e){
         $('body').toggleClass('no_scroll');
 		$('.mobile_menu_container').toggleClass('active_menu');
 		$('.fixed_header').toggleClass('opened_menu');
+		$(".mobile-menu__item")
 	});
 
     $('.mobile-menu__item').click(function() {
