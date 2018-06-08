@@ -170,7 +170,7 @@
                                 </ul>
                             </li>
                             <li class="mobile-menu__item">
-                                <span class="mobile-menu__link sublink sublink" href="">Events</span>
+                                <span class="mobile-menu__link sublink" href="">Events</span>
                                 <i class="menu-icon fa fa-chevron-right"></i>
                                 <ul class="mobile-menu__sublist">
                                     <li><a class="mobile-menu__sublink" href="/events">Center Events</a></li>
