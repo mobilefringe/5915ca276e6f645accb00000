@@ -87,7 +87,7 @@
     $(document).ready(function(e){
         init(e);
         function renderAll(){
-            var restaurants = getStoresListByCategoryID(5119);
+            var restaurants = getStoresListByCategoryID(5148);
             renderStoreList('#store_list_container','#store_list_template', restaurants, "stores");
             
             show_content();
