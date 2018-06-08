@@ -20,18 +20,14 @@ function init(e){
         $(".mobile-menu__item").each(function( index ) {
             var parent = $(this);
             var span = $(this).find('span.mobile-menu__link');
-            console.log("parent",$(parent));
             if($(span).hasClass( "open" )) {
-                // console.log($(this).find('span.mobile-menu__link'));
                 $(span).removeClass('open');
                 $(parent).children('.mobile-menu__sublist').slideUp('600');
-                console.log($(parent).children('.mobile-menu__sublist'));
                 $(parent).children('.menu-icon').removeClass('rotate');
             }
           
         });
         
-        // console.log($(".mobile-menu__item span"));
         $(this).find('span.mobile-menu__link').addClass('open');
         $(this).children('.menu-icon').toggleClass('rotate');
         $(this).children('.mobile-menu__sublist').slideToggle('600');
