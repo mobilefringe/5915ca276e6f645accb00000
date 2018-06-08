@@ -2832,6 +2832,9 @@ gallery:after{
                 &:first-child {
                     
                 }
+                &:last-child{
+                    
+                }
             }
              a:first-child {
                 margin-left: 5px;
