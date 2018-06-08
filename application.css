@@ -2827,6 +2827,7 @@ gallery:after{
                 margin: 5px;
                 // width: calc(50% - 10px);
                 // max-height: 359px;
+                width:100%;
                 height: 150px;
             }
              a:first-child {
