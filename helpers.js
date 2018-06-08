@@ -18,9 +18,10 @@ function init(e){
             
         // }
         $(".mobile-menu__item").each(function( index ) {
-            console.log($(this).find('span.mobile-menu__link'));
+            
             var span = $(this).find('span.mobile-menu__link');
             if($(span).hasClass( "open" )) {
+                console.log($(this).find('span.mobile-menu__link'));
             //   $(this).removeClass('open');
             //     $(".mobile-menu__item").children('.mobile-menu__sublist').slideToggle('600');
             //     $(".mobile-menu__item").children('.menu-icon').toggleClass('rotate');
