@@ -2829,6 +2829,9 @@ gallery:after{
                 // max-height: 359px;
                 width:100%;
                 height: 150px;
+                &:first-child {
+                    
+                }
             }
              a:first-child {
                 margin-left: 5px;
