@@ -18,7 +18,7 @@ function init(e){
             
         // }
         $(".mobile-menu__item").each(function( index ) {
-            console.log($(this));
+            console.log($(this).find('span'));
             // if($(this).hasClass( "open" )) {
             //   $(this).removeClass('open');
             //     $(".mobile-menu__item").children('.mobile-menu__sublist').slideToggle('600');
