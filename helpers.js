@@ -17,7 +17,7 @@ function init(e){
     		var first_menu = $(".mobile-menu__item")[0];
     		$(first_menu).find('span.mobile-menu__link').addClass('open');
             $(first_menu).children('.menu-icon').addClass('rotate');
-            $(first_menu).children('.mobile-menu__sublist').slideown('600');
+            $(first_menu).children('.mobile-menu__sublist').show;
 		}
 	});
 
