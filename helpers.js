@@ -20,7 +20,7 @@ function init(e){
         $(".mobile-menu__item").each(function( index ) {
             var parent = $(this);
             var span = $(this).find('span.mobile-menu__link');
-            console.log("span",$(span));
+            console.log("parent",$(parent));
             if($(span).hasClass( "open" )) {
                 // console.log($(this).find('span.mobile-menu__link'));
                 $(span).removeClass('open');
