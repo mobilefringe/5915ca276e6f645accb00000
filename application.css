@@ -1171,6 +1171,7 @@ h4{
     -webkit-transform: translate3d(400px,0,0);
     transform: translate3d(400px, 0, 0);
     &.active_menu{
+        display:block;
         transition: all 0.5s;
         -webkit-transition:  all 0.5s;
         -webkit-transform: translate3d(0,0,0);
