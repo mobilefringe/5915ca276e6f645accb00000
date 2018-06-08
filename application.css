@@ -1159,7 +1159,7 @@ h4{
     overflow: scroll;
     position: fixed;
     background: #FFF;
-    height: 100%;
+    height: calc(100vh - 91px);//100%;
     z-index: 12;
     top: 90px;
     right:0px;
