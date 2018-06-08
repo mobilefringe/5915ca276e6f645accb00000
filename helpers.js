@@ -17,7 +17,9 @@ function init(e){
         // if(){
             
         // }
-        console.log($(".mobile-menu__item span").className);
+        $(".mobile-menu__item span").each(function( index ) {
+          console.log( index + ": " + $( this ).text() );
+        });
         $(".mobile-menu__item span").removeClass('open');
         $(".mobile-menu__item").children('.mobile-menu__sublist').slideToggle('600');
         $(".mobile-menu__item").children('.menu-icon').toggleClass('rotate');
