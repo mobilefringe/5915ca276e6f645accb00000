@@ -2825,7 +2825,7 @@ gallery:after{
             }
             .ig-image {
                 margin: 5px;
-                width: calc(50% - 10px);
+                // width: calc(50% - 10px);
                 // max-height: 359px;
                 height: 150px;
             }
