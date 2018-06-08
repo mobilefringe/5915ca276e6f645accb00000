@@ -1157,7 +1157,7 @@ h4{
 }
 .mobile_menu_container{
     overflow: scroll;
-    position: fixed;
+    position: absolute;
     background: #FFF;
     height: 100%;
     z-index: 12;
