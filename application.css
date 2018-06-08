@@ -17,6 +17,7 @@ body {
     font-size: 20px;
     line-height: 26px;
     font-weight: lighter;
+        overflow-x: hidden;
 }
 
 .news-ticker{
