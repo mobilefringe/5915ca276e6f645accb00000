@@ -2831,11 +2831,11 @@ gallery:after{
             }
             .ig-image:first-child {
                 margin-left: 5px;
-                width: calc(50% - 10px);
+                // width: calc(50% - 10px);
             }
             .ig-image:last-child {
                 margin-right: 5px;
-                width: calc(50% - 10px);
+                // width: calc(50% - 10px);
             }
         }
     }
