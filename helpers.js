@@ -20,7 +20,7 @@ function init(e){
         $(".mobile-menu__item span").each(function( index ) {
             console.log();
             if($(this).hasClass( "open" )) {
-               $(".mobile-menu__item span").removeClass('open');
+               $(this).removeClass('open');
                 $(".mobile-menu__item").children('.mobile-menu__sublist').slideToggle('600');
                 $(".mobile-menu__item").children('.menu-icon').toggleClass('rotate');
             }
