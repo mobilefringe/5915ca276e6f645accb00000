@@ -24,8 +24,8 @@ function init(e){
             if($(span).hasClass( "open" )) {
                 console.log($(this).find('span.mobile-menu__link'));
                 $(span).removeClass('open');
-            //     $(".mobile-menu__item").children('.mobile-menu__sublist').slideToggle('600');
-            //     $(".mobile-menu__item").children('.menu-icon').toggleClass('rotate');
+                $(parent).children('.mobile-menu__sublist').slideToggle('600');
+                $(parent).children('.menu-icon').toggleClass('rotate');
             }
           
         });
