@@ -128,7 +128,7 @@
                 var store_hours = [];
                 var temp_hours = getHoursForIds(store_details.store_hours).sortBy(function(o){return o.day_of_week;});
                 $.each( temp_hours , function( key, val ){
-                    if (o.day_of_week !== 0) {
+                    if (val.day_of_week !== 0) {
                         store_hours.push(val)
                     } 
                 });
