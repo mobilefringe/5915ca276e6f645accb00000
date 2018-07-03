@@ -128,11 +128,11 @@
                 var store_hours = getHoursForIds(store_details.store_hours).sortBy(function(o){return o.day_of_week;});
                 $.each( store_jobs , function( key, val ){
                     today = moment();
-                    webDate = moment(val.show_on_web_date);
-                    if (today >= webDate) {
-                        published_jobs.push(val)
-                    } 
-                });
+                webDate = moment(val.show_on_web_date);
+                if (today >= webDate) {
+                    published_jobs.push(val)
+                } 
+            });
                 renderHours("#store_hours_container", "#store_hours_template", store_hours, 'reg_hours')
                 $("#store_hours").show();
             }
