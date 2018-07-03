@@ -126,17 +126,17 @@
             //HOURS 
             if(store_details.store_hours != null){
                 var store_hours = getHoursForIds(store_details.store_hours).sortBy(function(o){return o.day_of_week;});
-                
-                renderHours("#store_hours_container", "#store_hours_template", store_hours, 'reg_hours')
-                $("#store_hours").show();
-            }
-            $.each( store_jobs , function( key, val ){
+                $.each( store_jobs , function( key, val ){
                 today = moment();
                 webDate = moment(val.show_on_web_date);
                 if (today >= webDate) {
                     published_jobs.push(val)
                 } 
             });
+                renderHours("#store_hours_container", "#store_hours_template", store_hours, 'reg_hours')
+                $("#store_hours").show();
+            }
+            
             //PROMOS
             var store_promo_ids = store_details.promotions
             var store_promos = getPromotionsForIds(store_promo_ids).sortBy(function(o){ return o.start_date });
