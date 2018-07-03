@@ -132,6 +132,7 @@
                         store_hours.push(val)
                     } 
                 });
+                store_hours.push(temp_hours[0])
                 renderHours("#store_hours_container", "#store_hours_template", store_hours, 'reg_hours')
                 $("#store_hours").show();
             }
