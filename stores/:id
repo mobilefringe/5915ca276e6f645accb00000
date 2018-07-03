@@ -125,7 +125,7 @@
             
             //HOURS 
             if(store_details.store_hours != null){
-                var store_hours = getHoursForIds(store_details.store_hours).sortBy(function(o){return o.day_of_week});
+                var store_hours = getHoursForIds(store_details.store_hours).sortBy(function(o){return o.day_of_week;});
                 renderHours("#store_hours_container", "#store_hours_template", store_hours, 'reg_hours')
                 $("#store_hours").show();
             }
