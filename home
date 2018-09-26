@@ -17,7 +17,7 @@
     <!--    </ul>-->
     <!--</div>-->
     <div id="slick_container">
-         <script id="banner_template" type="x-tmpl-mustache/text">
+         <script id="slick_container" type="x-tmpl-mustache/text">
         <div class="banner_height">
             <div class="banner_image" style="background-image: url({{image_url}})"></div>
             <div class="banner_content_container">
