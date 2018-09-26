@@ -87,11 +87,11 @@
                 $(".modal-backdrop").remove();
 		        $(".popup_home").remove();
             });
-            $('.multiple-items').slick({
-  infinite: true,
-  slidesToShow: 3,
-  slidesToScroll: 3
-});
+            $('.flexslider').slick({
+              infinite: true,
+              slidesToShow: 3,
+              slidesToScroll: 3
+            });
             // $('.flexslider').flexslider({
             //     animation: "slide",
             //     pauseOnHover: true,
