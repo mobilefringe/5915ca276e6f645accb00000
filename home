@@ -17,7 +17,7 @@
     <!--    </ul>-->
     <!--</div>-->
     <div class="slick_container">
-        {{#name}}<div class="banner_height">
+        <div class="banner_height">
             <div class="banner_image" v-bind:style="{ backgroundImage: 'url(' + banner.image_url + ')' }"></div>
             <div class="banner_content_container">
                 <div class="banner_content">
@@ -29,8 +29,8 @@
                     </a>
                 </div>
             </div>
-        </div>{{/name}}
-        <div>
+        </div>
+        <div v-else>
             <a :href="banner.url">
                 <div class="banner_image" v-bind:style="{ backgroundImage: 'url(' + banner.image_url + ')' }"></div>
             </a>
