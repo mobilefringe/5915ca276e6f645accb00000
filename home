@@ -19,17 +19,17 @@
     <div id="slick_container">
         <script id="slick_template" type="x-tmpl-mustache/text">
             <div class="banner_height">
-            <div class="banner_image" style="background-image: url({{image_url}})"></div>
-            <div class="banner_content_container">
-                <div class="banner_content">
-                    <span class="banner_heading">{{ heading }}</span>
-                    <h1 class="banner_title">{{ name }}</h1>
-                    <p class="banner_text">{{ description }}</p>
-                    <a href="{{url}}">
-                        <span class="banner_btn animated_btn">Find Out More</span>
-                    </a>
+                <div class="banner_image" style="background-image: url({{image_url}})"></div>
+                <div class="banner_content_container">
+                    <div class="banner_content">
+                        <span class="banner_heading">{{ heading }}</span>
+                        <h1 class="banner_title">{{ name }}</h1>
+                        <p class="banner_text">{{ description }}</p>
+                        <a href="{{url}}">
+                            <span class="banner_btn animated_btn">Find Out More</span>
+                        </a>
+                    </div>
                 </div>
-            </div>
             </div>
         // <div v-else>
         //     <a :href="banner.url">
