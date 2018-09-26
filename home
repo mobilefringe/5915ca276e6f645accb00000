@@ -84,7 +84,7 @@
         init(e);
         function renderAll(){
             var banners = getBanners();
-            renderBanner('#banner_template','#slick_template',banners);
+            renderBanner('#slick_container','#slick_template',banners);
              
             renderFeatureItems();
             
