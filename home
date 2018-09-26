@@ -17,8 +17,9 @@
     <!--    </ul>-->
     <!--</div>-->
     <div id="slick_container" class="slick_container">
-        <script id="slick_template" type="x-tmpl-mustache/text">
+        
             <div class="banner_height">
+            <script id="slick_template" type="x-tmpl-mustache/text">
                 <div class="banner_image" style="background-image: url({{image_url}})"></div>
                 <div class="banner_content_container">
                     <div class="banner_content">
@@ -30,13 +31,14 @@
                         </a>
                     </div>
                 </div>
+                 </script>
             </div>
         // <div v-else>
         //     <a :href="banner.url">
         //         <div class="banner_image" v-bind:style="{ backgroundImage: 'url(' + banner.image_url + ')' }"></div>
         //     </a>
         // </div>
-         </script>
+        
     </div>
 </div>
 <div class="content_container main_container">
