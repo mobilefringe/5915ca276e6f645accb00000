@@ -24,8 +24,8 @@ function renderBanner(banner_template,home_banner,banners){
             }
         }
         if(val.name && val.description){
-            val.show_overlay_banner = "display: block";
-            val.show_reg_banner = "display: none";
+            val.show_overlay_banner = true;
+            val.show_reg_banner = false;
         } else {
             val.show_overlay_banner = "display: none";
             val.show_reg_banner = "display: block";
