@@ -50,7 +50,7 @@
     <script src="//mallmaverick.codecloudapp.com/mustache_mallmaverick.js?v=0.3"></script>
     
     <script>
-        setEndPoint('//orchardtown.mallmaverick.com/api/v4/orchardtown/all.json');
+        setEndPoint('//orchardtown.mallmaverick.com/api/v4/cerritos/all.json');
         setSocialEndPoint('//orchardtown.mallmaverick.com/api/v4/orchardtown/social.json')
     </script>
     
