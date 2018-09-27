@@ -104,20 +104,20 @@
                 $(".modal-backdrop").remove();
 		        $(".popup_home").remove();
             });
-            $('.slick_container').slick({
-                adaptiveHeight: true,
-                arrows: true,
-                autoplay: true,
-                autoplaySpeed: 9000,
-                cssEase: 'linear',
-                dots: true,
-                fade: true,
-                infinite: true,
-                slidesToShow: 1,
-                speed: 1000,
-                nextArrow: '.next',
-                prevArrow: '.prev'
-            });
+            // $('.slick_container').slick({
+            //     adaptiveHeight: true,
+            //     arrows: true,
+            //     autoplay: true,
+            //     autoplaySpeed: 9000,
+            //     cssEase: 'linear',
+            //     dots: true,
+            //     fade: true,
+            //     infinite: true,
+            //     slidesToShow: 1,
+            //     speed: 1000,
+            //     nextArrow: '.next',
+            //     prevArrow: '.prev'
+            // });
             // $('.flexslider').flexslider({
             //     animation: "slide",
             //     pauseOnHover: true,
