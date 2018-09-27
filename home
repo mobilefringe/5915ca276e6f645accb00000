@@ -30,6 +30,11 @@
                     </div>
                 </div>
             </div>
+            <div style="{{show_reg_banner}}">
+                <a  href="{{url}}">
+                    <div class="banner_image" v-bind:style="{ backgroundImage: 'url(' + banner.image_url + ')' }"></div>
+                </a>
+            </div>
         </script>
     </div>
 </div>
