@@ -17,8 +17,8 @@
 	<!--    </ul>-->
 	<!--</div>-->
 	<div class="slick_container">
-	<!--	<div id="slick_container" class="banner_height">-->
-	<!--		<script id="slick_template" type="x-tmpl-mustache/text">-->
+		<div id="slick_container" class="banner_height">
+			<script id="slick_template" type="x-tmpl-mustache/text">
 	<!--			<div class="banner_image" style="background-image: url({{image_url}})"></div>-->
 	<!--			<div class="banner_content_container">-->
 	<!--			    <div class="banner_content">-->
@@ -30,8 +30,8 @@
 	<!--			        </a>-->
 	<!--			    </div>-->
 	<!--			</div>-->
-	<!--		</script>-->
-	<!--	</div>-->
+			</script>
+		</div>
 	</div>
 </div>
 <div class="content_container main_container">
