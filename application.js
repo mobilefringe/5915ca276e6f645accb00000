@@ -24,7 +24,7 @@ function renderBanner(banner_template,home_banner,banners){
             }
         }
         if(val.name && val.description){
-            val.new_store = "display: block";
+            val.show_overlay_banner = "display: block";
         } else {
             val.new_store = "display: none";
         }
