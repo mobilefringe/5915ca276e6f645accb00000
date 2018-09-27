@@ -16,13 +16,13 @@
 	<!--        </script>-->
 	<!--    </ul>-->
 	<!--</div>-->
-	<div class="slick_container">
+	<!--<div class="slick_container">-->
 		<div id="slick_container" class="banner_height">
 			<script id="slick_template" type="x-tmpl-mustache/text">
 	
 			</script>
 		</div>
-	</div>
+	<!--</div>-->
 </div>
 <div class="content_container main_container">
 	<div class="feature_items_box mobile_padding">
