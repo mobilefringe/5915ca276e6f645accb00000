@@ -30,6 +30,7 @@ function renderBanner(banner_template,home_banner,banners){
             val.show_overlay_banner = "display: none";
             val.show_reg_banner = "display: block";
         }
+        console.log("banners",val.show_overlay_banner, val.show_reg_banner )
     });
 
     $.each( item_list , function( key, val ) {
