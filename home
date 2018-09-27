@@ -16,6 +16,7 @@
     <!--        </script>-->
     <!--    </ul>-->
     <!--</div>-->
+     <div class="prev"></div>
     <div class="slick_container" id="slick_container">
         <script id="slick_template" type="x-tmpl-mustache/text">
             {{#show_overlay_banner}}
@@ -41,6 +42,7 @@
             {{/show_reg_banner}}
         </script>
     </div>
+     <div class="next"></div>
 </div>
 <div class="content_container main_container">
     <div class="feature_items_box mobile_padding">
