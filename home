@@ -116,7 +116,7 @@
                 adaptiveHeight: true,
                 arrows: true,
                 autoplay: true,
-                autoplaySpeed: 9000,
+                autoplaySpeed: 6000,
                 cssEase: 'linear',
                 dots: true,
                 fade: true,
