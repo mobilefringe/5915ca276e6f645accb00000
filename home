@@ -1,73 +1,73 @@
 <div class="popup_home hidden_now">
-    <a href="#">
-        <img src="#" alt="pop up" />
-    </a>
-    <i class="fa fa-remove close_popup"></i>
+	<a href="#">
+	<img src="#" alt="pop up" />
+	</a>
+	<i class="fa fa-remove close_popup"></i>
 </div>
 <div class="home_banner_container">
-    <!--<div class="flexslider text-center">-->
-    <!--    <ul class="slides" id="home_banner">-->
-    <!--        <script id="banner_template" type="x-tmpl-mustache/text">-->
-    <!--            <li class="position_relative">-->
-    <!--                <a href="{{url}}" {{css}} onclick="{{noLink}}">-->
-    <!--                    <div class="hero_banner" style="background-image: url({{image_url}})"></div>-->
-    <!--                </a>-->
-    <!--            </li>-->
-    <!--        </script>-->
-    <!--    </ul>-->
-    <!--</div>-->
-    <div class="slick_container">
-        <div id="slick_container" class="banner_height">
-            <script id="slick_template" type="x-tmpl-mustache/text">
-                <div class="banner_image" style="background-image: url({{image_url}})"></div>
-                <div class="banner_content_container">
-                    <div class="banner_content">
-                        <span class="banner_heading">{{ heading }}</span>
-                        <h1 class="banner_title">{{ name }}</h1>
-                        <p class="banner_text">{{ description }}</p>
-                        <a href="{{url}}">
-                            <span class="banner_btn animated_btn">Find Out More</span>
-                        </a>
-                    </div>
-                </div>
-             </script>
-        </div>
-    </div>
+	<!--<div class="flexslider text-center">-->
+	<!--    <ul class="slides" id="home_banner">-->
+	<!--        <script id="banner_template" type="x-tmpl-mustache/text">-->
+	<!--            <li class="position_relative">-->
+	<!--                <a href="{{url}}" {{css}} onclick="{{noLink}}">-->
+	<!--                    <div class="hero_banner" style="background-image: url({{image_url}})"></div>-->
+	<!--                </a>-->
+	<!--            </li>-->
+	<!--        </script>-->
+	<!--    </ul>-->
+	<!--</div>-->
+	<div class="slick_container">
+		<div id="slick_container" class="banner_height">
+			<script id="slick_template" type="x-tmpl-mustache/text">
+				<div class="banner_image" style="background-image: url({{image_url}})"></div>
+				<div class="banner_content_container">
+				    <div class="banner_content">
+				        <span class="banner_heading">{{ heading }}</span>
+				        <h1 class="banner_title">{{ name }}</h1>
+				        <p class="banner_text">{{ description }}</p>
+				        <a href="{{url}}">
+				            <span class="banner_btn animated_btn">Find Out More</span>
+				        </a>
+				    </div>
+				</div>
+			</script>
+		</div>
+	</div>
 </div>
 <div class="content_container main_container">
-    <div class="feature_items_box mobile_padding">
-        <div class="feature_row">
-            <div class="feature_item">
-                <div id="feature_0" class="position_relative"></div>
-            </div>
-            <div class="feature_item">
-                <div id="feature_1" class="position_relative"></div>
-                <div id="feature_2" class="position_relative"></div>
-            </div>
-            <div class="feature_item">
-                <div id="feature_3" class="position_relative"></div>
-                <div id="feature_4" class="position_relative"></div>
-            </div>
-            <div class="feature_item">
-                <div id="feature_5" class="position_relative"></div>
-            </div>
-            <div class="clearfix"></div>
-        </div>
-    </div>
-    <div class="instagram_container mobile_padding">
-        <h5 class="insta_title">@OrchardTownCenter</h5>
-        <div id="insta_container" class="socialize_div">
-            <script id="insta_template" type="x-tmpl-mustache/text">
-                <a href="{{link}}" target="_blank" title="{{caption_short}}">
-                    <div class="ig-image" style="background-image:url({{image}})">
-                       
-                            <!--<img src="{{image}}" />-->
-                        
-                    </div>
-                </a>
-            </script>
-        </div>
-    </div>
+	<div class="feature_items_box mobile_padding">
+		<div class="feature_row">
+			<div class="feature_item">
+				<div id="feature_0" class="position_relative"></div>
+			</div>
+			<div class="feature_item">
+				<div id="feature_1" class="position_relative"></div>
+				<div id="feature_2" class="position_relative"></div>
+			</div>
+			<div class="feature_item">
+				<div id="feature_3" class="position_relative"></div>
+				<div id="feature_4" class="position_relative"></div>
+			</div>
+			<div class="feature_item">
+				<div id="feature_5" class="position_relative"></div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+	<div class="instagram_container mobile_padding">
+		<h5 class="insta_title">@OrchardTownCenter</h5>
+		<div id="insta_container" class="socialize_div">
+			<script id="insta_template" type="x-tmpl-mustache/text">
+				<a href="{{link}}" target="_blank" title="{{caption_short}}">
+				    <div class="ig-image" style="background-image:url({{image}})">
+				       
+				            <!--<img src="{{image}}" />-->
+				        
+				    </div>
+				</a>
+			</script>
+		</div>
+	</div>
 </div>
 <style>
     .newsletter_container {
