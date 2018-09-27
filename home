@@ -30,7 +30,7 @@
                     </div>
                 </div>
             </div>
-            <div style="{{show_reg_banner}}">
+            <div class="banner_height" style="{{show_reg_banner}}">
                 <a  href="{{url}}">
                     <div class="banner_image" style="background-image: url({{image_url}})"></div>
                 </a>
