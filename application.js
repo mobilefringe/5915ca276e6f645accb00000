@@ -30,7 +30,7 @@ function renderBanner(banner_template,home_banner,banners){
             val.show_overlay_banner = false;
             val.show_reg_banner = true;
         }
-        console.log("show_overlay_banner ",val.show_overlay_banner, "show_reg_banner", val.show_reg_banner )
+        console.log("show_overlay_banner ",val.show_overlay_banner, "show_reg_banner", val.show_reg_banner );
     });
 
     $.each( item_list , function( key, val ) {
