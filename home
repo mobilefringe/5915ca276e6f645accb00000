@@ -91,7 +91,7 @@
             var banners = getBanners();
             var banner = {};
             banner.name = "Farmer's Market"
-            banner.description = "Sundays | 9am - 1pm"
+            banner.description = "Sundays | 9am - 2pm"
             banner.url = "/events/orchardtown-the-market-at-the-orchard-farmers-market"
             renderBanner('#slick_template','#slick_container',banners);
              
