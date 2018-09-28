@@ -91,7 +91,7 @@
             var banners = getBanners();
             var banner = {};
             banner.name = "Farmer's Market"
-             banner.description = "Farmer's Market"
+            banner.description = "Farmer's Market"
             banner.url = "/events/orchardtown-the-market-at-the-orchard-farmers-market"
             renderBanner('#slick_template','#slick_container',banners);
              
