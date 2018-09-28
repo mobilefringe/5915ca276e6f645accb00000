@@ -93,7 +93,7 @@
             banner.name = "Farmer's Market"
             banner.description = "Sundays | 9am - 2pm"
             banner.url = "/events/orchardtown-the-market-at-the-orchard-farmers-market"
-            banner.image_url = "https://www.mallmaverick.com/system/site_images/photos/000/040/072/original/0518_OTC_summerseries_webads_farmers_website_hero.png?1528402025";
+            banner.image_url = "https://picsum.photos/1920/540?image=824";
             banner.start_date = null;
             banner.end_date = null;
             banners.push(banner);
