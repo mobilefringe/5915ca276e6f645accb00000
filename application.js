@@ -36,6 +36,7 @@ function renderBanner(banner_template,home_banner,banners){
     $.each( item_list , function( key, val ) {
         var repo_rendered = Mustache.render(banner_template_html,val);
         item_rendered.push(repo_rendered);
+        console.log(item_rendered);
     });
     $(home_banner).html(item_rendered.join(''));
 }
