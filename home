@@ -89,14 +89,14 @@
         init(e);
         function renderAll(){
             var banners = getBanners();
-            var banner = {};
-            banner.name = "Farmer's Market"
-            banner.description = "Sundays | 9am - 2pm"
-            banner.url = "/events/orchardtown-the-market-at-the-orchard-farmers-market"
-            banner.image_url = "https://picsum.photos/1920/540?image=674";
-            banner.start_date = null;
-            banner.end_date = null;
-            banners.push(banner);
+            // var banner = {};
+            // banner.name = "Farmer's Market"
+            // banner.description = "Sundays | 9am - 2pm"
+            // banner.url = "/events/orchardtown-the-market-at-the-orchard-farmers-market"
+            // banner.image_url = "https://picsum.photos/1920/540?image=674";
+            // banner.start_date = null;
+            // banner.end_date = null;
+            // banners.push(banner);
             // console.log("banners", banners);
             renderBanner('#slick_template','#slick_container',banners);
              
