@@ -8,7 +8,6 @@ function renderBanner(banner_template,home_banner,banners){
         start = new Date (val.start_date);
        
         start.setDate(start.getDate());
-        console.log("url",val.url)
         if(val.url == "" || val.url === null){
            val.css = "style=cursor:default;";
            val.noLink = "return false";
@@ -31,13 +30,11 @@ function renderBanner(banner_template,home_banner,banners){
             val.show_overlay_banner = false;
             val.show_reg_banner = true;
         }
-        console.log("show_overlay_banner ",val.show_overlay_banner, "show_reg_banner", val.show_reg_banner );
     });
 
     $.each( item_list , function( key, val ) {
         var repo_rendered = Mustache.render(banner_template_html,val);
         item_rendered.push(repo_rendered);
-        console.log(item_rendered);
     });
     $(home_banner).html(item_rendered.join(''));
 }
