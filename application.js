@@ -8,6 +8,7 @@ function renderBanner(banner_template,home_banner,banners){
         start = new Date (val.start_date);
        
         start.setDate(start.getDate());
+        console.log("url",url)
         if(val.url == "" || val.url === null){
            val.css = "style=cursor:default;";
            val.noLink = "return false";
