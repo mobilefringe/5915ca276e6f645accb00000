@@ -65,6 +65,7 @@
                                 </div>
                             </script>
                         </div>
+                        <p>Click here for our Holiday Hours</p>
                         <div class="margin_20"></div>
                     </div>
                 </div>
@@ -72,7 +73,7 @@
         </div>
     </div>
 </div>
-<p>Click here for our Holiday Hours</p>
+
 <script>
     $(document).ready(function(e){
         init(e);
