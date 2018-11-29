@@ -66,13 +66,18 @@
             renderGeneral('#category_container', '#category_template', categories);
             renderGeneral('#mobile_cat_list', '#category_template2', categories);
             $('#mobile_cat_list').prepend('<option value="all" selected >All Categories</option>');
-            show_cat_stores()
+            show_cat_stores();
+            var featured_promos = [];
             var published_promos = [];
-            $.each( promotions , function( key, val ){
+            $.each(promotions, function(key, val) {
                 var today = moment();
                 var webDate = moment(val.show_on_web_date);
                 if (today >= webDate) {
-                    published_promos.push(val)
+                    if (val.is_featured) {
+                        featured_promos.push(val);
+                    } else {
+                        published_promos.push(val);
+                    }
                 } 
             });
             if(published_promos.length > 0){
