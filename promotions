@@ -52,6 +52,26 @@
                         </div>
                     </script>
                 </div>
+                <div id="featured_promos_container">
+                    <script id="featured_promos_template" type="x-tmpl-mustache/text">
+                        <div class="row promo_item cats_row" data-cat="{{cat_list}}">
+                            <div class="col-md-3">
+                                <div class="cropped_image">
+                                    <img src="{{image_url}}" alt="{{name}}" />
+                                </div>
+                            </div>
+                            <div class="col-md-9">
+                                <h2 class="promo_list_name"><a href="/promotions/{{slug}}">{{name}}</a></h2>
+                                <p>
+                                    <a href="{{store_slug}}" style="{{store_show}}"><span class="underline promo_store">{{store_name}}</span></a>
+                                    <span class="promo_dates">{{dates}}</span>
+                                </p>
+                                <div class="promo_list_desc">{{description_short}}</div>
+                                <a class="read_more" href="/promotions/{{slug}}">View Promotion Details</a>
+                            </div>
+                        </div>
+                    </script>
+                </div>
             </div>
         </div>
     </div>
@@ -83,7 +103,7 @@
             
             if(featured_promos.length > 0){
                 console.log("featured_promos", featured_promos);
-                renderPromotions("#promos_container","#promos_template", published_promos, "Orchard Town Center");
+                renderPromotions("#featured_promos_container","#featured_promos_template", featured_promos, "Orchard Town Center");
             }
             
             if(published_promos.length > 0){
