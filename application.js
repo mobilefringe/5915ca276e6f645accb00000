@@ -335,8 +335,9 @@ function renderEvents(container, template, collection, centre){
         if (val.event_image_url_abs.indexOf('missing.png') > -1){
             val.event_image_url_abs = site_json.default_image;
         }
-        console.log("tags", val.tags.length)
+        
         if (val.tags.length > 1) {
+            console.log("tags", val.tags)
             val.show_dates = false;
             
         } else {
