@@ -41,7 +41,7 @@
                                 <p>
                                     <span class="promo_store">{{store_name}}</span>
                                     {{#job_type}}
-                                    <span class="promo_store">{{job_type}}</span>
+                                    <span class="promo_store jobs">{{job_type}}</span>
                                     {{/job_type}}
                                 </p>
                                 <div class="promo_list_desc hidden_phone">{{description_short}}</div>
