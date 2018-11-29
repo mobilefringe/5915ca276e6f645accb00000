@@ -294,6 +294,12 @@ function renderPromoDetails(container, template, collection, centre){
         	val.dates = start.format("MMM D") + " - " + end.format("MMM D");
         }
         
+        if (val.is_featured) {
+            val.show_dates = false;
+        } else {
+            val.show_dates = true;
+        }
+        
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);
     });
