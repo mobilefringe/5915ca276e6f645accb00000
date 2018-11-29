@@ -63,7 +63,7 @@
     $(document).ready(function(e){
         init(e);
         function renderAll (){
-            var promotions = getEventsList().sortBy(function(o){ return o.start_date });
+            var promotions = getEventsList().sortBy(function(o){ return o.end_date });
             console.log("promotions", promotions)
             // var categories = getStoreCategories();
             // renderGeneral('#category_container', '#category_template', categories);
