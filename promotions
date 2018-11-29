@@ -1,3 +1,8 @@
+<style>
+    .promo_store {
+        border-right: 1px solid #424242;
+    }
+</style>
 <div class="inside_banner promo_banner text-center">
     <h3>SALES & PROMOTIONS</h3>
 </div>
