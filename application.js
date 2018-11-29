@@ -336,13 +336,19 @@ function renderEvents(container, template, collection, centre){
             val.event_image_url_abs = site_json.default_image;
         }
         
-        var show_date = moment(val.show_on_web_date).tz(getPropertyTimeZone());
-        var start = moment(val.start_date).tz(getPropertyTimeZone());
-        var end = moment(val.end_date).tz(getPropertyTimeZone());
-        if (start.format("DMY") == end.format("DMY")){
-        	val.dates = start.format("MMM D");
+        if (val.tags.length > 1) {
+            val.show_dates = false;
+            
         } else {
-        	val.dates = start.format("MMM D") + " - " + end.format("MMM D");
+            val.show_dates = true;
+            var show_date = moment(val.show_on_web_date).tz(getPropertyTimeZone());
+            var start = moment(val.start_date).tz(getPropertyTimeZone());
+            var end = moment(val.end_date).tz(getPropertyTimeZone());
+            if (start.format("DMY") == end.format("DMY")){
+            	val.dates = start.format("MMM D");
+            } else {
+            	val.dates = start.format("MMM D") + " - " + end.format("MMM D");
+            }
         }
         
         var rendered = Mustache.render(template_html,val);
