@@ -45,6 +45,9 @@
                                     {{#show_dates}}
                                     <span class="promo_dates">{{dates}}</span>
                                     {{/show_dates}}
+                                    {{#tag}}
+                                    <span class="promo_dates">{{tag}}</span>
+                                    {{/tag}}
                                 </p>
                                 <div class="promo_list_desc">{{description_short}}</div>
                                 <a class="read_more" href="/events/{{slug}}">View Event Details</a>
