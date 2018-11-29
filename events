@@ -42,7 +42,9 @@
                                 <h2 class="promo_list_name">{{name}}</h2>
                                 <p>
                                     <span class="promo_store">{{store_name}}</span>
+                                    {{#show_dates}}
                                     <span class="promo_dates">{{dates}}</span>
+                                    {{/show_dates}}
                                 </p>
                                 <div class="promo_list_desc">{{description_short}}</div>
                                 <a class="read_more" href="/events/{{slug}}">View Event Details</a>
