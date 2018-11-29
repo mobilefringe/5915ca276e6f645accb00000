@@ -337,7 +337,7 @@ function renderEvents(container, template, collection, centre){
         }
         
         if (val.tags.length > 1) {
-            console.log("tags", val.tags)
+            console.log("tags", val.tags.length > 1)
             val.show_dates = false;
             
         } else {
