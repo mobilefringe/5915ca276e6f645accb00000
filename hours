@@ -57,10 +57,9 @@
                                 <div class="margin_20"></div>
                             </script>
                         </div>
-                        
+                        <h3 class="hours_heading">Holiday Closures</h3>
                         <div id="closed_hours_container" class="hours_container">
                             <script id="closed_hours_template" type="x-tmpl-mustache/text">
-                            <h3 class="hours_heading">Holiday Closures</h3>
                                 <div class="hours_div">
                                     <span>{{holiday_name}} ({{formatted_date}})</span>
                                 </div>
