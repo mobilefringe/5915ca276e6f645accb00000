@@ -43,7 +43,7 @@
                         </div>
                     </div>
                     <div class="col-md-7">
-                        <!--<h3 class="hours_heading">Reduced Hours of Operation</h3>-->
+                        <h3 class="hours_heading">Reduced Hours of Operation</h3>
                         <div id="holidays_hours_container">
                             <script id="holidays_hours_template" type="x-tmpl-mustache/text">
                                 <div class="row mobile_row">
