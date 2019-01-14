@@ -81,7 +81,7 @@
                 pan:true,
                 cursor:'pointer',
                 responsive:true,
-                zoomLimit: [0,8]
+                zoomLimit: [0,9]
             });
             
             $('.map_pin_a').click(function(e){
