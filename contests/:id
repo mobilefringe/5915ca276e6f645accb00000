@@ -1,23 +1,9 @@
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
-<div class="jobs_banner text-center">
-    <h3>CONTEST</h3>
-</div>
-<div class="store_list_head main_container">
-    <div class="row hidden_phone">
-        <div class="col-md-12">
-            <h5 class="active_heading">CONTESTS</h5>
-        </div>
-    </div>
-    <h5 class="text-center tap_here show_phone">
-        <select id="option_selector" class="link_selector">
-            <option value="" disabled selected>TAP FOR MORE OPTIONS</option>
-            <option value="/events">Events</option>
-            <option class="contest_link" value="/contests">Contest</option>
-        </select>
-    </h5>
+<div class="pages_banner text-center">
+    <h3 class="mm_page_title"></h3>
 </div>
 <div class="margin_20"></div>
- <div class="content_container main_container">
+<div class="content_container main_container">
     <div class="margin_25_across">
         <div class="row">
             <div class="col-md-12">
