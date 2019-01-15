@@ -55,13 +55,15 @@
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-md-12 margin_30">
+                                <div class="col-md-8 margin_30">
                                     <label class="cbox_label">
                                         <input id="newsletter_signup" type="checkbox" name="contest[newsletter]" required/> 
                                         I agree to receive newsletters from {{property_name}}. You can unsubscribe anytime.
                                     </label>
                                     <br/><br/>
                                     <p>For more details about personal privacy, please read our <a href="/pages/orchardtown-privacy-policy" target="_blank">Privacy Policy.</a></p>
+                                </div>
+                                <div class="col-md-4 margin_30">
                                     <br/><br/>
                                     <button class="newsletter_btn animated_btn text-center" id="contest_btn">Submit</button>
                                     <br /><br />
