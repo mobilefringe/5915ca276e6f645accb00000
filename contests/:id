@@ -9,7 +9,7 @@
             <div class="col-md-12">
                 <div id="contest_details_container">
                     <script id="contest_details_template" type="x-tmpl-mustache/text">
-                        <p class="bold">{{name}}</p>
+                        <h2 class="promo_list_name bold">{{name}}</h2>
                         <img src="{{alt_photo_url}}" class="details_image" style="{{promo_image}}" />
                         
                         <div class="details_desc margin_30">{{{rich_description}}}</div>
