@@ -127,7 +127,7 @@
                 var search_part = query.split('?')[1];
                 var query_type = search_part.split('=')[1];
                 var cat_name = search_part.split('=')[1];
-                console.log("search_part", search_part,"cat_name", cat_name)
+                console.log("query_type", query_type,"cat_name", cat_name)
                 // if(){
                     
                 // } 
