@@ -107,6 +107,7 @@
         </div>
     </div>
 </div>
+<script src="https://cdn.jsdelivr.net/npm/lodash@4.17.11/lodash.min.js"></script>
 <script>
     $(document).ready(function(e){
         init(e);
@@ -117,7 +118,7 @@
                 if (val.store_ids != null) {
                     category_list.push(val);
                 } 
-            });;
+            });
             renderGeneral("#category_select", "#category_select_template", category_list);
             $('#category_select').prepend('<li class="show_cat_stores" data-id="000" name="All">ALL</li>');
             
@@ -130,6 +131,10 @@
                 console.log("query_type", query_type,"cat_name", cat_name)
                 if(query_type == "category"){
                    cat_name = cat_name.replace("%20"," ");
+                   $.each( categories, function( key, val ){
+                        category_list.push(val);
+                        
+                   });
                 }
                 else {
                     stores = getStoresList();
