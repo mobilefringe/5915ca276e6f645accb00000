@@ -133,7 +133,7 @@
                    cat_name = cat_name.replace("%20"," ");
                    var category = _.find(categories, function(o){
                     //   console.log("o", o)
-                       console.log(_.lowerCase(o.name) , _.lowerCase(cat_name), _.lowerCase(o.name) == _.lowerCase(cat_name))
+                    //   console.log(_.lowerCase(o.name) , _.lowerCase(cat_name), _.lowerCase(o.name) == _.lowerCase(cat_name))
                       return  _.lowerCase(o.name) == _.lowerCase(cat_name);
                    });
                    console.log("category", category)
