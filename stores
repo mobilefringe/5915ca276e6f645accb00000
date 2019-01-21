@@ -129,7 +129,7 @@
                 var cat_name = search_part.split('=')[1];
                 console.log("query_type", query_type,"cat_name", cat_name)
                 if(query_type == "category"){
-                    
+                   cat_name = cat_name.replace("%20"," ");
                 }
                 else {
                     stores = getStoresList();
