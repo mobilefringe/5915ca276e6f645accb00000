@@ -138,7 +138,7 @@
                       return  _.lowerCase(o.name) == _.lowerCase(cat_name);
                    });
                    stores = _.filter(all_stores, function(o){
-                       return _.includes(o.categories, category.if)
+                       return _.includes(o.categories, category.id)
                    })
                    console.log("category", category)
                 }
