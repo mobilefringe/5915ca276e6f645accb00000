@@ -125,7 +125,7 @@
             var query = window.location.search;
             if(query !== "") {
                 var search_part = query.split('?')[1];
-                var query_type = search_part.split('=')[1];
+                var query_type = search_part.split('=')[0];
                 var cat_name = search_part.split('=')[1];
                 console.log("query_type", query_type,"cat_name", cat_name)
                 // if(){
