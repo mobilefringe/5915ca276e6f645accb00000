@@ -141,10 +141,10 @@
                    console.log("category", category)
                 }
                 else {
-                    stores = getStoresList();
+                    stores = all_stores;
                 }
             } else {
-                stores = getStoresList();
+                stores = all_stores;
             }
             renderStoreList('#store_list_container','#store_list_template', stores, "stores");
             renderGeneral('#category_container', '#category_template', category_list);
