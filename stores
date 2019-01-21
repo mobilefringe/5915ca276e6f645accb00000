@@ -137,7 +137,9 @@
                     //   console.log(_.lowerCase(o.name) , _.lowerCase(cat_name), _.lowerCase(o.name) == _.lowerCase(cat_name))
                       return  _.lowerCase(o.name) == _.lowerCase(cat_name);
                    });
-                   stores = _.filter()
+                   stores = _.filter(all_stores, function(o){
+                       return _.includes(o.categories, category.if)
+                   })
                    console.log("category", category)
                 }
                 else {
