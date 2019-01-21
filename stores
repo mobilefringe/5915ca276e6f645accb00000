@@ -133,7 +133,8 @@
                    cat_name = cat_name.replace("%20"," ");
                    var category = _.find(categories, function(o){
                       return  o.name.toLowercase() == cat_name.toLowercase();
-                   })
+                   });
+                   console.log("category", category)
                 }
                 else {
                     stores = getStoresList();
