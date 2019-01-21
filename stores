@@ -124,9 +124,9 @@
             var stores = [];
             var query = window.location.search;
             if(query !== "") {
-                var search_part = query.split('?')[1];
-                var search_tag = search_part.split('=')[0];
-                console.log("search_part", search_part,"search_tag", search_tag)
+                var search_part = query.split('?')[1].split('=')[0];
+                var cat_name = search_part;
+                console.log("search_part", search_part,"cat_name", cat_name)
                 // if(){
                     
                 // } 
