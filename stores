@@ -131,10 +131,9 @@
                 console.log("query_type", query_type,"cat_name", cat_name)
                 if(query_type == "category"){
                    cat_name = cat_name.replace("%20"," ");
-                   $.each( categories, function( key, val ){
-                        category_list.push(val);
-                        
-                   });
+                   var category = _.find(categories, function(o){
+                       o.name.toLowercase() == cat_name.toLowercase();
+                   })
                 }
                 else {
                     stores = getStoresList();
