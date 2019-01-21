@@ -128,9 +128,12 @@
                 var query_type = search_part.split('=')[0];
                 var cat_name = search_part.split('=')[1];
                 console.log("query_type", query_type,"cat_name", cat_name)
-                // if(){
+                if(){
                     
-                // } 
+                }
+                else {
+                    stores = getStoresList();
+                }
             } else {
                 stores = getStoresList();
             }
