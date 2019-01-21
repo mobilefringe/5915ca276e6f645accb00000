@@ -122,6 +122,7 @@
             renderGeneral("#category_select", "#category_select_template", category_list);
             $('#category_select').prepend('<li class="show_cat_stores" data-id="000" name="All">ALL</li>');
             
+            var all_stores = getStoresList();;
             var stores = [];
             var query = window.location.search;
             if(query !== "") {
@@ -136,6 +137,7 @@
                     //   console.log(_.lowerCase(o.name) , _.lowerCase(cat_name), _.lowerCase(o.name) == _.lowerCase(cat_name))
                       return  _.lowerCase(o.name) == _.lowerCase(cat_name);
                    });
+                   stores = _.filter()
                    console.log("category", category)
                 }
                 else {
