@@ -58,13 +58,14 @@
                             </script>
                         </div>
                         <h3 class="hours_heading">Holiday Closures</h3>
-                        <div id="closed_hours_container" class="hours_container">
-                            <script id="closed_hours_template" type="x-tmpl-mustache/text">
-                                <div class="hours_div">
-                                    <span>{{holiday_name}} ({{formatted_date}})</span>
-                                </div>
-                            </script>
-                        </div>
+                        <p>Individual store and restaurant hours may vary. For inclement weather, please call ahead</p>
+                        <!--<div id="closed_hours_container" class="hours_container">-->
+                        <!--    <script id="closed_hours_template" type="x-tmpl-mustache/text">-->
+                        <!--        <div class="hours_div">-->
+                        <!--            <span>{{holiday_name}} ({{formatted_date}})</span>-->
+                        <!--        </div>-->
+                        <!--    </script>-->
+                        <!--</div>-->
                         <div class="margin_20"></div>
                     </div>
                 </div>
