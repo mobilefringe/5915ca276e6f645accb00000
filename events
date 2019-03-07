@@ -83,7 +83,7 @@
             var events_repo = getRepoDetailsByName("Events Banner").images;
             var events_image = events_repo[0].image_url
             if (events_image) {
-                $(".events_banner").css("background-image", 'url(" + events_image + ")');
+                $(".events_banner").css("background-image", "url(" + events_image + ")");
             }
             show_content();
         }
