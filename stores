@@ -148,7 +148,7 @@
             renderGeneral('#category_container', '#category_template', category_list);
             renderGeneral('#category_container_phone', '#category_template_phone', category_list);
             
-            var store_repo = getRepoDetailsByName()
+            var store_repo = getRepoDetailsByName("Directory Banner");
             console.log(store_repo)
             // var store_image = store_repo[0].image_url
             // if (store_image) {
