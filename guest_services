@@ -55,6 +55,7 @@
             if (speciality_image) {
                 $(".specialty_banner").css("background-image", "url(" + speciality_image + ")");
             }
+            
             show_content();
         }
         loadMallDataCached(renderAll);
