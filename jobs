@@ -73,6 +73,13 @@
             } else {
                 $('#no_jobs').show()
             }
+            
+            var jobs_repo = getRepoDetailsByName("Jobs Banner").images;
+            var jobs_image = jobs_repo[0].image_url
+            if (jobs_image) {
+                $(".jobs_banner").css("background-image", "url(" + jobs_image + ")");
+            }
+            
             show_content();
         }
 		loadMallDataCached(renderAll); 
