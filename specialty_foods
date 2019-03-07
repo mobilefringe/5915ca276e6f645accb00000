@@ -95,11 +95,11 @@
             store_search();
             show_cat_stores();
             
-            // var speciality_repo = getRepoDetailsByName("Speciality Banner").images;
-            // var speciality_image = speciality_repo[0].image_url
-            // if (speciality_image) {
-            //     $(".specialty_banner").css("background-image", "url(" + speciality_image + ")");
-            // }
+            var speciality_repo = getRepoDetailsByName("Speciality Banner").images;
+            var speciality_image = speciality_repo[0].image_url
+            if (speciality_image) {
+                $(".specialty_banner").css("background-image", "url(" + speciality_image + ")");
+            }
         }
         loadMallDataCached(renderAll); 
     });
