@@ -81,7 +81,10 @@
                 $('#no_events').show()
             }
             var events_repo = getRepoDetailsByName("Events Banner").images;
-            console.log(events_repo)
+            var events_image = events_repo[0].image_url
+            if (events_repo) {
+                $(".events_banner").css({ "background": "linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.2)), url(" + banner_image + ") center center" });
+            }
             show_content();
         }
 		loadMallDataCached(renderAll); 
