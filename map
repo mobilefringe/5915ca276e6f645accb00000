@@ -97,6 +97,12 @@
                     drop_pin(value[0], map);    
                 }
             }
+            
+            var map_repo = getRepoDetailsByName("Map Banner").images;
+            var map_image = map_repo[0].image_url
+            if (map_image) {
+                $(".map_banner").css("background-image", "url(" + map_image + ")");
+            }
         }
         loadMallDataCached(renderPageData);
     });
