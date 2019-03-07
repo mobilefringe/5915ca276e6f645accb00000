@@ -50,10 +50,10 @@
                 }
             }); 
             
-            var speciality_repo = getRepoDetailsByName("Speciality Banner").images;
-            var speciality_image = speciality_repo[0].image_url;
-            if (speciality_image) {
-                $(".specialty_banner").css("background-image", "url(" + speciality_image + ")");
+            var guest_repo = getRepoDetailsByName("Guest Services Banner").images;
+            var guest_image = guest_repo[0].image_url;
+            if (guest_image) {
+                $(".guest_banner").css("background-image", "url(" + guest_image + ")");
             }
             
             show_content();
