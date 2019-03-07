@@ -148,6 +148,12 @@
             renderGeneral('#category_container', '#category_template', category_list);
             renderGeneral('#category_container_phone', '#category_template_phone', category_list);
             
+            var store_repo = getRepoDetailsByName("Directory Banner").images;
+            var store_image = store_repo[0].image_url
+            if (store_image) {
+                $(".events_banner").css("background-image", "url(" + store_image + ")");
+            }
+            
             show_content();
             
             store_search();
