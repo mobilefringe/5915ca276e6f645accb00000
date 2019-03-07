@@ -112,12 +112,12 @@
     $(document).ready(function(e){
         init(e);
         function renderAll(){
-            var store_repo = getRepoDetailsByName("Directory Banner");
-            console.log(store_repo)
-            // var store_image = store_repo[0].image_url
-            // if (store_image) {
-            //     $(".events_banner").css("background-image", "url(" + store_image + ")");
-            // }
+            // var store_repo = getRepoDetailsByName("Directory Banner");
+            // console.log(store_repo)
+            // // var store_image = store_repo[0].image_url
+            // // if (store_image) {
+            // //     $(".events_banner").css("background-image", "url(" + store_image + ")");
+            // // }
             var categories = getStoreCategories();
             var category_list = [];
             $.each( categories, function( key, val ){
