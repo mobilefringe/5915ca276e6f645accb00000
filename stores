@@ -112,12 +112,6 @@
     $(document).ready(function(e){
         init(e);
         function renderAll(){
-            var store_repo = getRepoDetailsByName("Directory Banner");
-            console.log(store_repo)
-            // var store_image = store_repo[0].image_url
-            // if (store_image) {
-            //     $(".stores_banner").css("background-image", "url(" + store_image + ")");
-            // }
             var categories = getStoreCategories();
             var category_list = [];
             $.each( categories, function( key, val ){
@@ -150,6 +144,14 @@
             } else {
                 stores = all_stores;
             }
+            
+            var store_repo = getRepoDetailsByName("Directory Banner");
+            console.log(store_repo)
+            var store_image = store_repo[0].image_url
+            if (store_image) {
+                $(".stores_banner").css("background-image", "url(" + store_image + ")");
+            }
+            
             renderStoreList('#store_list_container','#store_list_template', stores, "stores");
             renderGeneral('#category_container', '#category_template', category_list);
             renderGeneral('#category_container_phone', '#category_template_phone', category_list);
