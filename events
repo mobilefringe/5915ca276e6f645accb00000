@@ -80,12 +80,10 @@
             } else {
                 $('#no_events').show()
             }
-            <script type="x-tmpl-mustache/text">
-                var events_repo = getRepoDetailsByName("Events Banner").images;
-                if(events_repo != null){
-                    $("events_banner").css("background-image", "url({{image_url}})")
-                }
-            </script>
+            var events_repo = getRepoDetailsByName("Events Banner").images;
+            if(events_repo != null){
+                $("events_banner").css("background-image", "url({{image_url}})")
+            }
             show_content();
         }
 		loadMallDataCached(renderAll); 
