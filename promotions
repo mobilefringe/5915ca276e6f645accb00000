@@ -105,6 +105,13 @@
             } else {
                 $('#no_promos').show()
             }
+            
+            var promo_repo = getRepoDetailsByName("Promotions Banner").images;
+            var promo_image = promo_repo[0].image_url
+            if (promo_image) {
+                $(".promo_banner").css("background-image", "url(" + promo_image + ")");
+            }
+            
             show_content();
         }
 		loadMallDataCached(renderAll); 
