@@ -80,6 +80,11 @@
             } else {
                 $('#no_events').show()
             }
+            
+            var events_repo = getRepoDetailsByName("Events Banner").images;
+            if(events_repo != null){
+                $("events_banner").css("background-image", "url({{image_url}})")
+            }
             show_content();
         }
 		loadMallDataCached(renderAll); 
