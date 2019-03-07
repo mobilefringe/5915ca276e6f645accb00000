@@ -145,7 +145,7 @@
                 stores = all_stores;
             }
             
-            var store_repo = getRepoDetailsByName("Directory Banner");
+            var store_repo = getRepoDetailsByName("Directory Banner").images;
             console.log(store_repo)
             var store_image = store_repo[0].image_url
             if (store_image) {
