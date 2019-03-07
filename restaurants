@@ -95,7 +95,7 @@
             store_search();
             show_cat_stores();
             
-            var restaurants_repo = getRepoDetailsByName("Restaurant Banner").images;
+            var restaurant_repo = getRepoDetailsByName("Restaurant Banner").images;
             var restaurant_image = restaurant_repo[0].image_url
             if (restaurant_image) {
                 $(".dine_banner").css("background-image", "url(" + restaurant_image + ")");
