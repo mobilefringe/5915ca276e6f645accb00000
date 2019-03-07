@@ -83,6 +83,13 @@
             var holiday_hours = getPropertyHolidayHours().sortBy(function(o){ return o.holiday_date });
             renderHours('#holidays_hours_container', '#holidays_hours_template', holiday_hours, 'holiday_hours');
             renderHours('#closed_hours_container','#closed_hours_template', holiday_hours, 'closed_hours');
+            
+            var hours_repo = getRepoDetailsByName("Hours Banner").images;
+            var hours_image = hours_repo[0].image_url
+            if (hours_image) {
+                $(".hours_banner").css("background-image", "url(" + hours_image + ")");
+            }
+            
             show_content();
         }
         loadMallDataCached(renderAll); 
