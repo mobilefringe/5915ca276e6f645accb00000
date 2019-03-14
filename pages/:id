@@ -1,0 +1,40 @@
+<div class="inside_banner pages_banner text-center">
+    <h3 class="mm_page_title"></h3>
+</div>
+<div class="margin_20"></div>
+<div class="content_container main_container">
+    <div class="margin_25_across">
+        <div class="row">
+            <div class="col-md-12">
+                <div id="mm_page_content"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function(e){
+        init(e);
+        function renderAll(){
+            var pathArray = window.location.pathname.split( '/' );
+            var slug = pathArray[pathArray.length-1];
+            prefix = get_prefix();
+            var pages_json = prefix+"/pages/" + slug + ".json"
+            $.getJSON(pages_json).done(function(data) {
+                $('.mm_page_title').html(data.title.toUpperCase());
+                $('#mm_page_content').html(data.body);
+            }).fail(function(jqXHR) {
+                if (jqXHR.status == 404) {
+                    $("#404_msg").fadeIn("fast");
+                }
+            }); 
+            var leasing_repo = getRepoDetailsByName("Pages Banner").images;
+            var leasing_image = leasing_repo[0].image_url
+            if (leasing_image) {
+                $(".leasing_banner").css("background-image", "url(" + pages_image + ")");
+            }
+            show_content();
+        }
+        loadMallDataCached(renderAll); 
+    })
+</script>
