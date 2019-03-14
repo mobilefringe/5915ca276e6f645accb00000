@@ -1,4 +1,4 @@
-<div class="inside_banner pages_banner text-center">
+<div class="pages_banner text-center">
     <h3 class="mm_page_title"></h3>
 </div>
 <div class="margin_20"></div>
@@ -28,11 +28,6 @@
                     $("#404_msg").fadeIn("fast");
                 }
             }); 
-            var leasing_repo = getRepoDetailsByName("Pages Banner").images;
-            var leasing_image = leasing_repo[0].image_url
-            if (leasing_image) {
-                $(".leasing_banner").css("background-image", "url(" + pages_image + ")");
-            }
             show_content();
         }
         loadMallDataCached(renderAll); 
