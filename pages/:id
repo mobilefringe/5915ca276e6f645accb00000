@@ -28,6 +28,11 @@
                     $("#404_msg").fadeIn("fast");
                 }
             }); 
+            var pages_repo = getRepoDetailsByName("Pages Banner").images;
+            var pages_image = pages_repo[0].image_url
+            if (pages_image) {
+                $(".pages_banner").css("background-image", "url(" + pages_image + ")");
+            }
             show_content();
         }
         loadMallDataCached(renderAll); 
