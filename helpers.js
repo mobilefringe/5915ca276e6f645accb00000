@@ -5,7 +5,7 @@ var site_json = {
 
 function init(e){
     // $('<div class="modal-backdrop custom_backdrop"><img src="//kodekloud.s3.amazonaws.com/sites/554a79236e6f64713f000000/69e8cd982124dc73de1f5a67a627ee75/loading.gif" class="" alt=""></div>').appendTo(document.body);
-    $('<div class="modal-backdrop custom_backdrop"><img src="//codecloud.cdn.speedyrails.net/sites/5babec956e6f6468191a0000/image/png/1524581661000/orchard_default.png" class="" alt=""><p>The Orchard Town Center is loading</p></div>').appendTo(document.body);
+    $('<div class="modal-backdrop custom_backdrop"><div class="loading_container"><img src="//codecloud.cdn.speedyrails.net/sites/5babec956e6f6468191a0000/image/png/1524581661000/orchard_default.png" class="" alt=""><p>The Orchard Town Center is loading</p></div></div>').appendTo(document.body);
 
     $('#menu-icon').click(function(e){
 		e.preventDefault();
