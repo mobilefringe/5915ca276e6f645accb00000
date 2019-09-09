@@ -103,6 +103,7 @@
                 $(".modal-backdrop").remove();
 		        $(".popup_home").remove();
             });
+            
             $('.slick_container').slick({
                 adaptiveHeight: true,
                 arrows: true,
