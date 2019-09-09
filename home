@@ -117,12 +117,6 @@
                 nextArrow: '.next',
                 prevArrow: '.prev'
             });
-            // $('.flexslider').flexslider({
-            //     animation: "slide",
-            //     pauseOnHover: true,
-            // });
-            // $(".flex-prev").html("");
-            // $(".flex-next").html("");
         }
         
         loadMallDataCached(renderAll); 
