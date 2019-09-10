@@ -62,7 +62,7 @@
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-md-6 margin_30">
+                                <div class="col-md-12 margin_30">
                                     <label class="cbox_label">
                                         <input id="newsletter_signup" type="checkbox" name="contest[newsletter]" required/> 
                                         I agree to receive communications from {{property_name}}. You can unsubscribe anytime.
