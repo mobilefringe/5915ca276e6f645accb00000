@@ -67,8 +67,13 @@
                                         <input id="newsletter_signup" type="checkbox" name="contest[newsletter]" required/> 
                                         I agree to receive communications from {{property_name}}. You can unsubscribe anytime.
                                     </label>
-                                    <br/><br/>
-                                    <p><a href="/pages/orchardtown-the-orchard-town-center-sweepstakes-terms-and-conditions" target="_blank">Click here</a> for the Sweepstakes Terms and Conditions. For more details about personal privacy, please read our <a href="/pages/orchardtown-privacy-policy" target="_blank">Privacy Policy.</a></p>
+                                </div>
+                                <div class="col-md-12 margin_30">
+                                    <label class="cbox_label">
+                                        <input id="agree_terms" type="checkbox" name="contest[terms]" required/> 
+                                        I have read and agree to the <a href="/pages/orchardtown-the-orchard-town-center-sweepstakes-terms-and-conditions" target="_blank">Contest Rules & Regulations</a>.
+                                    </label>
+                                    <p>Click here</a> for the Sweepstakes Terms and Conditions. For more details about personal privacy, please read our <a href="/pages/orchardtown-privacy-policy" target="_blank">Privacy Policy.</a></p>
                                 </div>
                                 <div class="col-md-12">
                                     <div class="margin_30">
