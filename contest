@@ -98,6 +98,7 @@
         var current_contest = [];
         $.each( contest_list, function( key, val ){
             if (_.includes(val.show_on_slug, "orchardtown-contest")) {
+                console.log("val", val)
                 if (val.start_date) {
                     console.log("val", val)
                     current_contest.push(val);
