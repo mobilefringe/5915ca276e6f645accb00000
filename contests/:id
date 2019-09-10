@@ -93,6 +93,17 @@
     function renderPage(){
         var pathArray = window.location.pathname.split( '/' );
         var slug = pathArray[pathArray.length-1];
+        
+        var contest_list = getContestList();
+        var current_contest = [];
+        $.each( contest_list, function( key, val ){
+            if (_.includes(val.show_on_slug, "orchardtown-contest") {
+                if (val.start_date) {
+                    current_contest.push(val);
+                }    
+            }
+        });
+        
         var contest_details = getContestBySlug(slug);
         console.log("contest_details", contest_details)
         renderContest("#contest_details_container", '#contest_details_template', contest_details)
