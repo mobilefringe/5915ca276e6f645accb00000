@@ -95,10 +95,11 @@
         var slug = pathArray[pathArray.length-1];
         
         var contest_list = getContestList();
-        var current_contest = [];
+        var current_contest = ;
         $.each( contest_list, function( key, val ){
             if (_.includes(val.show_on_slug, "orchardtown-contest")) {
                 if (val.start_date) {
+                    console.log("val", val)
                     current_contest.push(val);
                 }    
             }
