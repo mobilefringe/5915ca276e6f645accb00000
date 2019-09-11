@@ -402,23 +402,24 @@ function submit_contest(slug) {
     contest_data.gender = $('#gender').val();
     contest_data.newsletter = $('#newsletter_signup').prop("checked");
     contest_entry.contest = contest_data;
+    console.log("contest_entry.contest",  contest_entry.contest)
     
-    var propertyDetails = getPropertyDetails();
-    var host = propertyDetails.mm_host.replace("http:", "");
-    var action = host + "/contests/" + slug + "/create_js_entry"
-    $.ajax({
-        url : action,
-        type: "POST",
-        data : contest_entry,
-        success: function(data){
-           $('#succes_msg').show();
-           $('.contest_btn').prop('disabled', false);
-           $('#contest_form').trigger('reset');
-        },
-        error: function (data){
-            alert('An error occured while processing your request. Please try again later!')
-        }
-    });
+    // var propertyDetails = getPropertyDetails();
+    // var host = propertyDetails.mm_host.replace("http:", "");
+    // var action = host + "/contests/" + slug + "/create_js_entry"
+    // $.ajax({
+    //     url : action,
+    //     type: "POST",
+    //     data : contest_entry,
+    //     success: function(data){
+    //       $('#succes_msg').show();
+    //       $('.contest_btn').prop('disabled', false);
+    //       $('#contest_form').trigger('reset');
+    //     },
+    //     error: function (data){
+    //         alert('An error occured while processing your request. Please try again later!')
+    //     }
+    // });
 }
 function show_cat_stores(){
     $('.show_cat_stores').click(function(e){
