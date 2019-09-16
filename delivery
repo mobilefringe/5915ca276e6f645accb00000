@@ -1,0 +1,109 @@
+<style>
+    .store_list_head {
+        margin-bottom: 0;
+    }
+</style>
+<div class="inside_banner dine_banner text-center">
+    <h3>Delivery</h3>
+</div>
+<div class="store_list_head main_container">
+    <div class="row hidden_phone">
+        <div class="col-md-6">
+            <h5 class="active_heading">Restaurants</h5>
+        </div>
+        <div class="col-md-6">
+            <h5><a href="/specialty_foods">Specialty Foods</a></h5>
+        </div>
+        <div class="col-md-6">
+            <h5><a href="/delivery">Delivery</a></h5>
+        </div>
+    </div>
+    <h5 class="text-center tap_here show_phone">
+        <select id="option_selector" class="link_selector">
+            <option value="" disabled selected>TAP FOR MORE OPTIONS</option>
+            <option value="/specialty_foods">Specialty Foods</option>
+        </select>
+    </h5>
+</div>
+ <div class="content_container main_container">
+    <div class="margin_25_across">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="alpha_list">
+                    <a href="#7">#</a>
+                    <a href="#A">A</a>
+                    <a href="#B">B</a>
+                    <a href="#C">C</a>
+                    <a href="#D">D</a>
+                    <a href="#E">E</a>
+                    <a href="#F">F</a>
+                    <a href="#G">G</a>
+                    <a href="#H">H</a>
+                    <a href="#I">I</a>
+                    <a href="#J">J</a>
+                    <a href="#K">K</a>
+                    <a href="#L">L</a>
+                    <a href="#M">M</a>
+                    <a href="#N">N</a>
+                    <a href="#O">O</a>
+                    <a href="#P">P</a>
+                    <a href="#Q">Q</a>
+                    <a href="#R">R</a>
+                    <a href="#S">S</a>
+                    <a href="#T">T</a>
+                    <a href="#U">U</a>
+                    <a href="#V">V</a>
+                    <a href="#W">W</a>
+                    <a href="#X">X</a>
+                    <a href="#Y">Y</a>
+                    <a href="#Z">Z</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="content_container main_container">
+    <div class="margin_25_across">
+        <div class="row">
+            <div id="store_list_container">
+                <script id="store_list_template" type="x-tmpl-mustache/text">
+                    <div class="col-xs-6 col-sm-3 cats_row" data-cat="{{cat_list}}">
+                        <div class="store_logo_container" id="{{initial}}">
+                            <a href="/stores/{{slug}}">
+                                <img style="{{initial_img}}" src="{{store_front_url_abs}}"/>
+                                <div class="store_coming_soon" style="{{coming_soon_store}}">
+                                    <div class="new_store">Coming soon</div>
+                                </div>
+                                <div class="store_list_promos">
+                                    <span class="promo_exist" style="{{job_exist}}"><img src="//codecloud.cdn.speedyrails.net/sites/58bdb9106e6f644783090000/image/png/1489000358000/jobs.png" alt="Job Icon"> {{job_list}}</span>
+                                    <span class="promo_exist" style="{{promotion_exist}}"><img src="//codecloud.cdn.speedyrails.net/sites/58bdb9106e6f644783090000/image/png/1489000371000/promotions.png" alt="Promotion Icon">{{promotion_list}}</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </script>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    $(document).ready(function(e){
+        init(e);
+        function renderAll(){
+            var restaurants = getStoresListByCategoryID(5148);
+            renderStoreList('#store_list_container','#store_list_template', restaurants, "stores");
+            
+            show_content();
+            
+            store_search();
+            show_cat_stores();
+            
+            var restaurant_repo = getRepoDetailsByName("Restaurant Banner").images;
+            var restaurant_image = restaurant_repo[0].image_url
+            if (restaurant_image) {
+                $(".dine_banner").css("background-image", "url(" + restaurant_image + ")");
+            }
+        }
+        loadMallDataCached(renderAll); 
+    });
+</script>
