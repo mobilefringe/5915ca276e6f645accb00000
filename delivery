@@ -91,18 +91,18 @@
     $(document).ready(function(e){
         init(e);
         function renderAll(){
-            var restaurants = getStoresListByCategoryID(5148);
-            renderStoreList('#store_list_container','#store_list_template', restaurants, "stores");
+            var delivery = getStoresListByCategoryID(7727);
+            renderStoreList('#store_list_container','#store_list_template', delivery, "stores");
             
             show_content();
             
             store_search();
             show_cat_stores();
             
-            var restaurant_repo = getRepoDetailsByName("Restaurant Banner").images;
-            var restaurant_image = restaurant_repo[0].image_url
-            if (restaurant_image) {
-                $(".dine_banner").css("background-image", "url(" + restaurant_image + ")");
+            var delivery_repo = getRepoDetailsByName("Restaurant Banner").images;
+            var delivery_image = restaurant_repo[0].image_url
+            if (delivery_image) {
+                $(".dine_banner").css("background-image", "url(" + delivery_image + ")");
             }
         }
         loadMallDataCached(renderAll); 
