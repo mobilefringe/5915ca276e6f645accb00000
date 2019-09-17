@@ -87,7 +87,7 @@
 
             renderInstaFeed('#insta_container', '#insta_template');
             
-            show_content();
+            // show_content();
             
             if($.cookie("popup_viewed") != "true"){
                 $.cookie("popup_viewed", "true", { expires: 1 });
