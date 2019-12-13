@@ -16,7 +16,7 @@
     <meta name="twitter:description" content="{{meta_description}}" />
     <meta name="twitter:image" content="{{meta_image}}" />
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0' name='viewport' />
     <title>{{meta_title}}</title>
     <link rel="shortcut icon" href="//codecloud.cdn.speedyrails.net/sites/5915ca276e6f645accb00000/image/png/1495572595000/favicon_vestar.png" type="image/x-icon" />
    
