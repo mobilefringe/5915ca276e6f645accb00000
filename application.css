@@ -4,6 +4,11 @@ For more information on asset types please see //www.getcodecloud.com/docs#SaSS
 */
 @import url(//fonts.googleapis.com/css?family=Open+Sans:400,300,700,600);
 
+// $primary: #E24301;
+$primary: #D43E00;
+$opacity: rgba(226,67,1,0.7);
+$text: #58595b;
+
 .flex-control-paging li a.flex-active {
     background: #000;
     background: white;
@@ -13,7 +18,7 @@ html{
     font-size: 16px;
 }
 body {
-    color:#58595b;
+    color: $text;
     font-family: "Trade Gothic", "Helvetica", "Arial", sans-serif;
     padding-top: 89px;
     font-size: 20px;
@@ -34,9 +39,7 @@ body {
     src: url('//codecloud.cdn.speedyrails.net/sites/5915ca276e6f645accb00000//1345037238000/Trade Gothic LT Bold.ttf') format('TrueType');
 }
 
-// $primary: #E24301;
-$primary: #D43E00;
-$opacity: rgba(226,67,1,0.7);
+
 /* *** SITE SEARCH *** */
 .site_searcher_div {
     margin-top: 11px;
@@ -1550,13 +1553,13 @@ h4{
 
 .details_desc {
     font-size: 20px;
-    color: #5F574B;
+    // color: #5F574B;
     line-height: 26px;
     font-weight: 100;
     margin-bottom: 40px;
     p, p span {
         font-size: 20px !important;
-        color: #5F574B !important;
+        color: $text !important;
         line-height: 26px !important;
         font-weight: 100 !important;    
     }
@@ -1580,7 +1583,7 @@ h4{
 .promo_list_desc {
     font-weight:lighter;
     font-size: 20px;
-    color: #5F574B;
+    // color: #5F574B;
     line-height: 26px;
 }
 
@@ -2131,7 +2134,7 @@ h4{
     font-size: 22px;
     line-height: 30px;
     letter-spacing: 0.5px;
-    color: #5F574B;
+    // color: #5F574B;
 }
 .main_read_more, .post_read_more {
     position: absolute;
@@ -2186,7 +2189,7 @@ h4{
     margin-top: 20px;
     margin-bottom: 30px;
     font-size: 20px;
-    color: #5F574B;
+    // color: #5F574B;
     line-height: 28px;
     font-weight: 100;
 }
@@ -3123,11 +3126,11 @@ gallery:after{
         text-align: center;
         border-bottom: 1px solid #979797;
         border-top: 1px solid #979797;
-        a{
+        a {
             margin:0 27.5px;
             padding: 14px 0;
             font-size: 16px;
-            color: #5F574B;
+            color: $text;
             display: inline-block;
         }
     }
