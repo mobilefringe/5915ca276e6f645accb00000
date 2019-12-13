@@ -1780,7 +1780,7 @@ h4{
 .category_selector {
     padding: 11px 0 13px 0;
     font-size: 16px;
-    color: #979797;
+    // color: $text;
     text-align: center;
     a {
         color: $text;
