@@ -1742,7 +1742,7 @@ h4{
 .store_search {
     position: relative;
     background: #fff;
-    color: #6D8E75;
+    // color: #6D8E75;
     font-size: 20px;
     label {
         margin-bottom: 0;
