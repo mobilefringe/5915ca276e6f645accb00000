@@ -1614,15 +1614,13 @@ h4{
 .promo_dates, .dates{
     font-weight: lighter;
     font-size: 20px;
-    color: #6D8E75;
-    margin-bottom:26px;
-    
+    margin-bottom: 26px;
 }
 
 .promo_store{
     font-weight: lighter;
     font-size: 20px;
-    color: #424242;
+    color: $text;
     display: inline-block;
     margin-right: 8px;
     padding-right: 10px;
