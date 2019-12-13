@@ -452,7 +452,7 @@ a{
     }
 }
 .animated_btn{
-    position:relative;
+    position: relative;
     z-index: 0;
     &:before{
         content: '';
@@ -461,7 +461,7 @@ a{
         left: 0;
         width: 100%;
         height: 100%;
-        background: #E24301;
+        background: $primary;
         z-index: -1;
         opacity: 0;
         -webkit-transform: scale3d(0.7, 1, 1);
