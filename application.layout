@@ -149,16 +149,16 @@
                 </div>
                 <div class="col-xs-6 col-md-2  text-right position_relative">
                     <div class="social_icons hidden_phone">
-                        <a href="https://www.facebook.com/OrchardTC" target="_blank">
+                        <a href="https://www.facebook.com/OrchardTC" target="_blank" aria-label="Follow Us on Facebook">
                             <span class="social_fb"></span>
                         </a>
-                        <a href="https://twitter.com/OrchardTC" target="_blank">
+                        <a href="https://twitter.com/OrchardTC" target="_blank" aria-label="Follow Us on Twitter">
                             <span class="social_twitter"></span>
                         </a>
-                        <a href="https://www.instagram.com/orchardtowncenter " target="_blank">
+                        <a href="https://www.instagram.com/orchardtowncenter " target="_blank" aria-label="Follow Us on Instagram">
                             <span class="social_insta"></span>
                         </a>
-                        <a href="/newsletter">
+                        <a href="/newsletter" aria-label="Sign Up for Our Newsletter>
                             <span class="social_newsletter"></span>
                         </a>
                         <div class="clearfix"></div>
@@ -245,16 +245,16 @@
                             Follow us on social for <br />activities and news
                         </p>
                         <div class="social_icons">
-                            <a href="https://www.facebook.com/OrchardTC" target="_blank">
+                            <a href="https://www.facebook.com/OrchardTC" target="_blank" aria-label="Follow Us on Facebook">
                                 <span class="social_fb"></span>
                             </a>
-                            <a href="https://twitter.com/OrchardTC" target="_blank">
+                            <a href="https://twitter.com/OrchardTC" target="_blank" aria-label="Follow Us on Twitter">
                                 <span class="social_twitter"></span>
                             </a>
-                            <a href="https://www.instagram.com/orchardtowncenter" target="_blank">
+                            <a href="https://www.instagram.com/orchardtowncenter" target="_blank" aria-label="Follow Us on Instagram">
                                 <span class="social_insta"></span>
                             </a>
-                            <a href="/newsletter">
+                            <a href="/newsletter" aria-label="Sign Up for Our Newsletter">
                                 <span class="social_newsletter"></span>
                             </a>
                             <div class="clearfix"></div>
