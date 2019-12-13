@@ -35,6 +35,7 @@ body {
 }
 
 $primary: #E24301;
+$opacity: rgba(226,67,1,0.8);
 /* *** SITE SEARCH *** */
 .site_searcher_div {
     margin-top: 11px;
