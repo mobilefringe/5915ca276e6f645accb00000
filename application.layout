@@ -292,7 +292,9 @@
                         </a>
                         <br />
                         Information: <a href="tel:303-450-8600">303-450-8600</a><br />
-                        <a href="http://www.vestar.com" target="_blank"><img src="//codecloud.cdn.speedyrails.net/sites/5915ca276e6f645accb00000/image/png/1495735080000/Vestar-Logo.png" class="vic_logo" alt=""></a>
+                        <a href="http://www.vestar.com" target="_blank" aria-label="Visit Vestar Management website.">
+                            <img src="//codecloud.cdn.speedyrails.net/sites/5915ca276e6f645accb00000/image/png/1495735080000/Vestar-Logo.png" class="vic_logo" alt="">
+                        </a>
                     </p>
                     <p class="rights_reserved">
                         Powered by <a href="//mallmaverick.com" target="_blank">Mall Maverick</a>
