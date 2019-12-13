@@ -1758,12 +1758,12 @@ h4{
     background: #fff;
     // color: #6D8E75;
     font-size: 20px;
-    label {
-        margin-bottom: 0;
-        padding: 10px 0;
-        width: 100%;
-        position: relative;
-    }
+    // label {
+    //     margin-bottom: 0;
+    //     padding: 10px 0;
+    //     width: 100%;
+    //     position: relative;
+    // }
     img {
         position: absolute;
         top: 10px;
