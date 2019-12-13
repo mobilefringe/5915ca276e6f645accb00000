@@ -227,7 +227,7 @@
             </div>
         </section>
     </div>
-    <section class="yield">
+    <section class="yield" role="main">
         {{yield}}
     </section>
     <section id="footer_section" class="content_container main_container">
