@@ -7,6 +7,7 @@ For more information on asset types please see //www.getcodecloud.com/docs#SaSS
 // $primary: #E24301;
 $primary: #D43E00;
 $opacity: rgba(226,67,1,0.7);
+$secondary: #607b66;
 $text: #58595b;
 
 .flex-control-paging li a.flex-active {
@@ -545,7 +546,7 @@ a{
 
 h2 {
     font-family: "Trade Gothic Bold";
-    color:#6D8E75;
+    color: $secondary;
 }
 
 h4{
@@ -804,7 +805,7 @@ h4{
     }
     a {
         padding: 15px 35px 20px;
-        border: 1px solid #6D8E75;
+        border: 1px solid $secondary;
         display: inline-block;
         // background: transparent;
         background: rgba(149,155,106,0.5);
@@ -820,7 +821,7 @@ h4{
             text-decoration:none;
         }
         &:before {
-            background: #6D8E75 !important;
+            background: $secondary !important;
         }
     }
 }
@@ -854,7 +855,7 @@ h4{
     }
     a {
         padding: 15px 35px 20px;
-        border: 1px solid #6D8E75;
+        border: 1px solid $secondary;
         display: inline-block;
         // background: transparent;
         background: rgba(149,155,106,0.5);
@@ -870,7 +871,7 @@ h4{
             text-decoration:none;
         }
         &:before {
-            background: #6D8E75 !important;
+            background: $secondary !important;
         }
     }
 }
@@ -1393,7 +1394,7 @@ h4{
 
 .hours_heading{
     font-size: 24px;
-    color: #6D8E75;
+    color: $secondary;
     letter-spacing: 0px;
     line-height: 28px;
     margin-bottom:20px;
@@ -1602,12 +1603,12 @@ h4{
     font-family: inherit;
     font-style: normal;
     font-size: 20px;
-    color: #6D8E75;
+    color: $secondary;
     letter-spacing: 0.5px;
     margin-top:5px;
     font-weight: bold;
-    a{
-        color: #6D8E75;
+    a {
+        color: $secondary;
     }
 }
 
@@ -1740,7 +1741,7 @@ h4{
         padding: 10px 12px;
         color: #4A4A4A;
         &:hover {
-            background: #6D8E75;
+            background: $secondary;
             color: #fff;
             text-decoration: none;
         }
@@ -1754,7 +1755,7 @@ h4{
 .store_search {
     position: relative;
     background: #fff;
-    // color: #6D8E75;
+    // color: $secondary;
     font-size: 20px;
     // label {
     //     margin-bottom: 0;
@@ -1798,7 +1799,7 @@ h4{
     }
 }
 .category_selector a:hover, .category_selector a:focus {
-    color: #6D8E75;
+    color: $secondary;
     cursor: arrow;
 }
 .category_selector .dropdown_arrow {
@@ -1829,7 +1830,7 @@ h4{
     color: #4A4A4A;
 }
 .cat_list li:hover {
-    background: #6D8E75;
+    background: $secondary;
     color: #fff;
 }
 .directory_btn {
@@ -2082,7 +2083,7 @@ h4{
 .previous_title {
     font-family: murcury_display, serif;
     font-size: 24px;
-    color: #6D8E75;
+    color: $secondary;
     text-transform:uppercase;
 }
 .main_post_container {
@@ -2192,7 +2193,7 @@ h4{
     font-family: 'Open Sans Condensed';
     font-weight: bold;
     font-size: 24px;
-    color: #6D8E75;
+    color: $secondary;
     text-transform: uppercase;
 }
 .post_details_desc {
@@ -2241,7 +2242,7 @@ gallery:after{
 }
 .gallery_caption {
     font-weight: 700;
-    color: #6D8E75;
+    color: $secondary;
     text-align: center;
 }
 .gallery_no_scroll{
@@ -2300,7 +2301,7 @@ gallery:after{
     font-family: 'Open Sans Condensed'; 
     font-weight: 700;
     font-size: 28px;
-    color: #6D8E75;
+    color: $secondary;
 }
 #modal_desc {
     margin-bottom: 30px;
