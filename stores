@@ -13,7 +13,7 @@
             <h2><a href="/promotions">Promotions</a></h2>
         </div>
     </div>
-    <h2 class="text-center tap_here show_phone">
+    <h5 class="text-center tap_here show_phone">
         <select id="option_selector" class="link_selector">
             <option value="" disabled selected>TAP FOR MORE OPTIONS</option>
             <option value="/map">Center Map</option>
