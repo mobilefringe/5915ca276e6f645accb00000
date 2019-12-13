@@ -90,7 +90,7 @@
                 <script id="store_list_template" type="x-tmpl-mustache/text">
                     <div class="col-xs-6 col-sm-3  cats_row" data-cat="{{cat_list}}">
                         <div class="store_logo_container" id="{{initial}}">
-                            <a href="/stores/{{slug}}">
+                            <a href="/stores/{{slug}}" aria-label="Visit Store Details page for + {{ name }}">
                                 <img style="{{initial_img}}" src="{{store_front_url_abs}}" alt="" />
                                 <div class="store_coming_soon" style="{{coming_soon_store}}">
                                     <div class="new_store">Coming soon</div>
