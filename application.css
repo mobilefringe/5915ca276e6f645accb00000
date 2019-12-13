@@ -34,7 +34,8 @@ body {
     src: url('//codecloud.cdn.speedyrails.net/sites/5915ca276e6f645accb00000//1345037238000/Trade Gothic LT Bold.ttf') format('TrueType');
 }
 
-$primary: #E24301;
+// $primary: #E24301;
+$primary: #D43E00;
 $opacity: rgba(226,67,1,0.7);
 /* *** SITE SEARCH *** */
 .site_searcher_div {
