@@ -35,7 +35,7 @@ body {
 }
 
 $primary: #E24301;
-$opacity: rgba(226,67,1,0.8);
+$opacity: rgba(226,67,1,0.7);
 /* *** SITE SEARCH *** */
 .site_searcher_div {
     margin-top: 11px;
@@ -1258,7 +1258,7 @@ h4{
 .newsletter_btn{
     width: 180px;
     display: inline-block;
-    background: rgba(212, 0, 0, .5);
+    background: $opacity;
     color: #000;
     font-family: "Trade Gothic Bold";
     font-size: 18px;
