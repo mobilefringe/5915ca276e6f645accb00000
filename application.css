@@ -1625,7 +1625,7 @@ h4{
     display: inline-block;
     margin-right: 8px;
     padding-right: 10px;
-    border-right: 1px solid #424242;
+    border-right: 1px solid $text;
 }
 
 .promo_store.jobs {
