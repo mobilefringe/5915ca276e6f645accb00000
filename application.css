@@ -1992,7 +1992,7 @@ h4{
         padding: 18px 0;
         width: 100%;
         border: 1px solid $primary;
-        background: rgba(226,67,1,0.5);
+        background: $opacity;
         font-family: "Trade Gothic Bold";
         font-size: 18px;
         text-shadow: 1px 2px 4px rgba(0,0,0,0.5);
