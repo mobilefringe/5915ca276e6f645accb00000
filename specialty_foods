@@ -91,7 +91,7 @@
     $(document).ready(function(e){
         init(e);
         function renderAll(){
-            var specialty = getStoresListByCategoryID(5141);
+            var specialty = getStoresListByCategoryID(5141).sortBy(function(o){ return o.name });
             renderStoreList('#store_list_container','#store_list_template', specialty, "stores");
             
             show_content();
