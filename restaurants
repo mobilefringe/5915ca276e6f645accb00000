@@ -4,18 +4,18 @@
     }
 </style>
 <div class="inside_banner dine_banner text-center">
-    <h2>Restaurants</h2>
+    <h1>Restaurants</h1>
 </div>
 <div class="store_list_head main_container">
     <div class="row hidden_phone">
         <div class="col-md-4">
-            <h3 class="active_heading">Restaurants</h3>
+            <h2 class="active_heading">Restaurants</h2>
         </div>
         <div class="col-md-4">
-            <h3><a href="/specialty_foods">Specialty Foods</a></h3>
+            <h2><a href="/specialty_foods">Specialty Foods</a></h2>
         </div>
         <div class="col-md-4">
-            <h3><a href="/delivery">Delivery</a></h3>
+            <h2><a href="/delivery">Delivery</a></h2>
         </div>
     </div>
     <h5 class="text-center tap_here show_phone">
