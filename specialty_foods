@@ -91,19 +91,16 @@
     $(document).ready(function(e){
         init(e);
         function renderAll(){
-            var specialty = getStoresListByCategoryID(5141).sortBy(function(o){ return o.name });
-            renderStoreList('#store_list_container','#store_list_template', specialty, "stores");
-            
-            show_content();
-            
-            store_search();
-            show_cat_stores();
-            
             var speciality_repo = getRepoDetailsByName("Speciality Banner").images;
             var speciality_image = speciality_repo[0].image_url
             if (speciality_image) {
                 $(".specialty_banner").css("background-image", "url(" + speciality_image + ")");
             }
+            
+            var specialty = getStoresListByCategoryID(5141).sortBy(function(o){ return o.name });
+            renderStoreList('#store_list_container','#store_list_template', specialty, "stores");
+            
+            show_content();
         }
         loadMallDataCached(renderAll); 
     });
