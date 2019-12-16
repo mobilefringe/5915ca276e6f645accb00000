@@ -91,20 +91,21 @@
     $(document).ready(function(e){
         init(e);
         function renderAll(){
+            // PAGE BANNER
+            var restaurant_repo = getRepoDetailsByName("Restaurant Banner").images;
+            var restaurant_image = restaurant_repo[0].image_url
+            if (restaurant_image) {
+                $(".dine_banner").css("background-image", "url(" + restaurant_image + ")");
+            }
+            
             var restaurants = getStoresListByCategoryID(5148);
             console.log("restaurants", restaurants)
             renderStoreList('#store_list_container','#store_list_template', restaurants, "stores");
             
             show_content();
             
-            store_search();
-            show_cat_stores();
             
-            var restaurant_repo = getRepoDetailsByName("Restaurant Banner").images;
-            var restaurant_image = restaurant_repo[0].image_url
-            if (restaurant_image) {
-                $(".dine_banner").css("background-image", "url(" + restaurant_image + ")");
-            }
+            
         }
         loadMallDataCached(renderAll); 
     });
