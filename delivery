@@ -101,11 +101,6 @@
             renderStoreList('#store_list_container','#store_list_template', delivery, "stores");
             
             show_content();
-            
-            store_search();
-            show_cat_stores();
-            
-            
         }
         loadMallDataCached(renderAll); 
     });
