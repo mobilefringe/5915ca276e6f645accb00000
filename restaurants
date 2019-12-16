@@ -68,7 +68,7 @@
         <div class="row">
             <div id="store_list_container">
                 <script id="store_list_template" type="x-tmpl-mustache/text">
-                    <div class="col-xs-6 col-sm-3  cats_row" data-cat="{{cat_list}}">
+                    <div class="col-xs-6 col-sm-3  cats_row">
                         <div class="store_logo_container" id="{{initial}}">
                             <a href="/stores/{{slug}}" aria-label="Visit Store Details page for + {{ name }}">
                                 <img style="{{initial_img}}" src="{{store_front_url_abs}}" alt="" />
