@@ -430,7 +430,9 @@ a{
 #footer_section {
     display: none;
 }
-
+footer {
+    background-color: none;
+}
 .yield {
     margin-top: 30px;
     display: none;
