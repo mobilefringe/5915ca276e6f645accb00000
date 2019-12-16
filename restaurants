@@ -98,7 +98,7 @@
                 $(".dine_banner").css("background-image", "url(" + restaurant_image + ")");
             }
             
-            var restaurants = getStoresListByCategoryID(5148);
+            var restaurants = getStoresListByCategoryID(5148).sortBy(function(o){ return o.name });
             console.log("restaurants", restaurants)
             renderStoreList('#store_list_container','#store_list_template', restaurants, "stores");
             
