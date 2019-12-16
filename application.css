@@ -1995,7 +1995,7 @@ h4{
         background: $opacity;
         font-family: "Trade Gothic Bold";
         font-size: 18px;
-        text-shadow: 1px 2px 4px rgba(0,0,0,0.5);
+        text-shadow: 1px 2px 7px rgba(53,53,53,0.3);
         color: #000;
         &:hover{
             text-decoration: none;
