@@ -91,7 +91,13 @@
     $(document).ready(function(e){
         init(e);
         function renderAll(){
-            var delivery = getStoresListByCategoryID(7727);
+            var restaurant_repo = getRepoDetailsByName("Restaurant Banner").images;
+            var restaurant_image = restaurant_repo[0].image_url
+            if (restaurant_image) {
+                $(".dine_banner").css("background-image", "url(" + restaurant_image + ")");
+            }
+            
+            var delivery = getStoresListByCategoryID(7727).sortBy(function(o){ return o.name });
             renderStoreList('#store_list_container','#store_list_template', delivery, "stores");
             
             show_content();
@@ -99,11 +105,7 @@
             store_search();
             show_cat_stores();
             
-            var restaurant_repo = getRepoDetailsByName("Restaurant Banner").images;
-            var restaurant_image = restaurant_repo[0].image_url
-            if (restaurant_image) {
-                $(".dine_banner").css("background-image", "url(" + restaurant_image + ")");
-            }
+            
         }
         loadMallDataCached(renderAll); 
     });
