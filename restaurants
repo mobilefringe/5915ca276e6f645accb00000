@@ -92,6 +92,7 @@
         init(e);
         function renderAll(){
             var restaurants = getStoresListByCategoryID(5148);
+            console.log("restaurants", restaurants)
             renderStoreList('#store_list_container','#store_list_template', restaurants, "stores");
             
             show_content();
