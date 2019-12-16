@@ -433,6 +433,7 @@ a{
 footer {
     border: none;
     background: none;
+    color: $text;
 }
 .yield {
     margin-top: 30px;
