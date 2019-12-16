@@ -431,7 +431,8 @@ a{
     display: none;
 }
 footer {
-    background-color: none;
+    border: none;
+    background: none;
 }
 .yield {
     margin-top: 30px;
