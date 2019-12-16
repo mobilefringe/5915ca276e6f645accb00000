@@ -89,7 +89,7 @@
 </head>
 
 <body>
-    <div class="fixed_header">
+    <header class="fixed_header">
         <div class="news-ticker" data-speed="5000">
             <ul class="bulletin" id="bulletin"></ul>
         </div>
@@ -226,11 +226,11 @@
                 </div>
             </div>
         </section>
-    </div>
-    <section class="yield" role="main">
+    </header>
+    <main class="yield" role="main">
         {{yield}}
-    </section>
-    <section id="footer_section" class="content_container main_container">
+    </main>
+    <footer id="footer_section" class="content_container main_container">
         <div class="newsletter_container text-center">
             <h3 class="heading">SIGN UP TO RECEIVE OUR UPDATES</h3>
             <p class="newsletter_desc">Get the Latest Promotions, News, & Events</p>
@@ -302,7 +302,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </footer>
     <script>
         jQuery(document).ready(function($){
             $.getJSON("//orchardtown.mallmaverick.com/api/v3/orchardtown/messages.json").done(function(data){
