@@ -99,13 +99,9 @@
             }
             
             var restaurants = getStoresListByCategoryID(5148).sortBy(function(o){ return o.name });
-            console.log("restaurants", restaurants)
             renderStoreList('#store_list_container','#store_list_template', restaurants, "stores");
             
             show_content();
-            
-            
-            
         }
         loadMallDataCached(renderAll); 
     });
