@@ -91,7 +91,7 @@
             })
             
             $('#btnZoomIn').attr('alt', 'Alternative text');
-            $('#btnZoomOut > img').attr('alt', 'Alternative text');
+            $('#btnZoomOut').attr('alt', 'Alternative text');
             function map_pin(value){
                 map.marksHide();
                 value = value.split('/')
