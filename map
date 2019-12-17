@@ -90,8 +90,9 @@
                 map_pin(id)
             })
             
-            $('#btnZoomIn').attr('alt', 'Alternative text');
-            $('#btnZoomOut').attr('alt', 'Alternative text');
+            $('#btnZoomIn').attr('alt', 'Zoom Map In');
+            $('#btnZoomOut').attr('alt', 'Zoom Map Out');
+            
             function map_pin(value){
                 map.marksHide();
                 value = value.split('/')
