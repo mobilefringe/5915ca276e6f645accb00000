@@ -1,0 +1,67 @@
+<div class="inside_banner gallery_banner text-center">
+    <h1>IMAGE GALLERY</h1>
+</div>
+<div class="store_list_head main_container">
+    <div class="row hidden_phone">
+        <div class="col-md-3">
+            <h2 class="active_heading">IMAGE GALLERY</h2>
+        </div>
+        <div class="col-md-3">
+            <h2><a href="/guest_services">GUEST SERVICES</a></h2>
+        </div>
+        <div class="col-md-3">
+            <h2><a href="/hours">HOURS</a></h2>
+        </div>
+        <div class="col-md-3">
+            <h2><a href="/jobs">EMPLOYMENT</a></h2>
+        </div>
+    </div>
+    <h2 class="text-center tap_here show_phone">
+        <select id="option_selector" class="link_selector">
+            <option value="" disabled selected>TAP FOR MORE OPTIONS</option>
+            <option value="/guest_services">Guest Services</option>
+            <option value="/hours">Hours</option>
+            <option value="/jobs">Employment</option>
+        </select>
+    </h2>
+</div>
+ <div class="content_container main_container">
+    <div class="margin_25_across">
+        <div class="row">
+            <div class="col-md-12">
+                <div id="photo_container" class="row">
+                    <script id="photo_template" type="x-tmpl-mustache/text">
+                        <div class="col-md-6"> 
+                            <div class="portfolio_item">
+                                <a href="{{image_url}}" data-lightbox="gallery">
+                                    <img class="hoverer" src="{{image_url}}" alt="photo{{id}}" rel="lightbox[gallery]"/>
+                                </a>
+                            </div>
+                        </div>
+                    </script>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    $(document).ready(function(e){
+        init(e);
+        function renderAll(){
+            var gallery_repo = getRepoDetailsByName("Image Gallery").images;
+            if(gallery_repo != null){
+                renderGeneral("#photo_container", "#photo_template", gallery_repo);
+            }
+            
+            var image_repo = getRepoDetailsByName("Image Banner").images;
+            var gallery_image = image_repo[0].image_url
+            if (gallery_image) {
+                $(".gallery_banner").css("background-image", "url(" + gallery_image + ")");
+            }
+
+            show_content();
+        }
+        
+        loadMallDataCached(renderAll); 
+    })
+</script>
