@@ -392,8 +392,8 @@ a:hover, a:active, a:focus{
     text-decoration:underline;
 }
 
-a{
-    color: #E24301;
+a {
+    color: $primary;
 }
 
 .store_list_navigation{
