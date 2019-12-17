@@ -1,0 +1,119 @@
+<div class="inside_banner hours_banner text-center">
+    <h1>SHOPPING HOURS</h1>
+</div>
+<div class="store_list_head main_container">
+    <div class="row hidden_phone">
+        <div class="col-md-3">
+            <h2><a href="/image_gallery">IMAGE GALLERY</a></h2>
+        </div>
+        <div class="col-md-3">
+            <h2><a href="/guest_services">GUEST SERVICES</a></h2>
+        </div>
+        <div class="col-md-3">
+            <h2 class="active_heading">HOURS</h2>
+        </div>
+        <div class="col-md-3">
+            <h2><a href="/jobs">EMPLOYMENT</a></h2>
+        </div>
+    </div>
+    <h2 class="text-center tap_here show_phone">
+        <select id="option_selector" class="link_selector">
+            <option value="" disabled selected>TAP FOR MORE OPTIONS</option>
+            <option value="/image_gallery">Image Gallery</option>
+            <option value="/guest_services">Guest Services</option>
+            <option value="/jobs">Employment</option>
+        </select>
+    </h2>
+</div>
+<div class="margin_20"></div>
+<div class="content_container main_container mobile_padding">
+    <div class="margin_25_across">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-5"> 
+                        <h3 class="hours_heading">Regular Hours</h3>
+                        <div id="hours_container" class="hours_container">
+                            <script id="hours_template" type="x-tmpl-mustache/text">
+                                <div class="hours_div">
+                                    <span>{{day}}:</span>
+                                    <span>{{h}}</span>
+                                </div>
+                            </script>
+                        </div>
+                        <div id="additional_hours" class="hidden_now">
+                            <div class="margin_20"></div>
+                            <h3 class="hours_heading">Additional Hours</h3>
+                            <div id="additional_hours_container"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-7">
+                        <h3 id="reduced_hours" class="hours_heading">Reduced Hours of Operation</h3>
+                        <div id="holidays_hours_container">
+                            
+                            <script id="holidays_hours_template" type="x-tmpl-mustache/text">
+                                
+                                <div class="row mobile_row">
+                                    <div class="col-sm-6">
+                                        <p>{{holiday_name}}<p> <p>({{formatted_date}})</p>
+                                    </div>
+                                    <div  class="col-sm-6">
+                                        <span>{{h}}</span>
+                                    </div>
+                                </div>
+                                <div class="margin_20"></div>
+                            </script>
+                        </div>
+                        <h3 class="hours_heading">Holiday Closures</h3>
+                        <div id="closed_hours_container" class="hours_container">
+                            <script id="closed_hours_template" type="x-tmpl-mustache/text">
+                                <div class="hours_div">
+                                    <span>{{holiday_name}} ({{formatted_date}})</span>
+                                </div>
+                            </script>
+                        </div>
+                        <p>Individual store and restaurant hours may vary. For inclement weather, please call ahead</p>
+                        <div class="margin_20"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function(e){
+        init(e);
+        function renderAll(){
+            var hours_repo = getRepoDetailsByName("Hours Banner").images;
+            var hours_image = hours_repo[0].image_url
+            if (hours_image) {
+                $(".hours_banner").css("background-image", "url(" + hours_image + ")");
+            }
+            // REGULAR HOURS
+            var hours = getPropertyRegularHours();
+            renderHours('#hours_container','#hours_template', hours, 'reg_hours');
+            // HOLIDAY HOURS
+            var holiday_hours = getPropertyHolidayHours().sortBy(function(o){ return o.holiday_date });
+            renderHours('#holidays_hours_container', '#holidays_hours_template', holiday_hours, 'holiday_hours');
+            renderHours('#closed_hours_container','#closed_hours_template', holiday_hours, 'closed_hours');
+            // ADDITIONAL HOURS
+            prefix = get_prefix();
+            var pages_json = prefix + "/pages/orchardtown-additional-hours.json"
+            $.getJSON(pages_json).done(function(data) {
+                console.log("additional_hours", data)
+                if (data.body.length > 0) {
+                    $('#additional_hours').show();
+                    $('#additional_hours_container').html(data.body);
+                }
+            }).fail(function(jqXHR) {
+                if (jqXHR.status == 404) {
+                    $("#404_msg").fadeIn("fast");
+                }
+            }); 
+            
+            show_content();
+        }
+        loadMallDataCached(renderAll); 
+    })
+</script>
