@@ -1,0 +1,61 @@
+<div class="inside_banner entertainment_banner text-center">
+    <h1>Entertainment</h1>
+</div>
+<div class="store_list_head main_container">
+    <div class="row hidden_phone">
+        <div class="col-md-6">
+            <h2><a href="/events">CENTER EVENTS</a></h2>
+        </div>
+        <div class="col-md-6">
+            <h2 class="active_heading">ENTERTAINMENT</h2>
+        </div>
+    </div>
+    <h2 class="text-center tap_here show_phone">
+        <select id="option_selector" class="link_selector">
+            <option value="" disabled selected>TAP FOR MORE OPTIONS</option>
+            <option value="/events">Center Events</option>
+        </select>
+    </h2>
+</div>
+<div class="content_container main_container">
+    <div class="margin_25_across">
+        <div class="row">
+            <div id="store_list_container">
+                <script id="store_list_template" type="x-tmpl-mustache/text">
+                    <div class="col-xs-6 col-sm-3  cats_row">
+                        <div class="store_logo_container">
+                            <a href="/stores/{{slug}}" aria-label="Visit Store Details page for + {{ name }}">
+                                <img style="{{initial_img}}" src="{{store_front_url_abs}}" alt="" />
+                                <div class="store_coming_soon" style="{{coming_soon_store}}">
+                                    <div class="new_store">Coming soon</div>
+                                </div>
+                                <div class="store_list_promos">
+                                    <span class="promo_exist" style="{{job_exist}}"><img src="//codecloud.cdn.speedyrails.net/sites/58bdb9106e6f644783090000/image/png/1489000358000/jobs.png" alt="Job Icon"> {{job_list}}</span>
+                                    <span class="promo_exist" style="{{promotion_exist}}"><img src="//codecloud.cdn.speedyrails.net/sites/58bdb9106e6f644783090000/image/png/1489000371000/promotions.png" alt="Promotion Icon">{{promotion_list}}</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </script>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    $(document).ready(function(e){
+        init(e);
+        function renderAll(){
+            var entertainment_repo = getRepoDetailsByName("Entertainment Banner").images;
+            var entertainment_image = entertainment_repo[0].image_url
+            if (entertainment_image) {
+                $(".entertainment_banner").css("background-image", "url(" + entertainment_image + ")");
+            }
+            
+            var specialty = getStoresListByCategoryID(5123).sortBy(function(o){ return o.name });
+            renderStoreList('#store_list_container','#store_list_template', specialty, "stores");
+            
+            show_content();
+        }
+        loadMallDataCached(renderAll); 
+    });
+</script>
