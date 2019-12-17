@@ -9,7 +9,7 @@
 <div class="store_list_head main_container ">
     <div class="row hidden_phone">
         <div class="col-md-4">
-            <h5><a href="/stores">Directory</a></h2>
+            <h2><a href="/stores">Directory</a></h2>
         </div>
         <div class="col-md-4">
             <h2 class="active_heading">Center Map</h2>
