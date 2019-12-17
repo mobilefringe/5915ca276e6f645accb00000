@@ -12,6 +12,11 @@
     </div>
 </div>
 
+<style>
+    h2 {
+        font-size: 28px;
+    }
+</style>
 <script>
     $(document).ready(function(e){
         init(e);
