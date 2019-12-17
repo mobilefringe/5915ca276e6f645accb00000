@@ -17,7 +17,6 @@
         <select id="option_selector" class="link_selector">
             <option value="" disabled selected>TAP FOR MORE OPTIONS</option>
             <option value="/newsletter">Newsletter Sign-Up</option>
-            <!--<option value="/">News</option>-->
             <option value="/leasing">Leasing</option>
         </select>
     </h2>
@@ -30,7 +29,10 @@
                 <div id="mm_page_content"></div>
             </div>
             <div class="col-md-8">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3058.0750782357845!2d-104.99477898436479!3d39.96207409108805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c751f544d3b79%3A0x745214e27d92d10e!2sThe+Orchard+Town+Center!5e0!3m2!1sen!2sca!4v1494944159174" width="100%" height="720" frameborder="0" style="border:0" allowfullscreen></iframe>
+                <p class="visuallyhidden">
+                    <a href="https://maps.google.com/?q=The Orchard Town Center">View The Orchard Town Center on Google Maps</a>.
+                </p>
+                <iframe aria-hidden="true" :title="'Google Map for The Orchard Town Center" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3058.0750782357845!2d-104.99477898436479!3d39.96207409108805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c751f544d3b79%3A0x745214e27d92d10e!2sThe+Orchard+Town+Center!5e0!3m2!1sen!2sca!4v1494944159174" width="100%" height="720" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
         </div>
     </div>
