@@ -396,6 +396,11 @@ a {
     color: $primary;
 }
 
+a:focus {
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+}
+
 .store_list_navigation{
     position: absolute;
     display:block;
