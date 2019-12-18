@@ -41,7 +41,9 @@
                 <p class='category_header'>Find Store</p>
                 <div id="stores_container" tabindex="0">
                     <script id="stores_template" type="x-tmpl-mustache/text">
-                        <p tabindex="0" class="category_name"><a class="map_pin_a" href="#" data-value='{{svgmap_region}}/{{slug}}'>{{name}}</a></p>
+                        <a class="map_pin_a" href="#" data-value='{{svgmap_region}}/{{slug}}'>
+                            <p tabindex="0" class="category_name">{{name}}</p>
+                        </a>
                     </script>
                 </div>
             </div> 
