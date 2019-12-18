@@ -3211,9 +3211,7 @@ gallery:after{
         margin:15px 0;
     }
     
-    
-    
-    .store_list{
+    .store_list {
         -webkit-column-count: 2;
         -moz-column-count: 2;
         column-count: 2;
@@ -3221,9 +3219,7 @@ gallery:after{
         -moz-column-gap: 75px;
         column-gap: 75px;
     }
-    
-    
-    
+
     .category_header{
         font-family: "Trade Gothic Bold";
         color: $primary;
