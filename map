@@ -39,9 +39,9 @@
                 <a id="store_scroll_up" href="#" class="store_list_navigation">Scroll Up</a>
                 <a id="store_scroll_down" href="#" class="store_list_navigation">Scroll Down</a>
                 <p class='category_header'>Find Store</p>
-                <div id="stores_container">
+                <div id="stores_container" tabindex="0">
                     <script id="stores_template" type="x-tmpl-mustache/text">
-                        <p class="category_name"><a class="map_pin_a" href="#" data-value='{{svgmap_region}}/{{slug}}'>{{name}}</a></p>
+                        <p tabindex="0" class="category_name"><a class="map_pin_a" href="#" data-value='{{svgmap_region}}/{{slug}}'>{{name}}</a></p>
                     </script>
                 </div>
             </div> 
