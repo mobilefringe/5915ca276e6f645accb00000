@@ -3230,6 +3230,9 @@ gallery:after{
         font-size:20px;
         text-transform: uppercase;
     }
+    .map_pin_a {
+        color: $text;
+    }
     .category_name{
         margin: 10px 0;
         font-weight: normal;
