@@ -125,20 +125,19 @@
             var all_stores = getStoresList();
             var stores = [];
             var query = window.location.search;
-            if(query !== "") {
+            if (query !== "") {
                 var search_part = query.split('?')[1];
                 var query_type = search_part.split('=')[0];
                 var cat_name = search_part.split('=')[1];
-                if(query_type == "category"){
-                   cat_name = cat_name.replace("%20"," ");
-                   var category = _.find(categories, function(o){
-                      return  _.lowerCase(o.name) == _.lowerCase(cat_name);
-                   });
-                   stores = _.filter(all_stores, function(o){
-                       return _.includes(o.categories, _.toNumber(category.id))
-                   })
-                }
-                else {
+                if (query_type == "category") {
+                    cat_name = cat_name.replace("%20"," ");
+                    var category = _.find(categories, function(o){
+                        return  _.lowerCase(o.name) == _.lowerCase(cat_name);
+                    });
+                    stores = _.filter(all_stores, function(o){
+                        return _.includes(o.categories, _.toNumber(category.id))
+                    });
+                } else {
                     stores = all_stores.sortBy(function(o){ return o.name });
                 }
             } else {
