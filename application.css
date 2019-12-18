@@ -1214,31 +1214,31 @@ h4{
     }
     .social_fb{
         background-image:url(//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1455899536000/icon_facebook.png);
-        &:hover{
+        &:hover, &:focus {
             background-image:url(//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1461853162000/icon_facebook_hover.png);    
         }
     }
     .social_twitter{
         background-image:url(//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1455899545000/icon_twitter.png);
-        &:hover{
+        &:hover, &:focus {
             background-image:url(//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1461853174000/icon_twitter_hover.png);    
         }
     }
     .social_insta{
         background-image:url(//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1464795128000/icon_insta.png);
-        &:hover{
+        &:hover, &:focus {
             background-image:url(//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1464795122000/icon_insta_hover.png);    
         }
     }
     .social_yt{
         background-image:url(//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1455899562000/icon_yt.png);
-        &:hover{
+        &:hover, &:focus {
             background-image:url(//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1461853190000/icon_yt_hover.png);    
         }
     }
     .social_newsletter{
         background-image:url(//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1455899577000/icon_newsletter.png);
-        &:hover{
+        &:hover, &:focus {
             background-image:url(//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1461853203000/icon_newsletter_hover.png);    
         }
     }
