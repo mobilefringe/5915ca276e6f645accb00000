@@ -1879,8 +1879,7 @@ h4{
 .store_list_promos {
     width: 100%;
     position: absolute;
-    bottom: 15px;
-    // left: 21%;
+    bottom: 0;
     text-align: center;
 }
 .store_coming_soon {
