@@ -497,7 +497,7 @@ footer {
         -webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
         transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
     }
-    &:hover:before{
+    &:hover:before, &:focus:before{
         opacity: 1;
         -webkit-transform: translate3d(0, 0, 0);
         transform: translate3d(0, 0, 0);
