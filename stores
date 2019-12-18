@@ -139,10 +139,10 @@
                    })
                 }
                 else {
-                    stores = all_stores;
+                    stores = all_stores.sortBy(function(o){ return o.name });;
                 }
             } else {
-                stores = all_stores;
+                stores = all_stores.sortBy(function(o){ return o.name });;
             }
             
             var store_repo = getRepoDetailsByName("Directory Banner").images;
