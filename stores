@@ -97,7 +97,7 @@
                                 </div>
                                 <div class="store_list_promos">
                                     <span class="promo_exist" style="{{job_exist}}" aria-label="{{job_list}} Jobs Exist"><img src="//codecloud.cdn.speedyrails.net/sites/58bdb9106e6f644783090000/image/png/1489000358000/jobs.png" alt=""> {{job_list}}</span>
-                                    <span class="promo_exist" style="{{promotion_exist}}" aria-labelledby="{{promotion_list}} Promotions Exist"><img src="//codecloud.cdn.speedyrails.net/sites/58bdb9106e6f644783090000/image/png/1489000371000/promotions.png" alt="">{{promotion_list}}</span>
+                                    <span class="promo_exist" style="{{promotion_exist}}" aria-label="{{promotion_list}} Promotions Exist"><img src="//codecloud.cdn.speedyrails.net/sites/58bdb9106e6f644783090000/image/png/1489000371000/promotions.png" alt="">{{promotion_list}}</span>
                                 </div>
                             </a>
                         </div>
