@@ -1,4 +1,3 @@
-<script src="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/js/lightbox.min.js"></script>
 <div class="inside_banner gallery_banner text-center">
     <h1>IMAGE GALLERY</h1>
 </div>
@@ -45,6 +44,7 @@
         </div>
     </div>
 </div>
+<script src="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/js/lightbox.min.js"></script>
 <script>
     $(document).ready(function(e){
         init(e);
