@@ -99,23 +99,16 @@
     
     function renderPage(){
         var contest_list = getContestList();
-        var current_contest = [];
-        $.each( contest_list, function( key, val ){
-            if (_.includes(val.show_on_slug, "orchardtown-contest")) {
-                if (val.start_date) {
-                    current_contest.push(val);
-                }    
-            }
-        });
-
-        // if (current_contest.length > 0) {
-            current_contest = current_contest[0]
+        var current_contest =_.find(contest_list,function(o){
+            return o.start_date && _.includes(o.show_on_slug, "orchardtown-contest")
+        })
+        if(current_contest) {
             var slug = current_contest.slug;
             var contest_details = getContestBySlug(current_contest.slug);
             renderContest("#contest_details_container", '#contest_details_template', contest_details)
-        // } else {
-        //     window.location = "/";
-        // }
+        } else {
+            $('#no_contest_details_container').show()
+        }
         
         show_content();
         
@@ -125,6 +118,6 @@
             e.preventDefault();
             $('#contest_btn').prop('disabled', true);
             submit_contest(slug);
-        });
+        })
     }
 </script>
