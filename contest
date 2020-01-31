@@ -87,6 +87,9 @@
                         </form>
                     </script>
                 </div>
+                <div id="no_contest_details_container">
+                    <p>Sorry, there is no contest running right now! Please check back soon.</p>
+                </div>
             </div>
         </div>
     </div>
