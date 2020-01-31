@@ -105,15 +105,7 @@
         var current_contest =_.find(contest_list,function(o){
             return o.start_date && _.includes(val.show_on_slug, "orchardtown-contest")
         })
-        // $.each( contest_list, function( key, val ){
-        //     if (_.includes(val.show_on_slug, "orchardtown-contest")) {
-        //         if (val.start_date) {
-        //             current_contest.push(val);
-        //         }    
-        //     }
-        // });
-        // current_contest = current_contest[0]
-        console.log(contest_list)
+       
         if(current_contest) {
             var slug = current_contest.slug;
             var contest_details = getContestBySlug(current_contest.slug);
