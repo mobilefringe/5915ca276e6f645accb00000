@@ -87,7 +87,7 @@
                         </form>
                     </script>
                 </div>
-                <div id="no_contest_details_container">
+                <div id="no_contest_details_container" style="display:none;>
                     <p>Sorry, there is no contest running right now! Please check back soon.</p>
                 </div>
             </div>
@@ -118,6 +118,8 @@
             var slug = current_contest.slug;
             var contest_details = getContestBySlug(current_contest.slug);
             renderContest("#contest_details_container", '#contest_details_template', contest_details)
+        } else {
+            $('#no_contest_details_container').show()
         }
         
         show_content();
