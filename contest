@@ -103,7 +103,7 @@
     function renderPage(){
         var contest_list = getContestList();
         var current_contest =_.find(contest_list,function(o){
-            return o.start_date && _.includes(val.show_on_slug, "orchardtown-contest")
+            return o.start_date && _.includes(o.show_on_slug, "orchardtown-contest")
         })
        console.log('contest_list', contest_list)
         if(current_contest) {
