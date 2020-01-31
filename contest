@@ -105,7 +105,7 @@
         var current_contest =_.find(contest_list,function(o){
             return o.start_date && _.includes(val.show_on_slug, "orchardtown-contest")
         })
-       
+       console.log('current_contest', current_contest)
         if(current_contest) {
             var slug = current_contest.slug;
             var contest_details = getContestBySlug(current_contest.slug);
