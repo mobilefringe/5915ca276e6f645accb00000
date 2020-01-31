@@ -110,7 +110,7 @@
         //     }
         // });
         // current_contest = current_contest[0]
-        console.log()
+        console.log(contest_list)
         if(current_contest) {
             var slug = current_contest.slug;
             var contest_details = getContestBySlug(current_contest.slug);
