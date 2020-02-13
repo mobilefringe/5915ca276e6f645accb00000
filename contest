@@ -108,7 +108,6 @@
         if(current_contest) {
             var slug = current_contest.slug;
             var contest_details = getContestBySlug(current_contest.slug);
-            console.log("contest_details", contest_details)
             renderContest("#contest_details_container", '#contest_details_template', contest_details)
         } else {
             $('#no_contest_details_container').show()
