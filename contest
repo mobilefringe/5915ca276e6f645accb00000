@@ -127,7 +127,8 @@
 
 <style>
     #succes_msg {
-        background: #6D8E75;
+        border: 1px solid #6D8E75;
+        background: rgba(109, 142, 117, 0.5);
         color: #000;
         padding: 3px;
     }
