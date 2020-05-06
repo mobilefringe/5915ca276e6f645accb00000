@@ -3,8 +3,8 @@
     <div class="row">
         <div class="col-md-12">
             <!-- iframes from CinePro Studios -->
-            <div class="title-xlarge" style="text-align: center;">
-                <span class="hours_heading">Happy Mother's Day</span>
+            <div class="title-xlarge" style="margin: 60px 0; text-align: center;">
+                <span class="hours_heading" style="font-size:28px;">Happy Mother's Day</span>
             </div>
             <h4 style="text-align: center;">Explore this scavenger hunt with your kiddos, Hidden inside the icons are promotions and fun facts!</h4>
             <hr>
