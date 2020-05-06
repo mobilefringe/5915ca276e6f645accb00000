@@ -12,7 +12,9 @@
                 <p style="text-align: center;">Fun Mom Facts</p>
                 <p style="text-align: center;">Craft Ideas</p>
                 <h5 style="text-align: center;">Don’t forget to <strong><span style="color: #000000;">find the link</span></strong> where you can enter your mom in to win our big Mother’s Day baskeT!</h5>
-                <div class="title-xlarge" style="text-align: center;"><span class="hours_heading" style="color: #000000;">Bubble Bash</span></div>
+                <div class="title-xlarge margin_30" style="text-align: center;">
+                    <span class="hours_heading" style="color: #000000;">Bubble Bash</span>
+                </div>
                 <p style="text-align: center;"><iframe src="https://www.thinglink.com/card/1307029718419111937" width="960" height="640" frameborder="0" scrolling="no" allowfullscreen="allowfullscreen" data-original-width="3600" data-original-height="2400"></iframe><script async src="//cdn.thinglink.me/jse/responsive.js"></script></p>
 
                 <div class="styled-subtitle" style="text-align: left;">
