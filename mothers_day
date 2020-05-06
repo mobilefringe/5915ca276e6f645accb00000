@@ -1,5 +1,5 @@
 <div class="inside_banner entertainment_banner text-center">
-    <h3>Contest</h3>
+    <h3>Mother's Day</h3>
 </div>
 <div class="store_list_head main_container">
     <div class="row hidden_phone">
@@ -10,10 +10,10 @@
             <h5><a href="/entertainment">ENTERTAINMENT</a></h5>
         </div>
         <div class="col-md-3">
-            <h5 class="active_heading">CONTEST</h5>
+            <h5><a href="/contest">CONTEST</a></h5>
         </div>
         <div class="col-md-3">
-            <h5><a href="/mothers_day">MOTHER'S DAY</a></h5>
+            <h5 class="active_heading">MOTHER'S DAY</h5>
         </div>
     </div>
     <h5 class="text-center tap_here show_phone">
@@ -21,7 +21,7 @@
             <option value="" disabled selected>TAP FOR MORE OPTIONS</option>
             <option value="/events">Center Events</option>
             <option value="/entertainment">Entertainment</option>
-            <option value="/mothers_day">Mother's Day</option>
+            <option value="/contest">Contest</option>
         </select>
     </h5>
 </div>
