@@ -11,7 +11,7 @@
             <h5 style="margin-bottom: 20px; font-size: 18px;text-align: center;text-transform: uppercase;">Try to find ALL 6 pieces of candy, 5 flowers, 8 bees and 4 hearts!</h5>
         </div>
     </div>
-    <div class="row">
+    <div class="row margin_20">
         <div class="col-md-3">
             <p style="text-align: center;font-size: 16px;">Orchard Promos</p>
             <img src="//codecloud.cdn.speedyrails.net/sites/5d7eed4d6e6f642c88040000/image/png/1588794123928/candy.jpg.png" class="" alt="">
