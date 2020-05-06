@@ -1,26 +1,3 @@
-<div class="inside_banner specialty_banner text-center">
-    <h3>Specialty Foods</h3>
-</div>
-<div class="store_list_head main_container">
-    <div class="row hidden_phone">
-        <div class="col-md-4">
-            <h5><a href="/restaurants">Restaurants</a></h5>
-        </div>
-        <div class="col-md-4">
-            <h5 class="active_heading">Specialty Foods</h5>
-        </div>
-        <div class="col-md-4">
-            <h5><a href="/delivery">Delivery</a></h5>
-        </div>
-    </div>
-    <h5 class="text-center tap_here show_phone">
-        <select id="option_selector" class="link_selector">
-            <option value="" disabled selected>TAP FOR MORE OPTIONS</option>
-            <option value="/restaurants">Restaurants</option>
-            <option value="/delivery">Delivery</option>
-        </select>
-    </h5>
-</div>
 <div class="content_container main_container">
     <div class="margin_25_across">
         <div class="row">
