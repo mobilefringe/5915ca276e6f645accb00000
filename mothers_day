@@ -7,10 +7,21 @@
                 <div class="title-xlarge" style="text-align: center;"><span style="color: #000000;">Happy Mother's Day</span></div>
                 <h4 style="text-align: center;">Explore this scavenger hunt with your kiddos, Hidden inside the icons are promotions and fun facts!</h4>
                 <h5 style="text-align: center;">try to find ALL 6 pieces of candy, 5 flowers, 8 bees and 4 hearts!</h5>
-                <p style="text-align: center;">Orchard Promos</p>
-                <p style="text-align: center;">Win a Mother's Day Gift Basket</p>
-                <p style="text-align: center;">Fun Mom Facts</p>
-                <p style="text-align: center;">Craft Ideas</p>
+                <div class="row">
+                    <div class="col-md-3">
+                        <p style="text-align: center;">Orchard Promos</p>
+                    </div>
+                    <div class="col-md-3">
+                    <p style="text-align: center;">Win a Mother's Day Gift Basket</p>
+                    </div>
+                    <div class="col-md-3">
+                    <p style="text-align: center;">Fun Mom Facts</p>
+                    </div>
+                    <div class="col-md-3">
+                    <p style="text-align: center;">Craft Ideas</p>
+                    </div>
+                   
+                </div>
                 <h5 style="text-align: center;">Don’t forget to <strong><span style="color: #000000;">find the link</span></strong> where you can enter your mom in to win our big Mother’s Day baskeT!</h5>
                 
                 <div class="title-xlarge margin_20" style="text-align: center;">
