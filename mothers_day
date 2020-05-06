@@ -6,7 +6,7 @@
                 
                 
                 Bubble Bash
-<iframe width="960" height="640" data-original-width="3600" data-original-height="2400" src="undefined" type="text/html" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen scrolling="no"></iframe><script async src="//cdn.thinglink.me/jse/responsive.js"></script>
+<iframe width="960" height="640" data-original-width="3600" data-original-height="2400" src="undefined" type="text/html" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen scrolling="no"></iframe>
 
 Out and About
 <iframe width="960" height="593" data-original-width="1740" data-original-height="1074" src="undefined" type="text/html" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen scrolling="no"></iframe><script async src="//cdn.thinglink.me/jse/responsive.js"></script>
@@ -28,3 +28,4 @@ Orchard Flowers
         show_content();
     })
 </script>
+<script async src="//cdn.thinglink.me/jse/responsive.js"></script>
