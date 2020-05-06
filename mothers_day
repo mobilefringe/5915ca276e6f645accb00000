@@ -29,8 +29,9 @@
                     <p style="text-align: left;"><span style="font-weight: 400;">When it’s safe to go outside and visit all your favorite places with your mom, we hope to see you at Orchard Town Center. It will be so fun to see you when you can enjoy a fun lunch, go to the movies, dance around our water fountain, or play in our children’s play area. </span></p>
                 </div>
 
-                <div class="title-xlarge" style="text-align: center;"><span style="color: #000000;">Whimsical Wednesday</span></div>
-
+                <div class="title-xlarge margin_30" style="text-align: center;">
+                    <span class="hours_heading">Whimsical Wednesday</span>
+                </div>
                 <p style="text-align: center;"><iframe src="https://www.thinglink.com/card/1308834628483678211" width="960" height="637" frameborder="0" scrolling="no" allowfullscreen="allowfullscreen" data-original-width="1728" data-original-height="1146"></iframe><script async src="//cdn.thinglink.me/jse/responsive.js"></script></p>
 
                 <div class="styled-subtitle" style="text-align: center;">
