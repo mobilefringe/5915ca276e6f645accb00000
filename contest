@@ -12,13 +12,13 @@
 </div>
 <div class="store_list_head main_container">
     <div class="row hidden_phone">
-        <div class="col-md-3">
+        <div class="col-md-4">
             <h5><a href="/events">CENTER EVENTS</a></h5>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-4">
             <h5><a href="/entertainment">ENTERTAINMENT</a></h5>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-4">
             <h5 class="active_heading">CONTEST</h5>
         </div>
     </div>
